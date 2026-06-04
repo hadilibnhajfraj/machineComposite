@@ -1,0 +1,626 @@
+/* ════════════════════════════════════════════
+   HERO — FULLSCREEN SECTION
+════════════════════════════════════════════ */
+.ic-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 680px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #050505;     /* fallback before media loads */
+  isolation: isolate;      /* own stacking context — controls all child z-index values */
+}
+
+/* ════════════════════════════════════════════
+   SWIPER FULLSCREEN SLIDER
+   z-index: auto so it does NOT create its own
+   stacking context. Its children's z-index
+   values apply relative to .ic-hero directly.
+════════════════════════════════════════════ */
+.hero-swiper.swiper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: auto !important;  /* break Swiper's default stacking context */
+}
+
+.hero-swiper .swiper-wrapper {
+  height: 100%;
+}
+
+.hero-swiper .swiper-slide {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ── Slide media ── */
+.hero-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-slide__media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Ken Burns slow zoom on active image slide */
+.hero-swiper .swiper-slide-active .hero-slide__media:not(video) {
+  animation: heroKenBurns 10s ease-in-out forwards;
+}
+
+@keyframes heroKenBurns {
+  from { transform: scale(1);    }
+  to   { transform: scale(1.09); }
+}
+
+/* ════════════════════════════════════════════
+   DARK GRADIENT OVERLAY  z-index: 2
+   Above slides (z:1), below content (z:10)
+════════════════════════════════════════════ */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    linear-gradient(
+      108deg,
+      rgba(0, 0, 0, 0.82) 0%,
+      rgba(0, 0, 0, 0.65) 40%,
+      rgba(0, 0, 0, 0.55) 70%,
+      rgba(0, 0, 0, 0.65) 100%
+    );
+  pointer-events: none;
+}
+
+/* ════════════════════════════════════════════
+   SWIPER NAVIGATION ARROWS  z-index: 15
+   Default Swiper z-index for buttons is 10,
+   but since .hero-swiper has z-index:auto,
+   these 10/15 values resolve against .ic-hero
+════════════════════════════════════════════ */
+.hero-swiper .swiper-button-prev,
+.hero-swiper .swiper-button-next {
+  width: 52px;
+  height: 52px;
+  margin-top: -26px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #FFFFFF;
+  border-radius: 0;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+  z-index: 15;
+}
+
+.hero-swiper .swiper-button-prev { left: 28px; }
+.hero-swiper .swiper-button-next { right: 28px; }
+
+.hero-swiper .swiper-button-prev:hover,
+.hero-swiper .swiper-button-next:hover {
+  background: rgba(255, 107, 26, 0.90);
+  border-color: #FF6B1A;
+  transform: scale(1.08);
+}
+
+/* Arrow icon size */
+.hero-swiper .swiper-button-prev::after,
+.hero-swiper .swiper-button-next::after {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+/* ════════════════════════════════════════════
+   SWIPER PAGINATION DOTS  z-index: 15
+════════════════════════════════════════════ */
+.hero-swiper .swiper-pagination {
+  z-index: 15;
+  bottom: 28px;
+}
+
+.hero-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.38);
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background 0.3s ease, width 0.3s ease, border-radius 0.3s ease;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  background: #FF6B1A;
+  width: 26px;
+  border-radius: 4px;
+}
+
+/* ════════════════════════════════════════════
+   HERO NAVBAR  z-index: 100
+════════════════════════════════════════════ */
+.ic-hnav {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 90px;
+  z-index: 100;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 5, 5, 0.75) 0%,
+    transparent 100%
+  );
+}
+
+.ic-hnav__inner {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  height: 100%;
+  gap: 24px;
+}
+
+.ic-hnav__logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+  line-height: 0;
+  outline-offset: 4px;
+}
+
+.ic-hnav__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ic-hnav__link {
+  display: block;
+  padding: 7px 11px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 0.72rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+  position: relative;
+  transition: color 0.22s;
+  white-space: nowrap;
+}
+.ic-hnav__link::after {
+  content: '';
+  position: absolute;
+  bottom: 1px; left: 11px; right: 11px;
+  height: 1.5px;
+  background: #FF6B1A;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.ic-hnav__link:hover         { color: #FFFFFF; }
+.ic-hnav__link--active       { color: #FF6B1A; }
+.ic-hnav__link--active::after,
+.ic-hnav__link:hover::after  { transform: scaleX(1); }
+
+.ic-hnav__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.ic-hnav__cta {
+  padding: 9px 22px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FF6B1A;
+  border: 1.5px solid rgba(255, 107, 26, 0.60);
+  background: transparent;
+  transition: all 0.22s;
+  white-space: nowrap;
+}
+.ic-hnav__cta:hover {
+  background: #FF6B1A;
+  border-color: #FF6B1A;
+  color: #050505;
+  box-shadow: 0 0 28px rgba(255, 107, 26, 0.40);
+}
+
+.ic-hnav__burger {
+  display: none;
+  font-size: 1.7rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  line-height: 0;
+}
+
+/* ── Mobile drawer ── */
+.ic-hnav__overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.70);
+  z-index: 1100;
+  backdrop-filter: blur(4px);
+}
+
+.ic-hnav__drawer {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: min(320px, 88vw);
+  background: #0a0a0a;
+  border-left: 1px solid rgba(255, 107, 26, 0.15);
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -12px 0 48px rgba(0, 0, 0, 0.6);
+}
+
+.ic-hnav__drawer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 24px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.ic-hnav__drawer-close {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.ic-hnav__drawer-close:hover { color: #FF6B1A; }
+
+.ic-hnav__drawer-links {
+  flex: 1;
+  list-style: none;
+  padding: 12px 0;
+  overflow-y: auto;
+}
+
+.ic-hnav__drawer-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  border-left: 2px solid transparent;
+  transition: all 0.2s;
+}
+.ic-hnav__drawer-link svg { opacity: 0.5; font-size: 0.8rem; }
+.ic-hnav__drawer-link:hover,
+.ic-hnav__drawer-link--active {
+  color: #FF6B1A;
+  border-left-color: #FF6B1A;
+  background: rgba(255, 107, 26, 0.05);
+  padding-left: 30px;
+}
+
+.ic-hnav__drawer-foot {
+  padding: 20px 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ════════════════════════════════════════════
+   HERO BODY — content fixed above slider  z-index: 10
+════════════════════════════════════════════ */
+.ic-hero__body {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-top: 90px;
+  padding-bottom: 48px;
+  max-width: 100%;
+  pointer-events: none;  /* let swiper receive hover for pause-on-hover */
+}
+/* Re-enable pointer events for interactive elements */
+.ic-hero__body a,
+.ic-hero__body button { pointer-events: auto; }
+
+/* ── Eyebrow ── */
+.ic-hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.ic-hero__eyebrow-bar {
+  display: inline-block;
+  width: 36px;
+  height: 1.5px;
+  background: #FF6B1A;
+  flex-shrink: 0;
+}
+.ic-hero__eyebrow-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.50);
+}
+
+/* ── 3-line title ── */
+.ic-hero__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 28px;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+
+.ic-hero__line {
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(3rem, 10vw, 5.2rem);
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.92;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.ic-hero__line--white   { color: #FFFFFF; }
+.ic-hero__line--orange  { color: #FF6B1A; }
+.ic-hero__line--outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.55);
+  text-stroke: 1.5px rgba(255, 255, 255, 0.55);
+}
+
+/* ── Subtitle ── */
+.ic-hero__sub {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+  font-weight: 300;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.50);
+  max-width: 540px;
+  margin-bottom: 36px;
+  letter-spacing: 0.3px;
+}
+
+/* ── Buttons ── */
+.ic-hero__buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+}
+
+.ic-hero__btn-primary,
+.ic-hero__btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  transition: all 0.22s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.ic-hero__btn-primary {
+  background: #FF6B1A;
+  color: #050505;
+  border: 2px solid #FF6B1A;
+}
+.ic-hero__btn-primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateX(-105%);
+  transition: transform 0.35s ease;
+}
+.ic-hero__btn-primary:hover::before { transform: translateX(0); }
+.ic-hero__btn-primary:hover {
+  box-shadow: 0 0 40px rgba(255, 107, 26, 0.50);
+  transform: translateY(-2px);
+}
+
+.ic-hero__btn-secondary {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.80);
+  border: 2px solid rgba(255, 255, 255, 0.22);
+}
+.ic-hero__btn-secondary:hover {
+  border-color: rgba(255, 255, 255, 0.65);
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+.ic-hero__btn-icon {
+  font-size: 0.9rem;
+  transition: transform 0.22s;
+  flex-shrink: 0;
+}
+.ic-hero__btn-primary:hover .ic-hero__btn-icon,
+.ic-hero__btn-secondary:hover .ic-hero__btn-icon { transform: translateX(4px); }
+
+/* ── Stats row ── */
+.ic-hero__stats {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ic-hero__stat-divider {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.10);
+  margin: 0 32px;
+  flex-shrink: 0;
+}
+
+.ic-hero__stat { display: flex; flex-direction: column; gap: 5px; }
+
+.ic-hero__stat-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(2.2rem, 3.5vw, 3rem);
+  letter-spacing: 0.03em;
+  color: #FF6B1A;
+  line-height: 1;
+}
+
+.ic-hero__stat-label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.38);
+  white-space: pre-line;
+  line-height: 1.5;
+}
+
+/* ── Scroll cue ── */
+.ic-hero__scroll-cue {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: rgba(255, 255, 255, 0.28);
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.58rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+  text-decoration: none;
+  pointer-events: auto;
+}
+.ic-hero__scroll-cue svg { font-size: 1.3rem; }
+.ic-hero__scroll-cue:hover { color: #FF6B1A; }
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+
+/* Tablet landscape (≤1024px) */
+@media (max-width: 1024px) {
+  .ic-hero { height: 90vh; }
+
+  .ic-hnav__links  { display: none; }
+  .ic-hnav__cta    { display: none; }
+  .ic-hnav__burger { display: flex; }
+
+  .hero-swiper .swiper-button-prev { left: 16px; }
+  .hero-swiper .swiper-button-next { right: 16px; }
+
+  .ic-hero__stat-divider { margin: 0 18px; }
+}
+
+/* Tablet portrait / large mobile (≤767px) */
+@media (max-width: 767px) {
+  .ic-hero { height: 80vh; min-height: 600px; }
+
+  .ic-hero__body {
+    padding-bottom: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .ic-hero__line   { font-size: clamp(3rem, 12vw, 5.5rem); }
+  .ic-hero__sub    { max-width: 100%; }
+
+  .ic-hero__buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .ic-hero__btn-primary,
+  .ic-hero__btn-secondary {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+    padding: 13px 24px;
+  }
+
+  .ic-hero__stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 16px;
+    padding-top: 28px;
+  }
+  .ic-hero__stat-divider { display: none; }
+  .ic-hero__stat-num     { font-size: 2.4rem; }
+
+  /* Hide arrows on mobile — use dots only */
+  .hero-swiper .swiper-button-prev,
+  .hero-swiper .swiper-button-next { display: none; }
+
+  .ic-hero__scroll-cue { display: none; }
+}
+
+/* Small mobile (≤480px) */
+@media (max-width: 480px) {
+  .ic-hnav       { height: 72px; }
+  .ic-hero__body { padding-top: 72px; }
+
+  .ic-hero__line {
+    font-size: clamp(2.8rem, 13vw, 4.2rem);
+  }
+  .ic-hero__line--outline {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.45);
+  }
+
+  .ic-hero__eyebrow      { margin-bottom: 16px; }
+  .ic-hero__eyebrow-text { font-size: 0.62rem; letter-spacing: 2px; }
+  .ic-hero__title        { margin-bottom: 20px; }
+
+  .ic-hero__btn-primary,
+  .ic-hero__btn-secondary {
+    max-width: 100%;
+    padding: 12px 18px;
+    font-size: 0.72rem;
+    letter-spacing: 1.8px;
+  }
+
+  .ic-hero__stat-num   { font-size: 1.9rem; }
+  .ic-hero__stat-label { font-size: 0.6rem; letter-spacing: 1.5px; }
+  .ic-hero__stats      { gap: 18px 10px; }
+}
+
+/* Very small (≤360px) */
+@media (max-width: 360px) {
+  .ic-hero__line  { font-size: 2.6rem; }
+  .ic-hero__stats { grid-template-columns: 1fr 1fr; gap: 14px 8px; }
+  .ic-hero__body  { padding-left: 12px; padding-right: 12px; }
+}

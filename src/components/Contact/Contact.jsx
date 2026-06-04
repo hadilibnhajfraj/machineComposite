@@ -1,0 +1,136 @@
+import React, { useState } from 'react'
+import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
+import { FiMapPin, FiPhone, FiMail, FiClock, FiSend, FiCheckCircle } from 'react-icons/fi'
+import SectionTitle from '../Shared/SectionTitle'
+import { fadeLeft, fadeRight, viewportOnce } from '../Shared/AnimationVariants'
+import './Contact.css'
+
+const INIT = { name: '', email: '', phone: '', company: '', message: '' }
+
+export default function Contact() {
+  const [form,    setForm]    = useState(INIT)
+  const [errors,  setErrors]  = useState({})
+  const [sent,    setSent]    = useState(false)
+  const [loading, setLoading] = useState(false)
+  const { t } = useTranslation()
+
+  const CONTACT_INFO = [
+    { icon: FiMapPin, label: t('contact.headquarters'), value: 'CBI Tunisia, Tunis, Tunisia'          },
+    { icon: FiPhone,  label: t('contact.phone'),        value: '+216 71 000 000'                      },
+    { icon: FiMail,   label: t('contact.email'),        value: 'contact@cbi-tunisia.com'              },
+    { icon: FiClock,  label: t('contact.workingHours'), value: t('contact.workingHoursValue')         },
+  ]
+
+  function validate(form) {
+    const errs = {}
+    if (!form.name.trim())    errs.name    = t('contact.nameRequired')
+    if (!form.email.trim())   errs.email   = t('contact.emailRequired')
+    else if (!/\S+@\S+\.\S+/.test(form.email)) errs.email = t('contact.emailInvalid')
+    if (!form.message.trim()) errs.message = t('contact.messageRequired')
+    return errs
+  }
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value })
+    if (errors[e.target.name]) setErrors({ ...errors, [e.target.name]: '' })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const errs = validate(form)
+    if (Object.keys(errs).length) { setErrors(errs); return }
+    setLoading(true)
+    setTimeout(() => { setLoading(false); setSent(true) }, 1800)
+  }
+
+  return (
+    <section className="ic-contact section-pad" id="contact">
+      <div className="ic-container ic-contact__inner">
+
+        {/* Left: info */}
+        <motion.div className="ic-contact__info" initial="hidden" whileInView="visible" viewport={viewportOnce} variants={fadeLeft}>
+          <SectionTitle
+            eyebrow={t('contact.eyebrow')}
+            title={t('contact.title')}
+            subtitle={t('contact.subtitle')}
+          />
+
+          <ul className="ic-contact__details">
+            {CONTACT_INFO.map((item) => {
+              const Icon = item.icon
+              return (
+                <li key={item.label} className="ic-contact__detail">
+                  <div className="ic-contact__detail-icon"><Icon /></div>
+                  <div>
+                    <strong>{item.label}</strong>
+                    <span>{item.value}</span>
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+
+          <div className="ic-contact__map-placeholder">
+            <div className="ic-contact__map-inner">
+              <FiMapPin style={{ fontSize: '2rem', color: 'var(--orange)' }} />
+              <span>Interactive map available on site visit</span>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Right: form */}
+        <motion.div className="ic-contact__form-wrap" initial="hidden" whileInView="visible" viewport={viewportOnce} variants={fadeRight}>
+          {sent ? (
+            <div className="ic-contact__success">
+              <FiCheckCircle className="ic-contact__success-icon" />
+              <h3>{t('contact.successTitle')}</h3>
+              <p>{t('contact.successMsg')}</p>
+              <button className="btn-primary" onClick={() => { setSent(false); setForm(INIT) }}>
+                {t('contact.sendAnother')}
+              </button>
+            </div>
+          ) : (
+            <form className="ic-contact__form" onSubmit={handleSubmit} noValidate>
+              <h3 className="ic-contact__form-title">{t('contact.formTitle')}</h3>
+
+              <div className="ic-contact__row">
+                <div className="ic-contact__field">
+                  <label htmlFor="name">{t('contact.fullName')} <span className="ic-required">*</span></label>
+                  <input id="name" name="name" type="text" placeholder={t('contact.namePlaceholder')} value={form.name} onChange={handleChange} className={errors.name ? 'ic-input--error' : ''} />
+                  {errors.name && <span className="ic-error">{errors.name}</span>}
+                </div>
+                <div className="ic-contact__field">
+                  <label htmlFor="email">{t('contact.emailAddress')} <span className="ic-required">*</span></label>
+                  <input id="email" name="email" type="email" placeholder={t('contact.emailPlaceholder')} value={form.email} onChange={handleChange} className={errors.email ? 'ic-input--error' : ''} />
+                  {errors.email && <span className="ic-error">{errors.email}</span>}
+                </div>
+              </div>
+
+              <div className="ic-contact__row">
+                <div className="ic-contact__field">
+                  <label htmlFor="phone">{t('contact.phoneNumber')}</label>
+                  <input id="phone" name="phone" type="tel" placeholder={t('contact.phonePlaceholder')} value={form.phone} onChange={handleChange} />
+                </div>
+                <div className="ic-contact__field">
+                  <label htmlFor="company">{t('contact.company')}</label>
+                  <input id="company" name="company" type="text" placeholder={t('contact.companyPlaceholder')} value={form.company} onChange={handleChange} />
+                </div>
+              </div>
+
+              <div className="ic-contact__field">
+                <label htmlFor="message">{t('contact.message')} <span className="ic-required">*</span></label>
+                <textarea id="message" name="message" rows={5} placeholder={t('contact.messagePlaceholder')} value={form.message} onChange={handleChange} className={errors.message ? 'ic-input--error' : ''} />
+                {errors.message && <span className="ic-error">{errors.message}</span>}
+              </div>
+
+              <button type="submit" className="btn-primary ic-contact__submit" disabled={loading}>
+                {loading ? (<>{t('contact.sending')} <span className="ic-spinner" /></>) : (<>{t('contact.sendMessage')} <FiSend /></>)}
+              </button>
+            </form>
+          )}
+        </motion.div>
+      </div>
+    </section>
+  )
+}

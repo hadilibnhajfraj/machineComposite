@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#112240"/>
+      <stop offset="100%" stop-color="#1976D222"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1976D2" stroke-width="0.4" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="120" height="120" fill="url(#bg)"/>
+  <rect width="120" height="120" fill="url(#grid)"/>
+  <text x="60" y="44" font-size="40" text-anchor="middle" dominant-baseline="middle">👤</text>
+  <text x="60" y="88" font-family="Arial,sans-serif" font-size="11" font-weight="600" fill="#1976D2" text-anchor="middle" opacity="0.9">Client</text>
+</svg>

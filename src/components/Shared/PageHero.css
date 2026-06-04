@@ -1,0 +1,113 @@
+/* ════════════════════════════════════════════
+   PAGE HERO — shared banner for all inner pages
+════════════════════════════════════════════ */
+
+.ph {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* ── Background image ── */
+.ph__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ── Dark overlay ── */
+.ph__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* ── Text block ── */
+.ph__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding-top: 110px; /* offset fixed navbar (LanguageBar 40px + Navbar 110px = 150px total; outer div already has 40px) */
+}
+
+/* ── Subtitle ── */
+.ph__subtitle {
+  font-family: var(--font-condensed, 'Oswald', sans-serif);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FF6B1A;
+  margin: 0;
+}
+
+/* ── Title ── */
+.ph__title {
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 1.05;
+  margin: 0;
+  font-family: var(--font-heading, 'Oswald', sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  max-width: 900px;
+}
+
+/* ── Breadcrumb ── */
+.ph__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.ph__sep {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.75rem;
+}
+
+.ph__crumb {
+  font-size: 0.78rem;
+  font-family: var(--font-condensed, 'Oswald', sans-serif);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.ph__crumb--link {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.ph__crumb--link:hover { color: #FF6B1A; }
+
+.ph__crumb--active { color: #FFFFFF; }
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .ph { height: 400px; }
+  .ph__content { padding-top: 90px; gap: 14px; }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .ph { height: 300px; }
+  .ph__content { padding-top: 76px; gap: 12px; }
+  .ph__title { font-size: clamp(2rem, 8vw, 3.2rem); }
+  .ph__subtitle { font-size: 0.7rem; letter-spacing: 3px; }
+}

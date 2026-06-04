@@ -1,0 +1,178 @@
+/* ── Mission ── */
+.ic-ap-mission__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+.ic-ap-mission__heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  color: #0057B8;
+  margin-bottom: 24px;
+}
+.ic-ap-mission__copy p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--mid-gray);
+  margin-bottom: 16px;
+}
+
+/* ── Values grid ── */
+.ic-ap-mission__values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.ic-ap-value {
+  padding: 28px 22px;
+  border: 1px solid var(--border-gray);
+  background: var(--white);
+  transition: border-color var(--transition-mid), box-shadow var(--transition-mid);
+}
+.ic-ap-value:hover {
+  border-color: var(--orange);
+  box-shadow: var(--shadow-sm);
+}
+.ic-ap-value strong {
+  display: block;
+  font-family: var(--font-condensed);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #0057B8;
+  margin-bottom: 10px;
+}
+.ic-ap-value p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--mid-gray);
+}
+
+/* ── Timeline ── */
+.ic-ap-timeline__header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.ic-ap-timeline__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+.ic-ap-timeline__track {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.ic-ap-timeline__track::before {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: rgba(255,107,26,0.25);
+  transform: translateX(-50%);
+}
+
+.ic-ap-timeline__item {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: calc(50% + 36px);
+  margin-bottom: 40px;
+}
+.ic-ap-timeline__item--right {
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: calc(50% + 36px);
+}
+
+.ic-ap-timeline__card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 24px;
+  max-width: 340px;
+  width: 100%;
+  transition: border-color var(--transition-mid);
+}
+.ic-ap-timeline__card:hover {
+  border-color: rgba(255,107,26,0.35);
+}
+.ic-ap-timeline__year {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  color: var(--orange);
+  margin-bottom: 4px;
+}
+.ic-ap-timeline__card strong {
+  display: block;
+  font-family: var(--font-condensed);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+.ic-ap-timeline__card p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.45);
+}
+
+.ic-ap-timeline__dot {
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px; height: 12px;
+  background: var(--orange);
+  border: 3px solid rgba(255,107,26,0.25);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* ── Responsive ── */
+
+/* Mission / Values */
+@media (max-width: 1024px) {
+  .ic-ap-mission__inner { grid-template-columns: 1fr; gap: 48px; }
+  .ic-ap-mission__values { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .ic-ap-mission__values { grid-template-columns: 1fr; }
+  .ic-ap-mission__heading { font-size: 1.8rem; }
+  .ic-ap-mission__copy p  { font-size: 0.9rem; }
+}
+
+/* Timeline */
+@media (max-width: 767px) {
+  .ic-ap-timeline__track::before { left: 16px; }
+
+  .ic-ap-timeline__item,
+  .ic-ap-timeline__item--right {
+    padding-left: 52px;
+    padding-right: 0;
+    justify-content: flex-start;
+  }
+
+  .ic-ap-timeline__dot { left: 16px; top: 24px; }
+  .ic-ap-timeline__card { max-width: 100%; padding: 20px 16px; }
+  .ic-ap-timeline__year { font-size: 1.3rem; }
+}
+
+@media (max-width: 480px) {
+  .ic-ap-timeline__item,
+  .ic-ap-timeline__item--right { padding-left: 44px; }
+  .ic-ap-timeline__track::before { left: 14px; }
+  .ic-ap-timeline__dot { left: 14px; }
+  .ic-ap-timeline__card p { font-size: 0.82rem; }
+}

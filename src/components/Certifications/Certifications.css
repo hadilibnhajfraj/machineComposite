@@ -1,0 +1,130 @@
+/* ── Certifications ── */
+.ic-cert {
+  background: var(--light-gray);
+}
+
+.ic-cert__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* ── Card ── */
+.ic-cert__card {
+  background: var(--white);
+  border: 1px solid var(--border-gray);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
+  filter: grayscale(0.4);
+  transition: filter var(--transition-mid), box-shadow var(--transition-mid),
+              transform var(--transition-mid), border-color var(--transition-mid);
+}
+.ic-cert__card:hover {
+  filter: grayscale(0);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+  border-color: rgba(255,107,26,0.25);
+}
+
+/* ── Logo mark ── */
+.ic-cert__logo {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--border-gray);
+  width: 100%;
+  transition: border-color var(--transition-mid);
+}
+.ic-cert__card:hover .ic-cert__logo {
+  border-color: var(--orange);
+}
+
+.ic-cert__logo-code {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+  color: #0057B8;
+  line-height: 1;
+  transition: color var(--transition-fast);
+}
+.ic-cert__card:hover .ic-cert__logo-code {
+  color: var(--orange);
+}
+.ic-cert__logo-num {
+  font-family: var(--font-condensed);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+.ic-cert__logo-year {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--mid-gray);
+}
+
+/* ── Info ── */
+.ic-cert__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+.ic-cert__label {
+  font-family: var(--font-condensed);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0057B8;
+}
+.ic-cert__org {
+  font-size: 0.8rem;
+  color: var(--mid-gray);
+  line-height: 1.5;
+}
+
+/* ── Badge ── */
+.ic-cert__badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-condensed);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+.ic-cert__badge svg {
+  color: var(--orange);
+}
+
+/* ── Responsive ── */
+/* Desktop: 4 cols (set above) */
+
+/* Tablet (768–1024px): 2 cols */
+@media (max-width: 1024px) {
+  .ic-cert__grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+
+/* Large Mobile (481–767px): 2 cols */
+@media (max-width: 767px) {
+  .ic-cert__grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .ic-cert__card { padding: 24px 18px; }
+  .ic-cert__logo-code { font-size: 1.6rem; }
+}
+
+/* Mobile (≤480px): 2 cols — stays 2 per requirements */
+@media (max-width: 480px) {
+  .ic-cert__grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .ic-cert__card { padding: 18px 14px; gap: 10px; }
+  .ic-cert__logo-code { font-size: 1.4rem; }
+  .ic-cert__logo-num  { font-size: 0.9rem; }
+  .ic-cert__org       { font-size: 0.72rem; }
+}

@@ -1,0 +1,99 @@
+/* ── Applications ── */
+.ic-apps {
+  background: var(--white);
+}
+
+.ic-apps__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* ── Card ── */
+.ic-apps__card {
+  position: relative;
+  padding: 36px 28px 28px;
+  background: var(--white);
+  border: 1px solid var(--border-gray);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: hidden;
+  transition: box-shadow var(--transition-mid), border-color var(--transition-mid),
+              transform var(--transition-mid);
+}
+.ic-apps__card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: rgba(255,107,26,0.30);
+  transform: translateY(-4px);
+}
+
+/* ── Orange hover bar ── */
+.ic-apps__card-hover-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--orange);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.ic-apps__card:hover .ic-apps__card-hover-bar {
+  transform: scaleX(1);
+}
+
+/* ── Icon ── */
+.ic-apps__icon-wrap {
+  width: 56px; height: 56px;
+  background: rgba(255,107,26,0.08);
+  display: flex; align-items: center; justify-content: center;
+  transition: background var(--transition-fast);
+  flex-shrink: 0;
+}
+.ic-apps__card:hover .ic-apps__icon-wrap {
+  background: var(--orange);
+}
+.ic-apps__icon {
+  font-size: 1.5rem;
+  color: var(--orange);
+  transition: color var(--transition-fast);
+}
+.ic-apps__card:hover .ic-apps__icon {
+  color: var(--white);
+}
+
+/* ── Body ── */
+.ic-apps__title {
+  font-family: var(--font-condensed);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #0057B8;
+  margin-bottom: 6px;
+}
+.ic-apps__desc {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--mid-gray);
+}
+
+/* ── Responsive ── */
+/* Desktop: 3 cols (set above) */
+
+/* Tablet (768–1024px): 2 cols */
+@media (max-width: 1024px) {
+  .ic-apps__grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+}
+
+/* Large Mobile (481–767px): 2 cols */
+@media (max-width: 767px) {
+  .ic-apps__grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .ic-apps__card { padding: 28px 20px 24px; }
+}
+
+/* Mobile (≤480px): 1 col */
+@media (max-width: 480px) {
+  .ic-apps__grid { grid-template-columns: 1fr; gap: 12px; }
+  .ic-apps__card { padding: 24px 18px; }
+}

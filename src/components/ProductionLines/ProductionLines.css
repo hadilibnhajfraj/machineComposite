@@ -1,0 +1,184 @@
+/* ── Production Lines ── */
+.ic-pl {
+  background: var(--light-gray);
+}
+
+.ic-pl__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+
+/* ── Card base ── */
+.ic-pl__card {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ic-pl__card-bg {
+  position: absolute;
+  inset: 0;
+  background: var(--card-bg);
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── Texture patterns ── */
+.ic-pl__card--diagonal .ic-pl__card-bg {
+  background-image:
+    repeating-linear-gradient(
+      -55deg,
+      rgba(255,107,26,0.06) 0px, rgba(255,107,26,0.06) 1px,
+      transparent 1px, transparent 28px
+    ),
+    var(--card-bg);
+}
+.ic-pl__card--grid .ic-pl__card-bg {
+  background-image:
+    linear-gradient(rgba(255,107,26,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,107,26,0.05) 1px, transparent 1px),
+    var(--card-bg);
+  background-size: 40px 40px, 40px 40px, auto;
+}
+.ic-pl__card--hex .ic-pl__card-bg {
+  background-image:
+    repeating-linear-gradient(
+      60deg,
+      rgba(255,107,26,0.04) 0px, rgba(255,107,26,0.04) 1px,
+      transparent 1px, transparent 30px
+    ),
+    repeating-linear-gradient(
+      -60deg,
+      rgba(255,107,26,0.04) 0px, rgba(255,107,26,0.04) 1px,
+      transparent 1px, transparent 30px
+    ),
+    var(--card-bg);
+}
+.ic-pl__card--dots .ic-pl__card-bg {
+  background-image:
+    radial-gradient(circle, rgba(255,107,26,0.12) 1px, transparent 1px),
+    var(--card-bg);
+  background-size: 24px 24px, auto;
+}
+.ic-pl__card--circles .ic-pl__card-bg {
+  background-image:
+    radial-gradient(circle at 80% 20%, rgba(255,107,26,0.12) 0%, transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(255,107,26,0.08) 0%, transparent 35%),
+    var(--card-bg);
+}
+.ic-pl__card--lines .ic-pl__card-bg {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,107,26,0.05) 0px, rgba(255,107,26,0.05) 1px,
+      transparent 1px, transparent 20px
+    ),
+    var(--card-bg);
+}
+
+/* ── Overlay ── */
+.ic-pl__card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.92) 0%,
+    rgba(0,0,0,0.50) 50%,
+    rgba(0,0,0,0.15) 100%
+  );
+  transition: background 0.4s ease;
+}
+.ic-pl__card:hover .ic-pl__card-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.97) 0%,
+    rgba(0,0,0,0.70) 55%,
+    rgba(0,0,0,0.30) 100%
+  );
+}
+
+/* ── Content ── */
+.ic-pl__card-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.ic-pl__card-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+  color: var(--white);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+.ic-pl__card-highlight {
+  font-style: normal;
+  color: var(--orange);
+}
+
+.ic-pl__card-desc {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.60);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+.ic-pl__card:hover .ic-pl__card-desc {
+  max-height: 80px;
+  opacity: 1;
+}
+
+.btn-discover {
+  align-self: flex-start;
+  transform: translateY(6px);
+  opacity: 0;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.ic-pl__card:hover .btn-discover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Zoom on hover ── */
+.ic-pl__card:hover .ic-pl__card-bg {
+  transform: scale(1.06);
+}
+
+/* ── Responsive ── */
+
+/* Tablet (768–1024px): keep 2 cols, reduce height */
+@media (max-width: 1024px) {
+  .ic-pl__card { height: 280px; }
+}
+
+/* Large mobile / tablet portrait: 1 col */
+@media (max-width: 767px) {
+  .ic-pl__grid { grid-template-columns: 1fr; gap: 2px; }
+  .ic-pl__card {
+    height: auto;
+    min-height: 280px;
+  }
+  .ic-pl__card-content { padding: 24px 20px; }
+  .ic-pl__card-desc    { max-height: none; opacity: 1; }
+  .ic-pl__card-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.20) 100%);
+  }
+  .btn-discover { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .ic-pl__card { min-height: 260px; }
+  .ic-pl__card-title { font-size: 1.5rem; }
+}

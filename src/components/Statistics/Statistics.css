@@ -1,0 +1,177 @@
+/* ════════════════════════════════════════════
+   STATISTICS / KPI SECTION
+════════════════════════════════════════════ */
+.ic-stat {
+  position: relative;
+  padding: var(--section-pad) 0;
+  overflow: hidden;
+  /* Dark industrial background — factory image with heavy overlay */
+  background:
+    url('/images/project-1.jpg') center / cover no-repeat;
+  background-color: #080808; /* fallback if image missing */
+}
+
+/* Dark overlay that dims the background image */
+.ic-stat__bg-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(5, 5, 5, 0.94) 0%,
+      rgba(10, 10, 10, 0.90) 50%,
+      rgba(5, 5, 5, 0.94) 100%
+    );
+  z-index: 0;
+}
+
+/* Content sits above the overlay */
+.ic-stat__container {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Section header ── */
+.ic-stat__header {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.ic-stat__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  letter-spacing: 0.04em;
+  color: var(--white);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.ic-stat__subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.45);
+  max-width: 440px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ── 4-column KPI grid ── */
+.ic-stat__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* ── KPI Card ── */
+.ic-stat__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 52px 28px 44px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s ease,
+    background 0.3s ease;
+}
+
+/* Top orange accent line — reveals on hover */
+.ic-stat__card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--orange), transparent);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.4s ease;
+}
+
+.ic-stat__card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 107, 26, 0.30);
+  background: rgba(255, 107, 26, 0.04);
+}
+
+.ic-stat__card:hover::before {
+  transform: scaleX(1);
+}
+
+/* ── Icon ── */
+.ic-stat__icon-wrap {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 107, 26, 0.10);
+  border: 1px solid rgba(255, 107, 26, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.ic-stat__card:hover .ic-stat__icon-wrap {
+  background: rgba(255, 107, 26, 0.18);
+  border-color: rgba(255, 107, 26, 0.45);
+  transform: scale(1.08);
+}
+
+.ic-stat__icon {
+  font-size: 2.2rem;
+  color: var(--orange);
+  stroke-width: 1.5;
+}
+
+/* ── Number ── */
+.ic-stat__value {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-weight: 800;
+  color: var(--orange);
+  line-height: 1;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+/* ── Label ── */
+.ic-stat__label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+
+/* Tablet (≤1024px): 2 columns */
+@media (max-width: 1024px) {
+  .ic-stat__grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .ic-stat__card { padding: 44px 24px 36px; }
+  .ic-stat__header { margin-bottom: 56px; }
+}
+
+/* Mobile (≤767px): 1 column */
+@media (max-width: 767px) {
+  .ic-stat__grid { grid-template-columns: 1fr; gap: 16px; max-width: 420px; margin: 0 auto; }
+  .ic-stat__card { padding: 36px 24px 32px; flex-direction: row; text-align: left; gap: 24px; }
+  .ic-stat__icon-wrap { flex-shrink: 0; width: 64px; height: 64px; margin-bottom: 0; }
+  .ic-stat__icon { font-size: 1.8rem; }
+  .ic-stat__value { font-size: clamp(2.2rem, 8vw, 3rem); margin-bottom: 6px; }
+  .ic-stat__label { font-size: 1rem; }
+}
+
+@media (max-width: 480px) {
+  .ic-stat__grid { max-width: 100%; }
+  .ic-stat__card { gap: 18px; padding: 28px 20px; }
+  .ic-stat__icon-wrap { width: 56px; height: 56px; }
+  .ic-stat__icon { font-size: 1.6rem; }
+  .ic-stat__value { font-size: 2.2rem; }
+  .ic-stat__label { font-size: 0.95rem; }
+}

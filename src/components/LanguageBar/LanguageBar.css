@@ -1,0 +1,132 @@
+/* ════════════════════════════════════════════
+   LANGUAGE BAR — fixed top strip
+════════════════════════════════════════════ */
+.lang-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.lang-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: 12px;
+}
+
+/* ── Spacer keeps flags centred against the socials column ── */
+.lang-bar__spacer {
+  flex: 0 0 auto;
+  min-width: 180px;
+}
+
+/* ── Flag buttons ── */
+.lang-bar__flags {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+  justify-content: center;
+}
+
+.lang-bar__flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  background: transparent;
+  border: 1.5px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  line-height: 1;
+}
+
+/* SVG flag rendered as <img> by react-country-flag */
+.lang-bar__flag img {
+  display: block;
+  width: 28px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.lang-bar__flag:hover {
+  border-color: #FF6B1A;
+  transform: scale(1.1);
+}
+
+.lang-bar__flag--active {
+  border-color: #FF6B1A;
+  box-shadow: 0 0 8px rgba(255, 107, 26, 0.45);
+}
+
+/* ── Social icons ── */
+.lang-bar__socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 0 0 auto;
+}
+
+.lang-bar__social {
+  display: flex;
+  align-items: center;
+  color: var(--orange);
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.80;
+  text-decoration: none;
+}
+
+.lang-bar__social:hover {
+  transform: scale(1.22);
+  opacity: 1;
+}
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .lang-bar__spacer  { display: none; }
+  .lang-bar__inner   { gap: 8px; }
+  .lang-bar__flags   { gap: 12px; }
+  .lang-bar__flag    { padding: 3px; }
+  .lang-bar__flag img { width: 24px; height: 18px; }
+  .lang-bar__socials { gap: 10px; }
+  .lang-bar__social  { font-size: 0.88rem; }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .lang-bar__flags {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    justify-content: flex-start;
+    flex: 1;
+    gap: 12px;
+    padding: 0 4px;
+  }
+  .lang-bar__flags::-webkit-scrollbar { display: none; }
+
+  .lang-bar__flag     { padding: 3px; }
+  .lang-bar__flag img { width: 20px; height: 15px; }
+
+  .lang-bar__socials { gap: 8px; }
+  .lang-bar__social:nth-child(n+5) { display: none; }
+}
+
+@media (max-width: 480px) {
+  .lang-bar__social:nth-child(n+4) { display: none; }
+}
