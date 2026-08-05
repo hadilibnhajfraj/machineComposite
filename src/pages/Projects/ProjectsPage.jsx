@@ -17,7 +17,6 @@ export default function ProjectsPage() {
     <div>
       <Seo page="projects" />
       <PageHero
-        image="/images/heroes/projects.jpg"
         subtitle={t('projects.eyebrow')}
         title={t('projects.title')}
         breadcrumbs={BREADCRUMBS}

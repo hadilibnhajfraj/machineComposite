@@ -60,7 +60,6 @@ export default function AboutPage() {
     <div className="ic-about-page">
       <Seo page="about" />
       <PageHero
-        image="/images/heroes/about.jpg"
         subtitle={t('aboutPage.heroSubtitle')}
         title={t('aboutPage.heroTitle')}
         breadcrumbs={BREADCRUMBS}
@@ -82,9 +81,14 @@ export default function AboutPage() {
             <p>{t('aboutPage.missionPara1')}</p>
             <p>{t('aboutPage.missionPara2')}</p>
             <p>{t('aboutPage.missionPara3')}</p>
-            <Link to="/contact" className="btn-primary" style={{ marginTop: '16px' }}>
-              {t('aboutPage.missionCta')} <FiArrowRight />
-            </Link>
+            <div className="ic-ap-mission__actions">
+              <Link to="/contact" className="btn-primary">
+                {t('aboutPage.missionCta')} <FiArrowRight />
+              </Link>
+              <Link to="/production-lines" className="btn-ghost-dark">
+                {t('aboutPage.productionLinesLinkText')} <FiArrowRight />
+              </Link>
+            </div>
           </motion.div>
 
           <motion.div
@@ -123,6 +127,10 @@ export default function AboutPage() {
             </div>
 
             <p className="ic-ap-positioning__closing">{t('aboutPage.positioningClosing')}</p>
+
+            <Link to="/applications" className="ic-ap-positioning__link">
+              {t('aboutPage.applicationsLinkText')} <FiArrowRight />
+            </Link>
           </motion.div>
         </div>
       </section>
@@ -148,6 +156,9 @@ export default function AboutPage() {
             <p>{t('aboutPage.leadershipPara1')}</p>
             <p>{t('aboutPage.leadershipPara2')}</p>
             <p>{t('aboutPage.leadershipPara3')}</p>
+            <Link to="/projects" className="btn-ghost-dark">
+              {t('aboutPage.projectsLinkText')} <FiArrowRight />
+            </Link>
           </motion.div>
         </div>
       </section>
@@ -184,38 +195,38 @@ export default function AboutPage() {
       </section>
 
       {/* ── Core Competencies ── */}
-      <section className="ic-ap-timeline section-pad" style={{ background: 'var(--black)' }}>
+      <section className="ic-ap-competencies section-pad" style={{ background: 'var(--black)' }}>
         <div className="ic-container">
           <motion.div
-            className="ic-ap-timeline__header"
+            className="ic-ap-competencies__header"
             initial="hidden" whileInView="visible"
             viewport={viewportOnce} variants={fadeUp}
           >
             <div className="accent-bar" style={{ justifyContent: 'center' }}>
               <span /><em>{t('aboutPage.competenciesEyebrow')}</em>
             </div>
-            <h2 className="ic-ap-timeline__title">{t('aboutPage.competenciesTitle')}</h2>
-            <p className="ic-ap-timeline__intro">{t('aboutPage.competenciesIntro')}</p>
+            <h2 className="ic-ap-competencies__title">{t('aboutPage.competenciesTitle')}</h2>
+            <p className="ic-ap-competencies__intro">{t('aboutPage.competenciesIntro')}</p>
           </motion.div>
 
-          <div className="ic-ap-timeline__track">
+          <motion.div
+            className="ic-ap-competencies__grid"
+            initial="hidden" whileInView="visible"
+            viewport={viewportOnce} variants={stagger}
+          >
             {COMPETENCIES.map((item, i) => (
-              <motion.div
-                key={item.title}
-                className={`ic-ap-timeline__item${i % 2 === 0 ? '' : ' ic-ap-timeline__item--right'}`}
-                initial={{ opacity: 0, x: i % 2 === 0 ? -40 : 40 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={viewportOnce}
-                transition={{ duration: 0.6, delay: i * 0.08 }}
-              >
-                <div className="ic-ap-timeline__card">
-                  <span className="ic-ap-timeline__year">{String(i + 1).padStart(2, '0')}</span>
-                  <strong>{item.title}</strong>
-                  <p>{item.desc}</p>
-                </div>
-                <div className="ic-ap-timeline__dot" />
+              <motion.div key={item.title} variants={scaleIn} className="ic-ap-competencies__card">
+                <span className="ic-ap-competencies__num">{String(i + 1).padStart(2, '0')}</span>
+                <strong>{item.title}</strong>
+                <p>{item.desc}</p>
               </motion.div>
             ))}
+          </motion.div>
+
+          <div className="ic-ap-competencies__cta">
+            <Link to="/production-lines#certifications" className="btn-ghost-dark">
+              {t('aboutPage.certificationsLinkText')} <FiArrowRight />
+            </Link>
           </div>
         </div>
       </section>

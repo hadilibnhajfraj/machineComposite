@@ -12,6 +12,8 @@ import SectionTitle from '../../components/Shared/SectionTitle'
 import DiagramPlaceholder from '../../components/Shared/DiagramPlaceholder'
 import Contact from '../../components/Contact/Contact'
 import { LINE_META, getLineBySlug } from '../../components/ProductionLines/lineMeta'
+import { APP_META } from '../../components/Applications/appMeta'
+import { LINE_TO_APPS } from '../../data/crossLinks'
 import { fadeUp, fadeLeft, stagger, scaleIn, viewportOnce } from '../../components/Shared/AnimationVariants'
 import './ProductionLineDetailPage.css'
 
@@ -47,6 +49,7 @@ export default function ProductionLineDetailPage() {
   }))
 
   const OTHER_LINES = LINE_META.filter((l) => l.key !== key)
+  const RELATED_APPS = APP_META.filter((a) => (LINE_TO_APPS[key] || []).includes(a.key))
 
   const BREADCRUMBS = [
     { label: t('nav.home'), path: '/' },
@@ -58,7 +61,6 @@ export default function ProductionLineDetailPage() {
     <div className="ic-lpd">
       <Seo page={`productionLineDetail.${key}`} />
       <PageHero
-        image="/images/heroes/production-lines.jpg"
         subtitle={d('heroSubtitle')}
         title={d('heroTitle')}
         breadcrumbs={BREADCRUMBS}
@@ -180,6 +182,31 @@ export default function ProductionLineDetailPage() {
                 <div className="ic-lpd-card__icon"><Icon /></div>
                 <strong>{title}</strong>
                 <p>{desc}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ── Related Applications ── */}
+      <section className="ic-lpd-related section-pad">
+        <div className="ic-container">
+          <SectionTitle
+            eyebrow={c('relatedApplicationsEyebrow')}
+            title={c('relatedApplicationsTitle')}
+            align="center"
+          />
+          <motion.div
+            className="ic-lpd-other__grid"
+            initial="hidden" whileInView="visible"
+            viewport={viewportOnce} variants={stagger}
+          >
+            {RELATED_APPS.map((a) => (
+              <motion.div key={a.slug} variants={scaleIn}>
+                <Link to={`/applications/${a.slug}`} className="ic-lpd-other__link">
+                  {t(`applications.${a.key}.title`)}
+                  <FiArrowRight />
+                </Link>
               </motion.div>
             ))}
           </motion.div>

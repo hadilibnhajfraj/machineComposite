@@ -17,21 +17,21 @@
   "seo": {
     "titleSuffix": " — PROBAR by CBI Tunisia",
     "home": {
-      "title": "PROBAR by CBI Tunisia | GFRP Reinforcement & Composite Manufacturing",
-      "description": "CBI Tunisia manufactures PROBAR GFRP reinforcement bars and mesh — a corrosion-resistant, high-strength alternative to steel for coastal, industrial and infrastructure projects. ISO 9001 & EOTA/ETA certified."
+      "title": "PROBAR GFRP Reinforcement | CBI Tunisia",
+      "description": "CBI Tunisia manufactures PROBAR GFRP reinforcement bars and mesh — a corrosion-resistant alternative to steel for coastal, industrial and infrastructure projects."
     },
     "about": {
       "title": "About CBI Tunisia | GFRP Manufacturing Since Over 10 Years",
-      "description": "Composite Building Innovation First: over 10 years of hands-on GFRP manufacturing experience, engineering advisory, and ISO 9001, EOTA/ETA, EPD and CNERIB certified production."
+      "description": "Composite Building Innovation First: over 10 years of hands-on GFRP manufacturing experience, ISO 9001, EOTA/ETA, EPD and CNERIB certified production."
     },
     "productionLines": {
       "title": "GFRP Production Lines | ProBar & ProMesh — CBI Tunisia",
-      "description": "Optimized pultrusion technology, precision resin control and standardized quality calibration behind CBI Tunisia's ProBar (GFRP bar) and ProMesh (GFRP mesh) production lines."
+      "description": "Optimized pultrusion technology, precision resin control and quality calibration behind CBI Tunisia's ProBar and ProMesh GFRP production lines."
     },
     "productionLineDetail": {
       "rebar": {
         "title": "ProBar GFRP Reinforcement Bars | CBI Tunisia",
-        "description": "ProBar GFRP reinforcement bars: ≥1000 MPa tensile strength, full corrosion resistance, 75–100 year service life. Manufactured by CBI Tunisia, ISO 9001 & EOTA/ETA certified."
+        "description": "ProBar GFRP reinforcement bars: ≥1000 MPa tensile strength, full corrosion resistance, 75–100 year service life. ISO 9001 & EOTA/ETA certified."
       },
       "mesh": {
         "title": "ProMesh GFRP Mesh Systems | CBI Tunisia",
@@ -55,16 +55,16 @@
       }
     },
     "applications": {
-      "title": "GFRP Applications | Coastal, Industrial & Infrastructure Projects",
+      "title": "GFRP Applications & Use Cases | CBI Tunisia",
       "description": "PROBAR GFRP reinforcement is engineered for coastal infrastructure, industrial facilities, logistics platforms and maintenance-sensitive construction projects."
     },
     "applicationDetail": {
       "construction": {
-        "title": "GFRP Reinforcement for Urban & Civil Construction | CBI Tunisia",
+        "title": "GFRP for Urban & Civil Construction | CBI Tunisia",
         "description": "Corrosion-free PROBAR GFRP reinforcement for residential, commercial, healthcare, education and tourism construction. ISO 9001 & EOTA/ETA certified."
       },
       "infrastructure": {
-        "title": "GFRP Reinforcement for Public Infrastructure & Transport | CBI Tunisia",
+        "title": "GFRP for Public Infrastructure & Transport | CBI Tunisia",
         "description": "PROBAR GFRP reinforcement for transport, utilities, energy and public infrastructure modernization — corrosion-resistant, 75–100 year service life."
       },
       "roads": {
@@ -72,7 +72,7 @@
         "description": "PROBAR GFRP reinforcement for factories, warehouses and heavy facilities in industrial cities and logistics hubs — lighter, corrosion-free, lower lifecycle cost."
       },
       "marine": {
-        "title": "GFRP Reinforcement for Coastal & Marine Infrastructure | CBI Tunisia",
+        "title": "GFRP for Coastal & Marine Infrastructure | CBI Tunisia",
         "description": "Fully corrosion-resistant PROBAR GFRP reinforcement engineered for coastal infrastructure exposed to saltwater and marine environments."
       },
       "industrial": {
@@ -80,7 +80,7 @@
         "description": "Chemically resistant, non-conductive PROBAR GFRP reinforcement engineered for demanding industrial facility environments."
       },
       "water": {
-        "title": "GFRP Reinforcement for Maintenance-Sensitive Projects | CBI Tunisia",
+        "title": "GFRP for Maintenance-Sensitive Projects | CBI Tunisia",
         "description": "PROBAR GFRP reinforcement minimizes maintenance in aggressive environments — engineered for maintenance-sensitive, hard-to-access projects."
       }
     },
@@ -129,12 +129,37 @@
     "title": "PRODUCTION LINES",
     "subtitle": "PROBAR GFRP production lines engineered with optimized pultrusion technology, precision resin control and standardized quality calibration.",
     "discoverMore": "Discover More",
-    "rebar": { "title": "ProBar", "highlight": "GFRP Reinforcement Bars", "desc": "GFRP reinforcement bars delivering ≥1000 MPa tensile strength at roughly 75% the weight of steel, with full corrosion resistance and a 75–100 year design service life." },
-    "mesh": { "title": "ProMesh", "highlight": "GFRP Mesh Systems", "desc": "Corrosion-free composite mesh reinforcement, manufactured on the same precision resin-control and quality-calibration platform as ProBar for consistent mechanical performance." },
-    "bent": { "title": "Composite", "highlight": "Bent Elements", "desc": "Engineering capability for shaped and custom composite reinforcement elements, built on CBI Tunisia's pultrusion process expertise. Specifications available on request." },
-    "tank": { "title": "Composite", "highlight": "Tank Solutions", "desc": "Composite manufacturing know-how extended to corrosion-resistant tank applications. Specifications available on request." },
-    "pipe": { "title": "Composite", "highlight": "Pipe Solutions", "desc": "Composite manufacturing know-how extended to corrosion-resistant pipe applications. Specifications available on request." },
-    "profiles": { "title": "Composite", "highlight": "Profile Solutions", "desc": "Pultrusion-based manufacturing capability extended to structural composite profiles. Specifications available on request." }
+    "pageIntro": "Every CBI Tunisia production line is engineered on the same foundation — optimized pultrusion technology, precision resin control and standardized quality calibration — built for consistent mechanical performance and dimensional accuracy, line after line.",
+    "rebar": {
+      "title": "ProBar",
+      "highlight": "GFRP Reinforcement Bars",
+      "desc": "GFRP reinforcement bars delivering ≥1000 MPa tensile strength at roughly 75% the weight of steel, with full corrosion resistance and a 75–100 year design service life."
+    },
+    "mesh": {
+      "title": "ProMesh",
+      "highlight": "GFRP Mesh Systems",
+      "desc": "Corrosion-free composite mesh reinforcement, manufactured on the same precision resin-control and quality-calibration platform as ProBar for consistent mechanical performance."
+    },
+    "bent": {
+      "title": "Composite",
+      "highlight": "Bent Elements",
+      "desc": "Engineering capability for shaped and custom composite reinforcement elements, built on CBI Tunisia's pultrusion process expertise. Specifications available on request."
+    },
+    "tank": {
+      "title": "Composite",
+      "highlight": "Tank Solutions",
+      "desc": "Composite manufacturing know-how extended to corrosion-resistant tank applications. Specifications available on request."
+    },
+    "pipe": {
+      "title": "Composite",
+      "highlight": "Pipe Solutions",
+      "desc": "Composite manufacturing know-how extended to corrosion-resistant pipe applications. Specifications available on request."
+    },
+    "profiles": {
+      "title": "Composite",
+      "highlight": "Profile Solutions",
+      "desc": "Pultrusion-based manufacturing capability extended to structural composite profiles. Specifications available on request."
+    }
   },
   "lineDetail": {
     "common": {
@@ -143,7 +168,9 @@
       "philosophyEyebrow": "Manufacturing Philosophy",
       "benefitsEyebrow": "Customer Benefits",
       "advantagesEyebrow": "Operational Advantages",
-      "diagramPlaceholderLabel": "Diagram Placeholder"
+      "diagramPlaceholderLabel": "Process Diagram",
+      "relatedApplicationsEyebrow": "Where This Applies",
+      "relatedApplicationsTitle": "Related Applications"
     },
     "rebar": {
       "heroSubtitle": "ProBar Production Line",
@@ -159,11 +186,11 @@
       "stage3Desc": "Standardized calibration protocols validate every production run against consistent mechanical and dimensional benchmarks.",
       "stage4Title": "Real-Time Monitoring & Maintenance",
       "stage4Desc": "Real-time production monitoring and preventive maintenance frameworks protect process discipline and product consistency across the full production run.",
-      "diagramCaption1": "Placeholder — ProBar pultrusion production workflow diagram, to be supplied by CBI Tunisia engineering.",
+      "diagramCaption1": "ProBar pultrusion production workflow.",
       "processTitle": "Engineering Process",
       "processPara1": "ProBar production is built on advanced pultrusion process control, engineered and optimized specifically for GFRP reinforcement bar performance. Structured quality management systems, aligned with international standards, govern every stage of the process.",
       "processPara2": "This is not a trial-and-error operation. ProBar is manufactured on validated production protocols developed over more than 10 years of hands-on GFRP manufacturing experience — the result is faster stabilization, consistent product quality and controlled performance from the first bar produced.",
-      "diagramCaption2": "Placeholder — quality calibration and process control diagram for ProBar production.",
+      "diagramCaption2": "Quality calibration and process control for ProBar production.",
       "philosophyTitle": "A Manufacturing Philosophy Built on Discipline",
       "philosophyPara1": "CBI Tunisia's approach to ProBar manufacturing rests on structured quality management, preventive and predictive maintenance, and standardized quality assurance systems — engineered so that industrial resilience, scalability and production consistency are present from day one, not added later.",
       "philosophyPara2": "That discipline is backed by internationally recognized certification: ISO 9001:2015 quality management, membership of iTAB and EOTA, European Technical Assessment ETA 24/0295, and registration under the International EPD System and CNERIB.",
@@ -203,11 +230,11 @@
       "stage3Desc": "Every production run is validated against standardized quality calibration protocols shared with ProBar, for consistent mechanical performance.",
       "stage4Title": "Real-Time Monitoring & Maintenance",
       "stage4Desc": "Real-time production monitoring and preventive maintenance frameworks protect process discipline throughout the run.",
-      "diagramCaption1": "Placeholder — ProMesh production workflow diagram, to be supplied by CBI Tunisia engineering.",
+      "diagramCaption1": "ProMesh production workflow.",
       "processTitle": "Engineering Process",
       "processPara1": "ProMesh shares its production platform with ProBar — the same advanced pultrusion process control and structured quality management systems, adapted to deliver a corrosion-free composite mesh rather than a bar profile.",
       "processPara2": "Because ProMesh is manufactured on validated production protocols developed over more than 10 years of GFRP manufacturing experience, output reaches consistent product quality and controlled performance without a lengthy trial-and-error phase.",
-      "diagramCaption2": "Placeholder — quality calibration and process control diagram for ProMesh production.",
+      "diagramCaption2": "Quality calibration and process control for ProMesh production.",
       "philosophyTitle": "One Platform, Consistent Standards",
       "philosophyPara1": "ProMesh is not manufactured to a separate standard from ProBar — it is built on the same structured quality management, preventive maintenance and standardized quality assurance systems, so that mesh reinforcement meets the same production discipline as CBI Tunisia's reinforcement bars.",
       "philosophyPara2": "That shared discipline is backed by the same certification framework: ISO 9001:2015, iTAB and EOTA membership, European Technical Assessment ETA 24/0295, and registration under the International EPD System and CNERIB.",
@@ -247,11 +274,11 @@
       "stage3Desc": "Standardized quality calibration protocols validate shaped elements against the same mechanical benchmarks applied across the platform.",
       "stage4Title": "Real-Time Monitoring & Maintenance",
       "stage4Desc": "Real-time production monitoring and preventive maintenance frameworks protect consistency throughout production.",
-      "diagramCaption1": "Placeholder — bent/shaped composite element production workflow diagram, to be supplied by CBI Tunisia engineering.",
+      "diagramCaption1": "Bent and shaped composite element production workflow.",
       "processTitle": "Engineering Process",
       "processPara1": "Shaped and custom composite reinforcement elements draw on CBI Tunisia's advanced pultrusion process control and structured quality management systems — the same engineering discipline behind ProBar and ProMesh, applied to non-standard geometries.",
       "processPara2": "Detailed dimensional and load specifications for bent elements are developed per project and available on request from CBI Tunisia's technical department, which supports project-level design and material validation directly.",
-      "diagramCaption2": "Placeholder — quality calibration diagram for shaped composite elements.",
+      "diagramCaption2": "Quality calibration for shaped composite elements.",
       "philosophyTitle": "One Platform, Extended to Custom Geometries",
       "philosophyPara1": "CBI Tunisia's manufacturing philosophy — structured quality management, preventive maintenance, standardized quality assurance — is not limited to straight reinforcement bars. The same platform is engineered to be scalable and extendable to shaped and custom composite elements.",
       "philosophyPara2": "That extension is backed by the same certification framework governing the whole platform: ISO 9001:2015, iTAB and EOTA membership, European Technical Assessment ETA 24/0295, EPD and CNERIB.",
@@ -291,11 +318,11 @@
       "stage3Desc": "Standardized quality calibration protocols validate tank production against the same mechanical benchmarks applied across the platform.",
       "stage4Title": "Real-Time Monitoring & Maintenance",
       "stage4Desc": "Real-time production monitoring and preventive maintenance frameworks protect production consistency throughout the process.",
-      "diagramCaption1": "Placeholder — composite tank production workflow diagram, to be supplied by CBI Tunisia engineering.",
+      "diagramCaption1": "Composite tank production workflow.",
       "processTitle": "Engineering Process",
       "processPara1": "Composite tank solutions apply CBI Tunisia's structured quality management systems and process optimization expertise to corrosion-resistant containment applications, using the same disciplined engineering approach as the company's reinforcement product lines.",
       "processPara2": "Detailed capacity, dimensional and application specifications are developed per project and available on request from CBI Tunisia's technical department, which provides project-level design support and material validation directly.",
-      "diagramCaption2": "Placeholder — quality calibration diagram for composite tank production.",
+      "diagramCaption2": "Quality calibration for composite tank production.",
       "philosophyTitle": "Composite Discipline, Applied to Containment",
       "philosophyPara1": "CBI Tunisia's manufacturing philosophy — structured quality management, preventive and predictive maintenance, standardized quality assurance — extends beyond reinforcement products into composite tank solutions, built on the same industrial architecture and process optimization expertise.",
       "philosophyPara2": "That philosophy is backed by the same certification framework governing the full platform: ISO 9001:2015, iTAB and EOTA membership, European Technical Assessment ETA 24/0295, EPD and CNERIB.",
@@ -335,11 +362,11 @@
       "stage3Desc": "Standardized quality calibration protocols validate pipe production against the same mechanical benchmarks applied across the platform.",
       "stage4Title": "Real-Time Monitoring & Maintenance",
       "stage4Desc": "Real-time production monitoring and preventive maintenance frameworks protect production consistency throughout the process.",
-      "diagramCaption1": "Placeholder — composite pipe production workflow diagram, to be supplied by CBI Tunisia engineering.",
+      "diagramCaption1": "Composite pipe production workflow.",
       "processTitle": "Engineering Process",
       "processPara1": "Composite pipe solutions apply CBI Tunisia's structured quality management systems and process optimization expertise to corrosion-resistant fluid-transfer applications, using the same disciplined engineering approach as the company's reinforcement product lines.",
       "processPara2": "Detailed diameter, pressure-rating and application specifications are developed per project and available on request from CBI Tunisia's technical department, which provides project-level design support and material validation directly.",
-      "diagramCaption2": "Placeholder — quality calibration diagram for composite pipe production.",
+      "diagramCaption2": "Quality calibration for composite pipe production.",
       "philosophyTitle": "Composite Discipline, Applied to Fluid Transfer",
       "philosophyPara1": "CBI Tunisia's manufacturing philosophy — structured quality management, preventive and predictive maintenance, standardized quality assurance — extends beyond reinforcement products into composite pipe solutions, built on the same industrial architecture and process optimization expertise.",
       "philosophyPara2": "That philosophy is backed by the same certification framework governing the full platform: ISO 9001:2015, iTAB and EOTA membership, European Technical Assessment ETA 24/0295, EPD and CNERIB.",
@@ -379,11 +406,11 @@
       "stage3Desc": "Standardized quality calibration protocols validate profile production against the same mechanical benchmarks applied across the platform.",
       "stage4Title": "Real-Time Monitoring & Maintenance",
       "stage4Desc": "Real-time production monitoring and preventive maintenance frameworks protect production consistency throughout the process.",
-      "diagramCaption1": "Placeholder — composite profile pultrusion workflow diagram, to be supplied by CBI Tunisia engineering.",
+      "diagramCaption1": "Composite profile pultrusion workflow.",
       "processTitle": "Engineering Process",
       "processPara1": "Structural composite profiles are manufactured with CBI Tunisia's advanced pultrusion process control — the same technology base behind ProBar reinforcement bars, extended to structural cross-sections through structured quality management systems aligned with international standards.",
       "processPara2": "Detailed dimensional, cross-section and load specifications are developed per project and available on request from CBI Tunisia's technical department, which provides project-level design support and material validation directly.",
-      "diagramCaption2": "Placeholder — quality calibration diagram for composite profile production.",
+      "diagramCaption2": "Quality calibration for composite profile production.",
       "philosophyTitle": "Pultrusion Discipline, Applied to Structural Profiles",
       "philosophyPara1": "CBI Tunisia's manufacturing philosophy — structured quality management, preventive and predictive maintenance, standardized quality assurance — extends the company's core pultrusion expertise into structural composite profiles, built on the same industrial architecture and process optimization expertise as its reinforcement lines.",
       "philosophyPara2": "That philosophy is backed by the same certification framework governing the full platform: ISO 9001:2015, iTAB and EOTA membership, European Technical Assessment ETA 24/0295, EPD and CNERIB.",
@@ -415,12 +442,32 @@
     "title": "TARGETED APPLICATIONS",
     "subtitle": "PROBAR is engineered as a targeted, high-durability reinforcement solution — not a universal steel replacement — for the sectors where corrosion resistance and lifecycle cost matter most.",
     "learnMore": "Learn More",
-    "construction": { "title": "Urban & Civil Construction", "desc": "Residential, commercial, healthcare, education and tourism construction projects, where corrosion-free GFRP reinforcement supports durable, long-life structures." },
-    "infrastructure": { "title": "Public Infrastructure & Transport", "desc": "Modernization of transport, utilities, energy and public infrastructure — sectors generating strong, sustained demand for high-performance reinforcement." },
-    "roads": { "title": "Logistics Platforms", "desc": "High-durability reinforcement for logistics platforms and distribution infrastructure, supporting new industrial cities, economic zones and logistics hubs." },
-    "marine": { "title": "Coastal & Marine Infrastructure", "desc": "Fully corrosion-resistant GFRP reinforcement engineered for coastal infrastructure exposed to saltwater and aggressive marine environments." },
-    "industrial": { "title": "Industrial Facilities", "desc": "A targeted reinforcement solution for industrial facilities where chemical resistance, non-conductivity and low lifecycle maintenance are critical." },
-    "water": { "title": "Maintenance-Sensitive Environments", "desc": "Non-conductive, chemically resistant GFRP reinforcement for maintenance-sensitive projects where periodic steel repair is costly or impractical." }
+    "learnMoreApp": "See {{app}} Solutions",
+    "pageIntro": "PROBAR GFRP reinforcement is engineered as a targeted, high-durability solution — not a universal steel replacement — for the sectors where corrosion resistance and lifecycle cost matter most. Explore how it applies to your project type below.",
+    "construction": {
+      "title": "Urban & Civil Construction",
+      "desc": "Residential, commercial, healthcare, education and tourism construction projects, where corrosion-free GFRP reinforcement supports durable, long-life structures."
+    },
+    "infrastructure": {
+      "title": "Public Infrastructure & Transport",
+      "desc": "Modernization of transport, utilities, energy and public infrastructure — sectors generating strong, sustained demand for high-performance reinforcement."
+    },
+    "roads": {
+      "title": "Logistics Platforms",
+      "desc": "High-durability reinforcement for logistics platforms and distribution infrastructure, supporting new industrial cities, economic zones and logistics hubs."
+    },
+    "marine": {
+      "title": "Coastal & Marine Infrastructure",
+      "desc": "Fully corrosion-resistant GFRP reinforcement engineered for coastal infrastructure exposed to saltwater and aggressive marine environments."
+    },
+    "industrial": {
+      "title": "Industrial Facilities",
+      "desc": "A targeted reinforcement solution for industrial facilities where chemical resistance, non-conductivity and low lifecycle maintenance are critical."
+    },
+    "water": {
+      "title": "Maintenance-Sensitive Environments",
+      "desc": "Non-conductive, chemically resistant GFRP reinforcement for maintenance-sensitive projects where periodic steel repair is costly or impractical."
+    }
   },
   "applicationDetail": {
     "common": {
@@ -429,7 +476,9 @@
       "useCasesEyebrow": "Typical Use Cases",
       "advantagesEyebrow": "Advantages Over Steel",
       "performanceEyebrow": "Long-Term Performance",
-      "maintenanceEyebrow": "Maintenance Benefits"
+      "maintenanceEyebrow": "Maintenance Benefits",
+      "relatedLinesEyebrow": "Engineered For This",
+      "relatedLinesTitle": "Related Production Lines"
     },
     "construction": {
       "heroSubtitle": "Urban & Civil Construction",
@@ -474,7 +523,7 @@
       "challengesPara1": "Large-scale modernization of transport, utilities, energy and public infrastructure represents sustained, government-backed capital investment with long planning horizons. Reinforcement that requires periodic repair — as conventional steel does — adds recurring cost and disruption to infrastructure that the public depends on continuously.",
       "challengesPara2": "Public capital expenditure provides visibility and stability to infrastructure pipelines, but that same long-term commitment raises the stakes on reinforcement durability: assets built today must perform reliably for decades without early intervention.",
       "useCasesTitle": "Typical Use Cases",
-      "useCasesIntro": "Vision 2030's infrastructure transformation spans several categories of public asset:",
+      "useCasesIntro": "Large-scale infrastructure modernization spans several categories of public asset:",
       "useCase1": "Transport Infrastructure",
       "useCase2": "Utilities Infrastructure",
       "useCase3": "Energy Infrastructure",
@@ -638,18 +687,55 @@
     "title": "CERTIFICATIONS & STANDARDS",
     "subtitle": "PROBAR GFRP manufacturing is validated by internationally recognized technical assessment and quality bodies.",
     "certifiedLabel": "Certified",
-    "cert1": { "code": "ISO", "num": "9001", "year": "2015", "label": "Quality Management System", "org": "International Organization for Standardization" },
-    "cert2": { "code": "iTAB", "num": "", "year": "", "label": "Italian Technical Assessment Body", "org": "Member of EOTA" },
-    "cert3": { "code": "EOTA", "num": "", "year": "", "label": "European Technical Assessment Body", "org": "European Organisation for Technical Assessment" },
-    "cert4": { "code": "ETA", "num": "24/0295", "year": "", "label": "European Technical Assessment", "org": "Issued 27/06/2024" },
-    "cert5": { "code": "EPD", "num": "", "year": "", "label": "Environmental Product Declaration", "org": "International EPD System" },
-    "cert6": { "code": "CNERIB", "num": "", "year": "", "label": "Building Research Compliance", "org": "Centre National d'Études et de Recherches Intégrées du Bâtiment" }
+    "cert1": {
+      "code": "ISO",
+      "num": "9001",
+      "year": "2015",
+      "label": "Quality Management System",
+      "org": "International Organization for Standardization"
+    },
+    "cert2": {
+      "code": "iTAB",
+      "num": "",
+      "year": "",
+      "label": "Italian Technical Assessment Body",
+      "org": "Member of EOTA"
+    },
+    "cert3": {
+      "code": "EOTA",
+      "num": "",
+      "year": "",
+      "label": "European Technical Assessment Body",
+      "org": "European Organisation for Technical Assessment"
+    },
+    "cert4": {
+      "code": "ETA",
+      "num": "24/0295",
+      "year": "",
+      "label": "European Technical Assessment",
+      "org": "Issued 27/06/2024"
+    },
+    "cert5": {
+      "code": "EPD",
+      "num": "",
+      "year": "",
+      "label": "Environmental Product Declaration",
+      "org": "International EPD System"
+    },
+    "cert6": {
+      "code": "CNERIB",
+      "num": "",
+      "year": "",
+      "label": "Building Research Compliance",
+      "org": "Centre National d'Études et de Recherches Intégrées du Bâtiment"
+    }
   },
   "projects": {
     "eyebrow": "Working With Project Teams",
     "title": "ENGINEERING & TECHNICAL PARTNERSHIP",
     "subtitle": "Beyond manufacturing, CBI Tunisia supports the construction ecosystem directly — helping engineers and contractors build confidence in GFRP performance, compliance and lifecycle benefits.",
     "ctaButton": "Discuss Your Project",
+    "applicationsLinkText": "Explore Applications",
     "c1title": "Civil Engineering Integration",
     "c1desc": "Direct support integrating GFRP reinforcement solutions into civil and structural engineering designs.",
     "c2title": "Technical Advisory for Consultants & EPC Contractors",
@@ -724,6 +810,10 @@
     "missionPara2": "CBI Tunisia supports engineers, consultants and EPC contractors directly — through civil engineering integration, technical advisory, project-level design support, material validation and specification development.",
     "missionPara3": "Built on proven PROBAR technology, more than 10 years of industrial experience and integrated production know-how, we exist to give the construction industry a corrosion-resistant, lifecycle-optimized alternative to conventional steel reinforcement.",
     "missionCta": "Work With Us",
+    "productionLinesLinkText": "Explore Production Lines",
+    "applicationsLinkText": "See Where PROBAR Is Applied",
+    "projectsLinkText": "See How We Support Project Teams",
+    "certificationsLinkText": "Explore Our Certifications",
     "positioningEyebrow": "Engineering Positioning",
     "positioningStatement": "PROBAR is engineered as a high-performance, corrosion-resistant alternative to traditional steel reinforcement.",
     "positioningIntro": "We do not position PROBAR as a universal replacement for steel. We position it as a targeted, high-durability reinforcement solution — engineered for the applications where corrosion resistance and lifecycle performance matter most.",

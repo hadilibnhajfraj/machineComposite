@@ -16,7 +16,6 @@ export default function ContactPage() {
     <div>
       <Seo page="contact" />
       <PageHero
-        image="/images/heroes/contact.jpg"
         subtitle={t('contact.eyebrow')}
         title={t('contact.title')}
         breadcrumbs={BREADCRUMBS}

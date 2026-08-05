@@ -17,21 +17,21 @@
   "seo": {
     "titleSuffix": " — PROBAR de CBI Tunisia",
     "home": {
-      "title": "PROBAR de CBI Tunisia | Armaduras PRFV y Fabricación de Compuestos",
-      "description": "CBI Tunisia fabrica barras y mallas PRFV PROBAR, una alternativa al acero resistente a la corrosión para proyectos costeros, industriales y de infraestructura. Certificado ISO 9001 y EOTA/ETA."
+      "title": "PROBAR Armadura PRFV | CBI Tunisia",
+      "description": "CBI Tunisia fabrica barras y mallas PRFV PROBAR, una alternativa al acero resistente a la corrosión para proyectos costeros, industriales y de infraestructura."
     },
     "about": {
       "title": "Sobre CBI Tunisia | Más de 10 Años de Experiencia en PRFV",
-      "description": "Composite Building Innovation First: más de 10 años de experiencia directa en fabricación de PRFV, asesoría técnica y producción certificada ISO 9001, EOTA/ETA, EPD y CNERIB."
+      "description": "Composite Building Innovation First: más de 10 años de experiencia directa en fabricación de PRFV, producción certificada ISO 9001, EOTA/ETA, EPD y CNERIB."
     },
     "productionLines": {
       "title": "Líneas de Producción PRFV | ProBar y ProMesh — CBI Tunisia",
-      "description": "Tecnología de pultrusión optimizada, control preciso de resina y calibración de calidad estandarizada en las líneas ProBar (barras PRFV) y ProMesh (malla PRFV) de CBI Tunisia."
+      "description": "Tecnología de pultrusión optimizada, control preciso de resina y calibración de calidad detrás de las líneas ProBar y ProMesh PRFV de CBI Tunisia."
     },
     "productionLineDetail": {
       "rebar": {
         "title": "Barras de Armadura PRFV ProBar | CBI Tunisia",
-        "description": "Barras de armadura PRFV ProBar: resistencia a tracción ≥1000 MPa, resistencia total a la corrosión, vida útil de 75–100 años. Fabricadas por CBI Tunisia, certificado ISO 9001 y EOTA/ETA."
+        "description": "Barras de armadura PRFV ProBar: resistencia a tracción ≥1000 MPa, resistencia total a la corrosión, vida útil de 75–100 años. Certificado ISO 9001 y EOTA/ETA."
       },
       "mesh": {
         "title": "Sistemas de Malla PRFV ProMesh | CBI Tunisia",
@@ -55,16 +55,16 @@
       }
     },
     "applications": {
-      "title": "Aplicaciones PRFV | Proyectos Costeros, Industriales y de Infraestructura",
+      "title": "Aplicaciones y Casos de Uso PRFV | CBI Tunisia",
       "description": "La armadura PRFV PROBAR está diseñada para infraestructuras costeras, instalaciones industriales, plataformas logísticas y proyectos sensibles al mantenimiento."
     },
     "applicationDetail": {
       "construction": {
-        "title": "Armadura PRFV para Construcción Urbana y Civil | CBI Tunisia",
+        "title": "PRFV para Construcción Urbana y Civil | CBI Tunisia",
         "description": "Armadura PRFV PROBAR libre de corrosión para construcción residencial, comercial, sanitaria, educativa y turística. Certificado ISO 9001 y EOTA/ETA."
       },
       "infrastructure": {
-        "title": "Armadura PRFV para Infraestructura Pública y Transporte | CBI Tunisia",
+        "title": "PRFV para Infraestructura Pública y Transporte | CBI Tunisia",
         "description": "Armadura PRFV PROBAR para la modernización del transporte, los servicios públicos, la energía y las infraestructuras públicas — resistente a la corrosión, con una vida útil de 75 a 100 años."
       },
       "roads": {
@@ -72,7 +72,7 @@
         "description": "Armadura PRFV PROBAR para fábricas, almacenes e instalaciones pesadas en ciudades industriales y polos logísticos — más ligera, libre de corrosión y con menor coste de ciclo de vida."
       },
       "marine": {
-        "title": "Armadura PRFV para Infraestructura Costera y Marítima | CBI Tunisia",
+        "title": "PRFV para Infraestructura Costera y Marítima | CBI Tunisia",
         "description": "Armadura PRFV PROBAR totalmente resistente a la corrosión, diseñada para infraestructuras costeras expuestas al agua salada y a entornos marinos."
       },
       "industrial": {
@@ -80,7 +80,7 @@
         "description": "Armadura PRFV PROBAR químicamente resistente y no conductora, diseñada para entornos industriales exigentes."
       },
       "water": {
-        "title": "Armadura PRFV para Proyectos Sensibles al Mantenimiento | CBI Tunisia",
+        "title": "PRFV para Proyectos Sensibles al Mantenimiento | CBI Tunisia",
         "description": "La armadura PRFV PROBAR minimiza el mantenimiento en entornos agresivos — diseñada para proyectos sensibles al mantenimiento y de difícil acceso."
       }
     },
@@ -129,6 +129,7 @@
     "title": "LÍNEAS DE PRODUCCIÓN",
     "subtitle": "Las líneas de producción PRFV PROBAR están diseñadas con tecnología de pultrusión optimizada, control preciso de resina y calibración de calidad estandarizada.",
     "discoverMore": "Descubrir Más",
+    "pageIntro": "Cada línea de producción de CBI Tunisia se basa en la misma base: tecnología de pultrusión optimizada, control preciso de resina y calibración de calidad estandarizada, diseñada para un rendimiento mecánico constante y precisión dimensional, línea tras línea.",
     "rebar": {
       "title": "ProBar",
       "highlight": "Barras de Armadura PRFV",
@@ -167,7 +168,9 @@
       "philosophyEyebrow": "Filosofía de Fabricación",
       "benefitsEyebrow": "Beneficios para el Cliente",
       "advantagesEyebrow": "Ventajas Operativas",
-      "diagramPlaceholderLabel": "Marcador de Posición del Diagrama"
+      "diagramPlaceholderLabel": "Diagrama Técnico",
+      "relatedApplicationsEyebrow": "Dónde se Aplica",
+      "relatedApplicationsTitle": "Aplicaciones Relacionadas"
     },
     "rebar": {
       "heroSubtitle": "Línea de Producción ProBar",
@@ -183,11 +186,11 @@
       "stage3Desc": "Protocolos de calibración estandarizados validan cada lote de producción frente a referencias mecánicas y dimensionales constantes.",
       "stage4Title": "Monitorización en Tiempo Real y Mantenimiento",
       "stage4Desc": "La monitorización de la producción en tiempo real y los marcos de mantenimiento preventivo protegen la disciplina del proceso y la consistencia del producto a lo largo de todo el lote de producción.",
-      "diagramCaption1": "Marcador de posición — diagrama del flujo de producción por pultrusión de ProBar, a proporcionar por el departamento de ingeniería de CBI Tunisia.",
+      "diagramCaption1": "Flujo de producción por pultrusión de ProBar.",
       "processTitle": "Proceso de Ingeniería",
       "processPara1": "La producción de ProBar se basa en un control avanzado del proceso de pultrusión, diseñado y optimizado específicamente para el rendimiento de las barras de armadura PRFV. Sistemas estructurados de gestión de calidad, alineados con normas internacionales, rigen cada etapa del proceso.",
       "processPara2": "No se trata de una operación de ensayo y error. ProBar se fabrica con protocolos de producción validados, desarrollados a lo largo de más de 10 años de experiencia práctica en la fabricación de PRFV; el resultado es una estabilización más rápida, una calidad de producto constante y un rendimiento controlado desde la primera barra producida.",
-      "diagramCaption2": "Marcador de posición — diagrama de calibración de calidad y control del proceso para la producción de ProBar.",
+      "diagramCaption2": "Calibración de calidad y control del proceso para la producción de ProBar.",
       "philosophyTitle": "Una Filosofía de Fabricación Basada en la Disciplina",
       "philosophyPara1": "El enfoque de CBI Tunisia para la fabricación de ProBar se basa en la gestión estructurada de la calidad, el mantenimiento preventivo y predictivo, y sistemas estandarizados de aseguramiento de la calidad, diseñados para que la resiliencia industrial, la escalabilidad y la consistencia de la producción estén presentes desde el primer día, y no se añadan más adelante.",
       "philosophyPara2": "Esa disciplina está respaldada por una certificación reconocida internacionalmente: gestión de calidad ISO 9001:2015, membresía de iTAB y EOTA, la Evaluación Técnica Europea ETA 24/0295, y el registro en el Sistema Internacional EPD y en CNERIB.",
@@ -227,11 +230,11 @@
       "stage3Desc": "Cada lote de producción se valida frente a los protocolos de calibración de calidad estandarizados que comparte con ProBar, para garantizar un rendimiento mecánico constante.",
       "stage4Title": "Monitorización en Tiempo Real y Mantenimiento",
       "stage4Desc": "La monitorización de la producción en tiempo real y los marcos de mantenimiento preventivo protegen la disciplina del proceso a lo largo de todo el lote.",
-      "diagramCaption1": "Marcador de posición — diagrama del flujo de producción de ProMesh, a proporcionar por el departamento de ingeniería de CBI Tunisia.",
+      "diagramCaption1": "Flujo de producción de ProMesh.",
       "processTitle": "Proceso de Ingeniería",
       "processPara1": "ProMesh comparte su plataforma de producción con ProBar: el mismo control avanzado del proceso de pultrusión y los mismos sistemas estructurados de gestión de calidad, adaptados para producir una malla compuesta libre de corrosión en lugar de un perfil de barra.",
       "processPara2": "Como ProMesh se fabrica con protocolos de producción validados, desarrollados a lo largo de más de 10 años de experiencia en la fabricación de PRFV, la producción alcanza una calidad de producto constante y un rendimiento controlado sin una fase prolongada de ensayo y error.",
-      "diagramCaption2": "Marcador de posición — diagrama de calibración de calidad y control del proceso para la producción de ProMesh.",
+      "diagramCaption2": "Calibración de calidad y control del proceso para la producción de ProMesh.",
       "philosophyTitle": "Una Plataforma, Normas Constantes",
       "philosophyPara1": "ProMesh no se fabrica conforme a una norma diferente a la de ProBar: se construye sobre los mismos sistemas de gestión estructurada de la calidad, mantenimiento preventivo y aseguramiento de la calidad estandarizado, de modo que la malla de armadura cumple la misma disciplina de producción que las barras de armadura de CBI Tunisia.",
       "philosophyPara2": "Esa disciplina compartida está respaldada por el mismo marco de certificación: ISO 9001:2015, membresía de iTAB y EOTA, la Evaluación Técnica Europea ETA 24/0295, y el registro en el Sistema Internacional EPD y en CNERIB.",
@@ -271,11 +274,11 @@
       "stage3Desc": "Los protocolos de calibración de calidad estandarizados validan los elementos conformados frente a las mismas referencias mecánicas aplicadas en toda la plataforma.",
       "stage4Title": "Monitorización en Tiempo Real y Mantenimiento",
       "stage4Desc": "La monitorización de la producción en tiempo real y los marcos de mantenimiento preventivo protegen la consistencia a lo largo de toda la producción.",
-      "diagramCaption1": "Marcador de posición — diagrama del flujo de producción de elementos compuestos curvados/conformados, a proporcionar por el departamento de ingeniería de CBI Tunisia.",
+      "diagramCaption1": "Flujo de producción de elementos compuestos moldeados.",
       "processTitle": "Proceso de Ingeniería",
       "processPara1": "Los elementos de armadura compuesta conformados y a medida se apoyan en el control avanzado del proceso de pultrusión y en los sistemas estructurados de gestión de calidad de CBI Tunisia: la misma disciplina de ingeniería que hay detrás de ProBar y ProMesh, aplicada a geometrías no estándar.",
       "processPara2": "Las especificaciones dimensionales y de carga detalladas para los elementos curvados se desarrollan por proyecto y están disponibles bajo petición en el departamento técnico de CBI Tunisia, que apoya directamente el diseño a nivel de proyecto y la validación de materiales.",
-      "diagramCaption2": "Marcador de posición — diagrama de calibración de calidad para los elementos compuestos conformados.",
+      "diagramCaption2": "Calibración de calidad para elementos compuestos moldeados.",
       "philosophyTitle": "Una Plataforma, Extendida a Geometrías a Medida",
       "philosophyPara1": "La filosofía de fabricación de CBI Tunisia —gestión estructurada de la calidad, mantenimiento preventivo, aseguramiento de la calidad estandarizado— no se limita a las barras de armadura rectas. La misma plataforma está diseñada para ser escalable y extensible a elementos compuestos conformados y a medida.",
       "philosophyPara2": "Esa extensión está respaldada por el mismo marco de certificación que rige toda la plataforma: ISO 9001:2015, membresía de iTAB y EOTA, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB.",
@@ -315,11 +318,11 @@
       "stage3Desc": "Los protocolos de calibración de calidad estandarizados validan la producción de depósitos frente a las mismas referencias mecánicas aplicadas en toda la plataforma.",
       "stage4Title": "Monitorización en Tiempo Real y Mantenimiento",
       "stage4Desc": "La monitorización de la producción en tiempo real y los marcos de mantenimiento preventivo protegen la consistencia de la producción a lo largo de todo el proceso.",
-      "diagramCaption1": "Marcador de posición — diagrama del flujo de producción de depósitos compuestos, a proporcionar por el departamento de ingeniería de CBI Tunisia.",
+      "diagramCaption1": "Flujo de producción de depósitos compuestos.",
       "processTitle": "Proceso de Ingeniería",
       "processPara1": "Las soluciones de depósitos compuestos aplican los sistemas estructurados de gestión de calidad y la experiencia en optimización de procesos de CBI Tunisia a aplicaciones de contención resistentes a la corrosión, con el mismo enfoque de ingeniería disciplinado que las líneas de producto de armadura de la empresa.",
       "processPara2": "Las especificaciones detalladas de capacidad, dimensiones y aplicación se desarrollan por proyecto y están disponibles bajo petición en el departamento técnico de CBI Tunisia, que ofrece directamente apoyo al diseño a nivel de proyecto y validación de materiales.",
-      "diagramCaption2": "Marcador de posición — diagrama de calibración de calidad para la producción de depósitos compuestos.",
+      "diagramCaption2": "Calibración de calidad para la producción de depósitos compuestos.",
       "philosophyTitle": "Disciplina del Compuesto, Aplicada a la Contención",
       "philosophyPara1": "La filosofía de fabricación de CBI Tunisia —gestión estructurada de la calidad, mantenimiento preventivo y predictivo, aseguramiento de la calidad estandarizado— se extiende más allá de los productos de armadura hacia las soluciones de depósitos compuestos, construidas sobre la misma arquitectura industrial y experiencia en optimización de procesos.",
       "philosophyPara2": "Esa filosofía está respaldada por el mismo marco de certificación que rige toda la plataforma: ISO 9001:2015, membresía de iTAB y EOTA, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB.",
@@ -359,11 +362,11 @@
       "stage3Desc": "Los protocolos de calibración de calidad estandarizados validan la producción de tuberías frente a las mismas referencias mecánicas aplicadas en toda la plataforma.",
       "stage4Title": "Monitorización en Tiempo Real y Mantenimiento",
       "stage4Desc": "La monitorización de la producción en tiempo real y los marcos de mantenimiento preventivo protegen la consistencia de la producción a lo largo de todo el proceso.",
-      "diagramCaption1": "Marcador de posición — diagrama del flujo de producción de tuberías compuestas, a proporcionar por el departamento de ingeniería de CBI Tunisia.",
+      "diagramCaption1": "Flujo de producción de tuberías compuestas.",
       "processTitle": "Proceso de Ingeniería",
       "processPara1": "Las soluciones de tuberías compuestas aplican los sistemas estructurados de gestión de calidad y la experiencia en optimización de procesos de CBI Tunisia a aplicaciones de transporte de fluidos resistentes a la corrosión, con el mismo enfoque de ingeniería disciplinado que las líneas de producto de armadura de la empresa.",
       "processPara2": "Las especificaciones detalladas de diámetro, presión nominal y aplicación se desarrollan por proyecto y están disponibles bajo petición en el departamento técnico de CBI Tunisia, que ofrece directamente apoyo al diseño a nivel de proyecto y validación de materiales.",
-      "diagramCaption2": "Marcador de posición — diagrama de calibración de calidad para la producción de tuberías compuestas.",
+      "diagramCaption2": "Calibración de calidad para la producción de tuberías compuestas.",
       "philosophyTitle": "Disciplina del Compuesto, Aplicada al Transporte de Fluidos",
       "philosophyPara1": "La filosofía de fabricación de CBI Tunisia —gestión estructurada de la calidad, mantenimiento preventivo y predictivo, aseguramiento de la calidad estandarizado— se extiende más allá de los productos de armadura hacia las soluciones de tuberías compuestas, construidas sobre la misma arquitectura industrial y experiencia en optimización de procesos.",
       "philosophyPara2": "Esa filosofía está respaldada por el mismo marco de certificación que rige toda la plataforma: ISO 9001:2015, membresía de iTAB y EOTA, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB.",
@@ -403,11 +406,11 @@
       "stage3Desc": "Los protocolos de calibración de calidad estandarizados validan la producción de perfiles frente a las mismas referencias mecánicas aplicadas en toda la plataforma.",
       "stage4Title": "Monitorización en Tiempo Real y Mantenimiento",
       "stage4Desc": "La monitorización de la producción en tiempo real y los marcos de mantenimiento preventivo protegen la consistencia de la producción a lo largo de todo el proceso.",
-      "diagramCaption1": "Marcador de posición — diagrama del flujo de producción por pultrusión de perfiles compuestos, a proporcionar por el departamento de ingeniería de CBI Tunisia.",
+      "diagramCaption1": "Flujo de producción por pultrusión de perfiles compuestos.",
       "processTitle": "Proceso de Ingeniería",
       "processPara1": "Los perfiles compuestos estructurales se fabrican con el control avanzado del proceso de pultrusión de CBI Tunisia, la misma base tecnológica que sustenta las barras de armadura ProBar, extendida a secciones transversales estructurales mediante sistemas estructurados de gestión de calidad alineados con normas internacionales.",
       "processPara2": "Las especificaciones detalladas de dimensiones, sección transversal y carga se desarrollan por proyecto y están disponibles bajo petición en el departamento técnico de CBI Tunisia, que ofrece directamente apoyo al diseño a nivel de proyecto y validación de materiales.",
-      "diagramCaption2": "Marcador de posición — diagrama de calibración de calidad para la producción de perfiles compuestos.",
+      "diagramCaption2": "Calibración de calidad para la producción de perfiles compuestos.",
       "philosophyTitle": "Disciplina de la Pultrusión, Aplicada a los Perfiles Estructurales",
       "philosophyPara1": "La filosofía de fabricación de CBI Tunisia —gestión estructurada de la calidad, mantenimiento preventivo y predictivo, aseguramiento de la calidad estandarizado— extiende la experiencia esencial de la empresa en pultrusión hacia los perfiles compuestos estructurales, construidos sobre la misma arquitectura industrial y experiencia en optimización de procesos que sus líneas de armadura.",
       "philosophyPara2": "Esa filosofía está respaldada por el mismo marco de certificación que rige toda la plataforma: ISO 9001:2015, membresía de iTAB y EOTA, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB.",
@@ -439,6 +442,8 @@
     "title": "APLICACIONES ESPECÍFICAS",
     "subtitle": "PROBAR está diseñado como una solución de armadura específica y de alta durabilidad — no como un sustituto universal del acero — para los sectores donde más importan la resistencia a la corrosión y el coste de ciclo de vida.",
     "learnMore": "Saber Más",
+    "learnMoreApp": "Ver Soluciones para {{app}}",
+    "pageIntro": "La armadura PRFV PROBAR está diseñada como una solución específica y de alta durabilidad — no como un sustituto universal del acero — para los sectores donde la resistencia a la corrosión y el coste de ciclo de vida importan más. Descubra a continuación cómo se aplica a su tipo de proyecto.",
     "construction": {
       "title": "Construcción Urbana y Civil",
       "desc": "Proyectos residenciales, comerciales, sanitarios, educativos y turísticos, donde la armadura PRFV libre de corrosión favorece estructuras duraderas y de larga vida útil."
@@ -471,7 +476,9 @@
       "useCasesEyebrow": "Casos de Uso Típicos",
       "advantagesEyebrow": "Ventajas Frente al Acero",
       "performanceEyebrow": "Rendimiento a Largo Plazo",
-      "maintenanceEyebrow": "Beneficios de Mantenimiento"
+      "maintenanceEyebrow": "Beneficios de Mantenimiento",
+      "relatedLinesEyebrow": "Diseñado para Esto",
+      "relatedLinesTitle": "Líneas de Producción Relacionadas"
     },
     "construction": {
       "heroSubtitle": "Construcción Urbana y Civil",
@@ -516,7 +523,7 @@
       "challengesPara1": "La modernización a gran escala del transporte, los servicios públicos, la energía y las infraestructuras públicas representa una inversión de capital sostenida y respaldada por el sector público, con horizontes de planificación largos. Una armadura que requiere reparaciones periódicas — como ocurre con el acero convencional — añade coste recurrente y molestias a infraestructuras de las que la población depende de forma continua.",
       "challengesPara2": "El gasto de capital público aporta visibilidad y estabilidad a las carteras de proyectos de infraestructura, pero ese mismo compromiso a largo plazo eleva la exigencia sobre la durabilidad de la armadura: los activos construidos hoy deben rendir de forma fiable durante décadas sin intervenciones tempranas.",
       "useCasesTitle": "Casos de Uso Típicos",
-      "useCasesIntro": "La transformación de infraestructuras de Vision 2030 abarca varias categorías de activos públicos:",
+      "useCasesIntro": "La modernización de infraestructuras a gran escala abarca varias categorías de activos públicos:",
       "useCase1": "Infraestructura de Transporte",
       "useCase2": "Infraestructura de Servicios Públicos",
       "useCase3": "Infraestructura Energética",
@@ -728,6 +735,7 @@
     "title": "COLABORACIÓN TÉCNICA E INGENIERÍA",
     "subtitle": "Más allá de la fabricación, CBI Tunisia acompaña directamente al sector de la construcción, ayudando a ingenieros y contratistas a confiar en el rendimiento, el cumplimiento normativo y los beneficios de ciclo de vida del PRFV.",
     "ctaButton": "Hable de su Proyecto",
+    "applicationsLinkText": "Explorar Aplicaciones",
     "c1title": "Integración en Ingeniería Civil",
     "c1desc": "Apoyo directo para integrar soluciones de armadura PRFV en los diseños de ingeniería civil y estructural.",
     "c2title": "Asesoría Técnica para Consultoras y Contratistas EPC",
@@ -827,6 +835,10 @@
     "innovation4Title": "Gestión Basada en Datos",
     "innovation4Desc": "Gestión operativa basada en datos que respalda una toma de decisiones transparente e informada.",
     "missionCta": "Trabaje con Nosotros",
+    "productionLinesLinkText": "Explorar Líneas de Producción",
+    "applicationsLinkText": "Ver Dónde se Aplica PROBAR",
+    "projectsLinkText": "Ver Cómo Apoyamos a los Equipos de Proyecto",
+    "certificationsLinkText": "Ver Nuestras Certificaciones",
     "value1Title": "Innovación",
     "value1Desc": "Una instalación industrial orientada a la innovación, basada en la tecnología PROBAR consolidada y en más de 10 años de conocimiento en fabricación de compuestos.",
     "value2Title": "Calidad",

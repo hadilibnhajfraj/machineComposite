@@ -10,6 +10,10 @@
   justify-content: center;
   overflow: hidden;
   text-align: center;
+  /* On-brand fallback so the banner never renders blank when no photo is supplied */
+  background:
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 64px),
+    linear-gradient(135deg, #0a1626 0%, #111111 55%, #0d1b30 100%);
 }
 
 /* ── Background image ── */

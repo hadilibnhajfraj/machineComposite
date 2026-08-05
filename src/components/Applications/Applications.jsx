@@ -31,7 +31,7 @@ export default function Applications() {
                 <h3 className="ic-apps__title">{t(`applications.${key}.title`)}</h3>
                 <p className="ic-apps__desc">{t(`applications.${key}.desc`)}</p>
                 <Link to={`/applications/${slug}`} className="ic-apps__link">
-                  {t('applications.learnMore')} <FiArrowRight />
+                  {t('applications.learnMoreApp', { app: t(`applications.${key}.title`) })} <FiArrowRight />
                 </Link>
               </div>
               <div className="ic-apps__card-hover-bar" />

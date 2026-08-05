@@ -263,3 +263,12 @@ input, textarea, select { font-family: var(--font-body); max-width: 100%; }
   .btn-ghost-white,
   .btn-ghost-dark { padding: 12px 22px; font-size: 0.8rem; letter-spacing: 1.5px; }
 }
+
+/* Page-level intro paragraph, used right below a PageHero on index-style pages */
+.ic-page-intro {
+  max-width: 760px;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--mid-gray);
+  font-family: var(--font-condensed);
+}

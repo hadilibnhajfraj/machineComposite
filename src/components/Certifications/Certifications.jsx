@@ -7,7 +7,7 @@ import './Certifications.css'
 
 const CERT_KEYS = ['cert1', 'cert2', 'cert3', 'cert4', 'cert5', 'cert6']
 
-export default function Certifications() {
+export default function Certifications({ background }) {
   const { t } = useTranslation()
 
   const CERTS = CERT_KEYS.map((key) => ({
@@ -19,7 +19,7 @@ export default function Certifications() {
   }))
 
   return (
-    <section className="ic-cert section-pad">
+    <section className="ic-cert section-pad" id="certifications" style={background ? { background } : undefined}>
       <div className="ic-container">
         <SectionTitle
           eyebrow={t('certifications.eyebrow')}

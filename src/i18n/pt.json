@@ -17,21 +17,21 @@
   "seo": {
     "titleSuffix": " — PROBAR da CBI Tunisia",
     "home": {
-      "title": "PROBAR da CBI Tunisia | Armaduras GFRP e Fabrico de Compósitos",
-      "description": "A CBI Tunisia fabrica varões e redes GFRP PROBAR — uma alternativa ao aço resistente à corrosão para projetos costeiros, industriais e de infraestrutura. Certificado ISO 9001 e EOTA/ETA."
+      "title": "PROBAR Armaduras GFRP | CBI Tunisia",
+      "description": "A CBI Tunisia fabrica varões e redes GFRP PROBAR — uma alternativa ao aço resistente à corrosão para projetos costeiros, industriais e de infraestrutura."
     },
     "about": {
       "title": "Sobre a CBI Tunisia | Mais de 10 Anos de Experiência em GFRP",
-      "description": "Composite Building Innovation First: mais de 10 anos de experiência direta no fabrico de GFRP, consultoria técnica e produção certificada ISO 9001, EOTA/ETA, EPD e CNERIB."
+      "description": "Composite Building Innovation First: mais de 10 anos de experiência direta no fabrico de GFRP, produção certificada ISO 9001, EOTA/ETA, EPD e CNERIB."
     },
     "productionLines": {
       "title": "Linhas de Produção GFRP | ProBar e ProMesh — CBI Tunisia",
-      "description": "Tecnologia de pultrusão otimizada, controlo preciso de resina e calibração de qualidade padronizada nas linhas ProBar (varões GFRP) e ProMesh (rede GFRP) da CBI Tunisia."
+      "description": "Tecnologia de pultrusão otimizada, controlo preciso de resina e calibração de qualidade por trás das linhas ProBar e ProMesh GFRP da CBI Tunisia."
     },
     "productionLineDetail": {
       "rebar": {
         "title": "Varões de Armadura GFRP ProBar | CBI Tunisia",
-        "description": "Varões de armadura GFRP ProBar: resistência à tração ≥1000 MPa, resistência total à corrosão, vida útil de 75 a 100 anos. Fabricados pela CBI Tunisia, certificados ISO 9001 e EOTA/ETA."
+        "description": "Varões de armadura GFRP ProBar: resistência à tração ≥1000 MPa, resistência total à corrosão, vida útil de 75 a 100 anos. Certificados ISO 9001 e EOTA/ETA."
       },
       "mesh": {
         "title": "Sistemas de Rede GFRP ProMesh | CBI Tunisia",
@@ -55,16 +55,16 @@
       }
     },
     "applications": {
-      "title": "Aplicações GFRP | Projetos Costeiros, Industriais e de Infraestrutura",
+      "title": "Aplicações e Casos de Uso GFRP | CBI Tunisia",
       "description": "A armadura GFRP PROBAR é concebida para infraestruturas costeiras, instalações industriais, plataformas logísticas e projetos sensíveis à manutenção."
     },
     "applicationDetail": {
       "construction": {
-        "title": "Armadura GFRP para Construção Urbana e Civil | CBI Tunisia",
+        "title": "GFRP para Construção Urbana e Civil | CBI Tunisia",
         "description": "Armadura GFRP PROBAR sem corrosão para construção residencial, comercial, de saúde, educação e turismo. Certificada ISO 9001 e EOTA/ETA."
       },
       "infrastructure": {
-        "title": "Armadura GFRP para Infraestruturas Públicas e Transportes | CBI Tunisia",
+        "title": "GFRP para Infraestruturas Públicas e Transportes | CBI Tunisia",
         "description": "Armadura GFRP PROBAR para a modernização dos transportes, serviços públicos, energia e infraestruturas públicas — resistente à corrosão, com vida útil de 75 a 100 anos."
       },
       "roads": {
@@ -72,7 +72,7 @@
         "description": "Armadura GFRP PROBAR para fábricas, armazéns e instalações pesadas em cidades industriais e polos logísticos — mais leve, sem corrosão e com menor custo de ciclo de vida."
       },
       "marine": {
-        "title": "Armadura GFRP para Infraestruturas Costeiras e Marítimas | CBI Tunisia",
+        "title": "GFRP para Infraestruturas Costeiras e Marítimas | CBI Tunisia",
         "description": "Armadura GFRP PROBAR totalmente resistente à corrosão, concebida para infraestruturas costeiras expostas à água salgada e a ambientes marinhos."
       },
       "industrial": {
@@ -80,7 +80,7 @@
         "description": "Armadura GFRP PROBAR quimicamente resistente e não condutora, concebida para ambientes industriais exigentes."
       },
       "water": {
-        "title": "Armadura GFRP para Projetos Sensíveis à Manutenção | CBI Tunisia",
+        "title": "GFRP para Projetos Sensíveis à Manutenção | CBI Tunisia",
         "description": "A armadura GFRP PROBAR minimiza a manutenção em ambientes agressivos — concebida para projetos sensíveis à manutenção e de difícil acesso."
       }
     },
@@ -129,12 +129,37 @@
     "title": "LINHAS DE PRODUÇÃO",
     "subtitle": "As linhas de produção GFRP PROBAR são concebidas com tecnologia de pultrusão otimizada, controlo preciso de resina e calibração de qualidade padronizada.",
     "discoverMore": "Saber Mais",
-    "rebar": { "title": "ProBar", "highlight": "Varões de Armadura GFRP", "desc": "Varões de armadura GFRP com resistência à tração ≥1000 MPa, com cerca de 75% do peso do aço, resistência total à corrosão e uma vida útil de projeto de 75 a 100 anos." },
-    "mesh": { "title": "ProMesh", "highlight": "Sistemas de Rede GFRP", "desc": "Rede de armadura compósita sem corrosão, fabricada na mesma plataforma de controlo preciso de resina e calibração de qualidade que a ProBar, para um desempenho mecânico constante." },
-    "bent": { "title": "Elementos", "highlight": "Compósitos Moldados", "desc": "Capacidade de engenharia para elementos de armadura compósita moldados e à medida, desenvolvida com base na experiência de pultrusão da CBI Tunisia. Especificações disponíveis mediante pedido." },
-    "tank": { "title": "Soluções", "highlight": "para Depósitos Compósitos", "desc": "Know-how de fabrico de compósitos aplicado a soluções de depósitos resistentes à corrosão. Especificações disponíveis mediante pedido." },
-    "pipe": { "title": "Soluções", "highlight": "para Tubagens Compósitas", "desc": "Know-how de fabrico de compósitos aplicado a soluções de tubagens resistentes à corrosão. Especificações disponíveis mediante pedido." },
-    "profiles": { "title": "Soluções", "highlight": "para Perfis Compósitos", "desc": "Capacidade de fabrico por pultrusão alargada a perfis compósitos estruturais. Especificações disponíveis mediante pedido." }
+    "pageIntro": "Cada linha de produção da CBI Tunisia assenta na mesma base — tecnologia de pultrusão otimizada, controlo preciso de resina e calibração de qualidade padronizada — concebida para um desempenho mecânico constante e precisão dimensional, linha após linha.",
+    "rebar": {
+      "title": "ProBar",
+      "highlight": "Varões de Armadura GFRP",
+      "desc": "Varões de armadura GFRP com resistência à tração ≥1000 MPa, com cerca de 75% do peso do aço, resistência total à corrosão e uma vida útil de projeto de 75 a 100 anos."
+    },
+    "mesh": {
+      "title": "ProMesh",
+      "highlight": "Sistemas de Rede GFRP",
+      "desc": "Rede de armadura compósita sem corrosão, fabricada na mesma plataforma de controlo preciso de resina e calibração de qualidade que a ProBar, para um desempenho mecânico constante."
+    },
+    "bent": {
+      "title": "Elementos",
+      "highlight": "Compósitos Moldados",
+      "desc": "Capacidade de engenharia para elementos de armadura compósita moldados e à medida, desenvolvida com base na experiência de pultrusão da CBI Tunisia. Especificações disponíveis mediante pedido."
+    },
+    "tank": {
+      "title": "Soluções",
+      "highlight": "para Depósitos Compósitos",
+      "desc": "Know-how de fabrico de compósitos aplicado a soluções de depósitos resistentes à corrosão. Especificações disponíveis mediante pedido."
+    },
+    "pipe": {
+      "title": "Soluções",
+      "highlight": "para Tubagens Compósitas",
+      "desc": "Know-how de fabrico de compósitos aplicado a soluções de tubagens resistentes à corrosão. Especificações disponíveis mediante pedido."
+    },
+    "profiles": {
+      "title": "Soluções",
+      "highlight": "para Perfis Compósitos",
+      "desc": "Capacidade de fabrico por pultrusão alargada a perfis compósitos estruturais. Especificações disponíveis mediante pedido."
+    }
   },
   "lineDetail": {
     "common": {
@@ -143,7 +168,9 @@
       "philosophyEyebrow": "Filosofia de Fabrico",
       "benefitsEyebrow": "Benefícios para o Cliente",
       "advantagesEyebrow": "Vantagens Operacionais",
-      "diagramPlaceholderLabel": "Espaço Reservado para Diagrama"
+      "diagramPlaceholderLabel": "Diagrama Técnico",
+      "relatedApplicationsEyebrow": "Onde se Aplica",
+      "relatedApplicationsTitle": "Aplicações Relacionadas"
     },
     "rebar": {
       "heroSubtitle": "Linha de Produção ProBar",
@@ -159,11 +186,11 @@
       "stage3Desc": "Protocolos de calibração padronizados validam cada lote de produção face a referências mecânicas e dimensionais constantes.",
       "stage4Title": "Monitorização e Manutenção em Tempo Real",
       "stage4Desc": "A monitorização da produção em tempo real e os sistemas de manutenção preventiva preservam a disciplina do processo e a consistência do produto ao longo de todo o lote de produção.",
-      "diagramCaption1": "Espaço reservado — diagrama do fluxo de produção por pultrusão da ProBar, a fornecer pela equipa de engenharia da CBI Tunisia.",
+      "diagramCaption1": "Fluxo de produção por pultrusão da ProBar.",
       "processTitle": "Processo de Engenharia",
       "processPara1": "A produção da ProBar assenta num controlo avançado do processo de pultrusão, concebido e otimizado especificamente para o desempenho dos varões de armadura GFRP. Sistemas estruturados de gestão da qualidade, alinhados com normas internacionais, regem cada etapa do processo.",
       "processPara2": "Esta não é uma operação por tentativa e erro. A ProBar é fabricada com protocolos de produção validados, desenvolvidos ao longo de mais de 10 anos de experiência direta e prática no fabrico de GFRP — o resultado é uma estabilização mais rápida, uma qualidade de produto constante e um desempenho controlado desde o primeiro varão produzido.",
-      "diagramCaption2": "Espaço reservado — diagrama de calibração de qualidade e controlo de processo da produção ProBar.",
+      "diagramCaption2": "Calibração de qualidade e controlo de processo para a produção da ProBar.",
       "philosophyTitle": "Uma Filosofia de Fabrico Assente na Disciplina",
       "philosophyPara1": "A abordagem da CBI Tunisia ao fabrico da ProBar assenta na gestão estruturada da qualidade, na manutenção preventiva e preditiva, e em sistemas padronizados de garantia da qualidade — concebidos para que a resiliência industrial, a escalabilidade e a consistência da produção estejam presentes desde o primeiro dia, e não sejam acrescentadas mais tarde.",
       "philosophyPara2": "Essa disciplina é sustentada por certificação reconhecida internacionalmente: gestão da qualidade ISO 9001:2015, associação ao iTAB e à EOTA, Avaliação Técnica Europeia ETA 24/0295, e registo no International EPD System e no CNERIB.",
@@ -203,11 +230,11 @@
       "stage3Desc": "Cada lote de produção é validado com base em protocolos padronizados de calibração de qualidade, partilhados com a ProBar, para garantir um desempenho mecânico constante.",
       "stage4Title": "Monitorização e Manutenção em Tempo Real",
       "stage4Desc": "A monitorização da produção em tempo real e os sistemas de manutenção preventiva preservam a disciplina do processo ao longo de todo o lote.",
-      "diagramCaption1": "Espaço reservado — diagrama do fluxo de produção da ProMesh, a fornecer pela equipa de engenharia da CBI Tunisia.",
+      "diagramCaption1": "Fluxo de produção da ProMesh.",
       "processTitle": "Processo de Engenharia",
       "processPara1": "A ProMesh partilha a sua plataforma de produção com a ProBar — o mesmo controlo avançado do processo de pultrusão e os mesmos sistemas estruturados de gestão da qualidade, adaptados para produzir uma rede compósita sem corrosão em vez de um perfil de varão.",
       "processPara2": "Por ser fabricada com protocolos de produção validados, desenvolvidos ao longo de mais de 10 anos de experiência no fabrico de GFRP, a produção da ProMesh atinge uma qualidade de produto constante e um desempenho controlado sem uma longa fase de tentativa e erro.",
-      "diagramCaption2": "Espaço reservado — diagrama de calibração de qualidade e controlo de processo da produção ProMesh.",
+      "diagramCaption2": "Calibração de qualidade e controlo de processo para a produção da ProMesh.",
       "philosophyTitle": "Uma Plataforma, Normas Constantes",
       "philosophyPara1": "A ProMesh não é fabricada segundo uma norma diferente da ProBar — assenta nos mesmos sistemas estruturados de gestão da qualidade, manutenção preventiva e garantia de qualidade padronizada, para que a armadura em rede cumpra a mesma disciplina de produção dos varões de armadura da CBI Tunisia.",
       "philosophyPara2": "Essa disciplina partilhada é sustentada pelo mesmo quadro de certificação: ISO 9001:2015, associação ao iTAB e à EOTA, Avaliação Técnica Europeia ETA 24/0295, e registo no International EPD System e no CNERIB.",
@@ -247,11 +274,11 @@
       "stage3Desc": "Protocolos padronizados de calibração de qualidade validam os elementos moldados face às mesmas referências mecânicas aplicadas em toda a plataforma.",
       "stage4Title": "Monitorização e Manutenção em Tempo Real",
       "stage4Desc": "A monitorização da produção em tempo real e os sistemas de manutenção preventiva preservam a consistência ao longo da produção.",
-      "diagramCaption1": "Espaço reservado — diagrama do fluxo de produção dos elementos compósitos moldados, a fornecer pela equipa de engenharia da CBI Tunisia.",
+      "diagramCaption1": "Fluxo de produção dos elementos compósitos moldados.",
       "processTitle": "Processo de Engenharia",
       "processPara1": "Os elementos de armadura compósita moldados e à medida baseiam-se no controlo avançado do processo de pultrusão e nos sistemas estruturados de gestão da qualidade da CBI Tunisia — a mesma disciplina de engenharia que sustenta a ProBar e a ProMesh, aplicada a geometrias não padronizadas.",
       "processPara2": "As especificações detalhadas de dimensão e carga dos elementos moldados são desenvolvidas por projeto e disponibilizadas mediante pedido junto do departamento técnico da CBI Tunisia, que presta diretamente apoio à conceção ao nível do projeto e validação de materiais.",
-      "diagramCaption2": "Espaço reservado — diagrama de calibração de qualidade dos elementos compósitos moldados.",
+      "diagramCaption2": "Calibração de qualidade para elementos compósitos moldados.",
       "philosophyTitle": "Uma Plataforma, Alargada a Geometrias à Medida",
       "philosophyPara1": "A filosofia de fabrico da CBI Tunisia — gestão estruturada da qualidade, manutenção preventiva, garantia de qualidade padronizada — não se limita aos varões de armadura retos. A mesma plataforma é concebida para ser escalável e extensível a elementos compósitos moldados e à medida.",
       "philosophyPara2": "Essa extensão é sustentada pelo mesmo quadro de certificação que rege toda a plataforma: ISO 9001:2015, associação ao iTAB e à EOTA, Avaliação Técnica Europeia ETA 24/0295, EPD e CNERIB.",
@@ -291,11 +318,11 @@
       "stage3Desc": "Protocolos padronizados de calibração de qualidade validam a produção de depósitos face às mesmas referências mecânicas aplicadas em toda a plataforma.",
       "stage4Title": "Monitorização e Manutenção em Tempo Real",
       "stage4Desc": "A monitorização da produção em tempo real e os sistemas de manutenção preventiva preservam a consistência da produção ao longo de todo o processo.",
-      "diagramCaption1": "Espaço reservado — diagrama do fluxo de produção dos depósitos compósitos, a fornecer pela equipa de engenharia da CBI Tunisia.",
+      "diagramCaption1": "Fluxo de produção dos depósitos compósitos.",
       "processTitle": "Processo de Engenharia",
       "processPara1": "As soluções para depósitos compósitos aplicam os sistemas estruturados de gestão da qualidade e a experiência em otimização de processos da CBI Tunisia a aplicações de contenção resistentes à corrosão, seguindo a mesma abordagem de engenharia disciplinada das linhas de produtos de armadura da empresa.",
       "processPara2": "As especificações detalhadas de capacidade, dimensão e aplicação são desenvolvidas por projeto e disponibilizadas mediante pedido junto do departamento técnico da CBI Tunisia, que presta diretamente apoio à conceção ao nível do projeto e validação de materiais.",
-      "diagramCaption2": "Espaço reservado — diagrama de calibração de qualidade da produção de depósitos compósitos.",
+      "diagramCaption2": "Calibração de qualidade para a produção de depósitos compósitos.",
       "philosophyTitle": "Disciplina Compósita, Aplicada à Contenção",
       "philosophyPara1": "A filosofia de fabrico da CBI Tunisia — gestão estruturada da qualidade, manutenção preventiva e preditiva, garantia de qualidade padronizada — estende-se para além dos produtos de armadura às soluções para depósitos compósitos, construídas com a mesma arquitetura industrial e experiência em otimização de processos.",
       "philosophyPara2": "Essa filosofia é sustentada pelo mesmo quadro de certificação que rege toda a plataforma: ISO 9001:2015, associação ao iTAB e à EOTA, Avaliação Técnica Europeia ETA 24/0295, EPD e CNERIB.",
@@ -335,11 +362,11 @@
       "stage3Desc": "Protocolos padronizados de calibração de qualidade validam a produção de tubagens face às mesmas referências mecânicas aplicadas em toda a plataforma.",
       "stage4Title": "Monitorização e Manutenção em Tempo Real",
       "stage4Desc": "A monitorização da produção em tempo real e os sistemas de manutenção preventiva preservam a consistência da produção ao longo de todo o processo.",
-      "diagramCaption1": "Espaço reservado — diagrama do fluxo de produção das tubagens compósitas, a fornecer pela equipa de engenharia da CBI Tunisia.",
+      "diagramCaption1": "Fluxo de produção das tubagens compósitas.",
       "processTitle": "Processo de Engenharia",
       "processPara1": "As soluções para tubagens compósitas aplicam os sistemas estruturados de gestão da qualidade e a experiência em otimização de processos da CBI Tunisia a aplicações de transferência de fluidos resistentes à corrosão, seguindo a mesma abordagem de engenharia disciplinada das linhas de produtos de armadura da empresa.",
       "processPara2": "As especificações detalhadas de diâmetro, classe de pressão e aplicação são desenvolvidas por projeto e disponibilizadas mediante pedido junto do departamento técnico da CBI Tunisia, que presta diretamente apoio à conceção ao nível do projeto e validação de materiais.",
-      "diagramCaption2": "Espaço reservado — diagrama de calibração de qualidade da produção de tubagens compósitas.",
+      "diagramCaption2": "Calibração de qualidade para a produção de tubagens compósitas.",
       "philosophyTitle": "Disciplina Compósita, Aplicada à Transferência de Fluidos",
       "philosophyPara1": "A filosofia de fabrico da CBI Tunisia — gestão estruturada da qualidade, manutenção preventiva e preditiva, garantia de qualidade padronizada — estende-se para além dos produtos de armadura às soluções para tubagens compósitas, construídas com a mesma arquitetura industrial e experiência em otimização de processos.",
       "philosophyPara2": "Essa filosofia é sustentada pelo mesmo quadro de certificação que rege toda a plataforma: ISO 9001:2015, associação ao iTAB e à EOTA, Avaliação Técnica Europeia ETA 24/0295, EPD e CNERIB.",
@@ -379,11 +406,11 @@
       "stage3Desc": "Protocolos padronizados de calibração de qualidade validam a produção de perfis face às mesmas referências mecânicas aplicadas em toda a plataforma.",
       "stage4Title": "Monitorização e Manutenção em Tempo Real",
       "stage4Desc": "A monitorização da produção em tempo real e os sistemas de manutenção preventiva preservam a consistência da produção ao longo de todo o processo.",
-      "diagramCaption1": "Espaço reservado — diagrama do fluxo de produção por pultrusão dos perfis compósitos, a fornecer pela equipa de engenharia da CBI Tunisia.",
+      "diagramCaption1": "Fluxo de produção por pultrusão dos perfis compósitos.",
       "processTitle": "Processo de Engenharia",
       "processPara1": "Os perfis compósitos estruturais são fabricados com o controlo avançado do processo de pultrusão da CBI Tunisia — a mesma base tecnológica dos varões de armadura ProBar, alargada a secções transversais estruturais através de sistemas estruturados de gestão da qualidade alinhados com normas internacionais.",
       "processPara2": "As especificações detalhadas de dimensão, secção transversal e carga são desenvolvidas por projeto e disponibilizadas mediante pedido junto do departamento técnico da CBI Tunisia, que presta diretamente apoio à conceção ao nível do projeto e validação de materiais.",
-      "diagramCaption2": "Espaço reservado — diagrama de calibração de qualidade da produção de perfis compósitos.",
+      "diagramCaption2": "Calibração de qualidade para a produção de perfis compósitos.",
       "philosophyTitle": "Disciplina de Pultrusão, Aplicada a Perfis Estruturais",
       "philosophyPara1": "A filosofia de fabrico da CBI Tunisia — gestão estruturada da qualidade, manutenção preventiva e preditiva, garantia de qualidade padronizada — estende a experiência central da empresa em pultrusão aos perfis compósitos estruturais, construídos com a mesma arquitetura industrial e experiência em otimização de processos das suas linhas de armadura.",
       "philosophyPara2": "Essa filosofia é sustentada pelo mesmo quadro de certificação que rege toda a plataforma: ISO 9001:2015, associação ao iTAB e à EOTA, Avaliação Técnica Europeia ETA 24/0295, EPD e CNERIB.",
@@ -415,12 +442,32 @@
     "title": "APLICAÇÕES ESPECÍFICAS",
     "subtitle": "A PROBAR foi concebida como uma solução de armadura específica e de alta durabilidade — não como substituto universal do aço — para os setores onde a resistência à corrosão e o custo de ciclo de vida mais importam.",
     "learnMore": "Saber Mais",
-    "construction": { "title": "Construção Urbana e Civil", "desc": "Projetos residenciais, comerciais, de saúde, educação e turismo, onde a armadura GFRP sem corrosão favorece estruturas duradouras e de longa vida útil." },
-    "infrastructure": { "title": "Infraestruturas Públicas e Transportes", "desc": "Modernização dos transportes, serviços públicos, energia e infraestruturas públicas — setores que geram uma procura forte e constante de armadura de alto desempenho." },
-    "roads": { "title": "Plataformas Logísticas", "desc": "Armadura de alta durabilidade para plataformas logísticas e infraestruturas de distribuição, ao serviço de novas cidades industriais, zonas económicas e polos logísticos." },
-    "marine": { "title": "Infraestruturas Costeiras e Marítimas", "desc": "Armadura GFRP totalmente resistente à corrosão, concebida para infraestruturas costeiras expostas à água salgada e a ambientes marinhos agressivos." },
-    "industrial": { "title": "Instalações Industriais", "desc": "Uma solução de armadura específica para instalações industriais onde a resistência química, a não condutividade e a baixa manutenção ao longo do ciclo de vida são fundamentais." },
-    "water": { "title": "Ambientes Sensíveis à Manutenção", "desc": "Armadura GFRP não condutora e quimicamente resistente para projetos sensíveis à manutenção, onde a reparação periódica do aço é dispendiosa ou impraticável." }
+    "learnMoreApp": "Ver Soluções para {{app}}",
+    "pageIntro": "A armadura GFRP PROBAR foi concebida como uma solução específica e de alta durabilidade — não como um substituto universal do aço — para os setores onde a resistência à corrosão e o custo de ciclo de vida mais importam. Descubra abaixo como se aplica ao seu tipo de projeto.",
+    "construction": {
+      "title": "Construção Urbana e Civil",
+      "desc": "Projetos residenciais, comerciais, de saúde, educação e turismo, onde a armadura GFRP sem corrosão favorece estruturas duradouras e de longa vida útil."
+    },
+    "infrastructure": {
+      "title": "Infraestruturas Públicas e Transportes",
+      "desc": "Modernização dos transportes, serviços públicos, energia e infraestruturas públicas — setores que geram uma procura forte e constante de armadura de alto desempenho."
+    },
+    "roads": {
+      "title": "Plataformas Logísticas",
+      "desc": "Armadura de alta durabilidade para plataformas logísticas e infraestruturas de distribuição, ao serviço de novas cidades industriais, zonas económicas e polos logísticos."
+    },
+    "marine": {
+      "title": "Infraestruturas Costeiras e Marítimas",
+      "desc": "Armadura GFRP totalmente resistente à corrosão, concebida para infraestruturas costeiras expostas à água salgada e a ambientes marinhos agressivos."
+    },
+    "industrial": {
+      "title": "Instalações Industriais",
+      "desc": "Uma solução de armadura específica para instalações industriais onde a resistência química, a não condutividade e a baixa manutenção ao longo do ciclo de vida são fundamentais."
+    },
+    "water": {
+      "title": "Ambientes Sensíveis à Manutenção",
+      "desc": "Armadura GFRP não condutora e quimicamente resistente para projetos sensíveis à manutenção, onde a reparação periódica do aço é dispendiosa ou impraticável."
+    }
   },
   "applicationDetail": {
     "common": {
@@ -429,7 +476,9 @@
       "useCasesEyebrow": "Casos de Utilização Típicos",
       "advantagesEyebrow": "Vantagens em Relação ao Aço",
       "performanceEyebrow": "Desempenho a Longo Prazo",
-      "maintenanceEyebrow": "Benefícios de Manutenção"
+      "maintenanceEyebrow": "Benefícios de Manutenção",
+      "relatedLinesEyebrow": "Concebido para Isto",
+      "relatedLinesTitle": "Linhas de Produção Relacionadas"
     },
     "construction": {
       "heroSubtitle": "Construção Urbana e Civil",
@@ -474,7 +523,7 @@
       "challengesPara1": "A modernização em grande escala dos transportes, serviços públicos, energia e infraestruturas públicas representa um investimento de capital sustentado e apoiado pelo Estado, com horizontes de planeamento longos. Uma armadura que exige reparação periódica — como acontece com o aço convencional — acrescenta custos recorrentes e perturbação a infraestruturas de que a população depende continuamente.",
       "challengesPara2": "O investimento público de capital confere visibilidade e estabilidade aos planos de infraestrutura, mas esse mesmo compromisso de longo prazo aumenta a exigência quanto à durabilidade da armadura: os ativos construídos hoje têm de apresentar um desempenho fiável durante décadas, sem intervenção precoce.",
       "useCasesTitle": "Casos de Utilização Típicos",
-      "useCasesIntro": "A transformação de infraestruturas da Visão 2030 abrange várias categorias de ativos públicos:",
+      "useCasesIntro": "A modernização de infraestruturas em grande escala abrange várias categorias de ativos públicos:",
       "useCase1": "Infraestruturas de Transporte",
       "useCase2": "Infraestruturas de Serviços Públicos",
       "useCase3": "Infraestruturas de Energia",
@@ -638,18 +687,55 @@
     "title": "CERTIFICAÇÕES E NORMAS",
     "subtitle": "O fabrico GFRP PROBAR é validado por organismos internacionais reconhecidos de avaliação técnica e qualidade.",
     "certifiedLabel": "Certificado",
-    "cert1": { "code": "ISO", "num": "9001", "year": "2015", "label": "Sistema de Gestão da Qualidade", "org": "International Organization for Standardization" },
-    "cert2": { "code": "iTAB", "num": "", "year": "", "label": "Organismo Italiano de Avaliação Técnica", "org": "Membro da EOTA" },
-    "cert3": { "code": "EOTA", "num": "", "year": "", "label": "Organismo Europeu de Avaliação Técnica", "org": "European Organisation for Technical Assessment" },
-    "cert4": { "code": "ETA", "num": "24/0295", "year": "", "label": "Avaliação Técnica Europeia", "org": "Emitida em 27/06/2024" },
-    "cert5": { "code": "EPD", "num": "", "year": "", "label": "Declaração Ambiental de Produto", "org": "International EPD System" },
-    "cert6": { "code": "CNERIB", "num": "", "year": "", "label": "Conformidade em Investigação da Construção", "org": "Centre National d'Études et de Recherches Intégrées du Bâtiment" }
+    "cert1": {
+      "code": "ISO",
+      "num": "9001",
+      "year": "2015",
+      "label": "Sistema de Gestão da Qualidade",
+      "org": "International Organization for Standardization"
+    },
+    "cert2": {
+      "code": "iTAB",
+      "num": "",
+      "year": "",
+      "label": "Organismo Italiano de Avaliação Técnica",
+      "org": "Membro da EOTA"
+    },
+    "cert3": {
+      "code": "EOTA",
+      "num": "",
+      "year": "",
+      "label": "Organismo Europeu de Avaliação Técnica",
+      "org": "European Organisation for Technical Assessment"
+    },
+    "cert4": {
+      "code": "ETA",
+      "num": "24/0295",
+      "year": "",
+      "label": "Avaliação Técnica Europeia",
+      "org": "Emitida em 27/06/2024"
+    },
+    "cert5": {
+      "code": "EPD",
+      "num": "",
+      "year": "",
+      "label": "Declaração Ambiental de Produto",
+      "org": "International EPD System"
+    },
+    "cert6": {
+      "code": "CNERIB",
+      "num": "",
+      "year": "",
+      "label": "Conformidade em Investigação da Construção",
+      "org": "Centre National d'Études et de Recherches Intégrées du Bâtiment"
+    }
   },
   "projects": {
     "eyebrow": "Junto das Equipas de Projeto",
     "title": "PARCERIA TÉCNICA E DE ENGENHARIA",
     "subtitle": "Para além do fabrico, a CBI Tunisia apoia diretamente o setor da construção — ajudando engenheiros e empreiteiros a confiar no desempenho, na conformidade e nos benefícios de ciclo de vida do GFRP.",
     "ctaButton": "Fale-nos do Seu Projeto",
+    "applicationsLinkText": "Explorar Aplicações",
     "c1title": "Integração em Engenharia Civil",
     "c1desc": "Apoio direto na integração de soluções de armadura GFRP em projetos de engenharia civil e estrutural.",
     "c2title": "Consultoria Técnica para Consultores e Empreiteiros EPC",
@@ -749,6 +835,10 @@
     "innovation4Title": "Gestão Orientada por Dados",
     "innovation4Desc": "Gestão operacional orientada por dados que sustenta uma tomada de decisão transparente e informada.",
     "missionCta": "Trabalhe Connosco",
+    "productionLinesLinkText": "Explorar Linhas de Produção",
+    "applicationsLinkText": "Ver Onde a PROBAR é Aplicada",
+    "projectsLinkText": "Ver Como Apoiamos Equipas de Projeto",
+    "certificationsLinkText": "Ver as Nossas Certificações",
     "value1Title": "Inovação",
     "value1Desc": "Uma instalação industrial orientada para a inovação, assente na tecnologia PROBAR consolidada e em mais de 10 anos de know-how no fabrico de compósitos.",
     "value2Title": "Qualidade",

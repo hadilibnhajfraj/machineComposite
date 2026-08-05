@@ -10,6 +10,8 @@ import PageHero from '../../components/Shared/PageHero'
 import SectionTitle from '../../components/Shared/SectionTitle'
 import Contact from '../../components/Contact/Contact'
 import { APP_META, getAppBySlug } from '../../components/Applications/appMeta'
+import { LINE_META } from '../../components/ProductionLines/lineMeta'
+import { APP_TO_LINES } from '../../data/crossLinks'
 import { fadeUp, fadeLeft, stagger, scaleIn, viewportOnce } from '../../components/Shared/AnimationVariants'
 import './ApplicationDetailPage.css'
 
@@ -35,6 +37,7 @@ export default function ApplicationDetailPage() {
   }))
 
   const OTHER_APPS = APP_META.filter((a) => a.key !== key)
+  const RELATED_LINES = LINE_META.filter((l) => (APP_TO_LINES[key] || []).includes(l.key))
 
   const BREADCRUMBS = [
     { label: t('nav.home'), path: '/' },
@@ -46,7 +49,6 @@ export default function ApplicationDetailPage() {
     <div className="ic-apd">
       <Seo page={`applicationDetail.${key}`} />
       <PageHero
-        image="/images/heroes/applications.jpg"
         subtitle={d('heroSubtitle')}
         title={d('heroTitle')}
         breadcrumbs={BREADCRUMBS}
@@ -134,6 +136,31 @@ export default function ApplicationDetailPage() {
           <h2 className="ic-apd-heading ic-apd-heading--light">{d('maintenanceTitle')}</h2>
           <p>{d('maintenancePara1')}</p>
           <p>{d('maintenancePara2')}</p>
+        </div>
+      </section>
+
+      {/* ── Related Production Lines ── */}
+      <section className="ic-apd-related section-pad">
+        <div className="ic-container">
+          <SectionTitle
+            eyebrow={c('relatedLinesEyebrow')}
+            title={c('relatedLinesTitle')}
+            align="center"
+          />
+          <motion.div
+            className="ic-apd-other__grid"
+            initial="hidden" whileInView="visible"
+            viewport={viewportOnce} variants={stagger}
+          >
+            {RELATED_LINES.map((l) => (
+              <motion.div key={l.slug} variants={scaleIn}>
+                <Link to={`/production-lines/${l.slug}`} className="ic-apd-other__link">
+                  {t(`productionLines.${l.key}.title`)} — {t(`productionLines.${l.key}.highlight`)}
+                  <FiArrowRight />
+                </Link>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
 

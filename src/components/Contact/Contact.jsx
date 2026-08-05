@@ -42,7 +42,24 @@ export default function Contact() {
     const errs = validate(form)
     if (Object.keys(errs).length) { setErrors(errs); return }
     setLoading(true)
-    setTimeout(() => { setLoading(false); setSent(true) }, 1800)
+
+    // No form backend is connected yet — open a pre-filled email as an interim,
+    // honest fallback so submissions aren't silently discarded.
+    const subject = encodeURIComponent(
+      `Website inquiry from ${form.name}${form.company ? ' — ' + form.company : ''}`
+    )
+    const bodyLines = [
+      `Name: ${form.name}`,
+      `Email: ${form.email}`,
+      form.phone ? `Phone: ${form.phone}` : null,
+      form.company ? `Company: ${form.company}` : null,
+      '',
+      form.message,
+    ].filter(Boolean)
+    const body = encodeURIComponent(bodyLines.join('\n'))
+    window.location.href = `mailto:contact@cbi-tunisia.com?subject=${subject}&body=${body}`
+
+    setTimeout(() => { setLoading(false); setSent(true) }, 600)
   }
 
   return (
@@ -72,11 +89,16 @@ export default function Contact() {
             })}
           </ul>
 
-          <div className="ic-contact__map-placeholder">
-            <div className="ic-contact__map-inner">
-              <FiMapPin style={{ fontSize: '2rem', color: 'var(--orange)' }} />
-              <span>{t('contact.mapNote')}</span>
-            </div>
+          <div className="ic-contact__map">
+            <iframe
+              title="CBI Tunisia location"
+              src="https://www.google.com/maps?q=06+Rue+Luxembourg,+Bab+Bhar,+Tunis,+Tunisia&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </motion.div>
 

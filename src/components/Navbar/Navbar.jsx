@@ -1,26 +1,16 @@
 import React, { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 import { FiArrowRight } from 'react-icons/fi'
+import useNavLinks from '../Shared/useNavLinks'
 import './Navbar.css'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
-  const location = useLocation()
   const { t } = useTranslation()
-
-  const NAV_LINKS = [
-    { label: t('nav.home'),             path: '/' },
-    { label: t('nav.about'),            path: '/about' },
-    { label: t('nav.productionLines'),  path: '/production-lines' },
-    { label: t('nav.applications'),     path: '/applications' },
-    { label: t('nav.projects'),         path: '/projects' },
-    { label: t('nav.contact'),          path: '/contact' },
-  ]
-
-  const isActive = (path) => location.pathname === path
+  const { links: NAV_LINKS, isActive } = useNavLinks()
 
   return (
     <>

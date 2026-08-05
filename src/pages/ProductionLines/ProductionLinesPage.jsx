@@ -18,13 +18,18 @@ export default function ProductionLinesPage() {
     <div className="ic-products-page">
       <Seo page="productionLines" />
       <PageHero
-        image="/images/heroes/production-lines.jpg"
+        image="/images/product-10.png"
         subtitle={t('productionLines.eyebrow')}
         title={t('productionLines.title')}
         breadcrumbs={BREADCRUMBS}
       />
+      <section className="section-pad" style={{ paddingBottom: 0 }}>
+        <div className="ic-container">
+          <p className="ic-page-intro">{t('productionLines.pageIntro')}</p>
+        </div>
+      </section>
       <ProductionLines />
-      <Certifications />
+      <Certifications background="var(--white)" />
       <Contact />
     </div>
   )

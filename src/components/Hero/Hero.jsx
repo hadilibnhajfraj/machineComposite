@@ -7,6 +7,7 @@ import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper/modules'
 import { useTranslation } from 'react-i18next'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 import { FiArrowRight, FiChevronDown } from 'react-icons/fi'
+import useNavLinks from '../Shared/useNavLinks'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -57,20 +58,9 @@ function HeroNav() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const location = useLocation()
   const { t } = useTranslation()
+  const { links: NAV_LINKS, isActive } = useNavLinks()
 
   useEffect(() => { setMobileOpen(false) }, [location])
-
-  const NAV_LINKS = [
-    { label: t('nav.home'),             path: '/'                 },
-    { label: t('nav.about'),            path: '/about'            },
-    { label: t('nav.productionLines'),  path: '/production-lines' },
-    { label: t('nav.applications'),     path: '/applications'     },
-    { label: t('nav.projects'),         path: '/projects'         },
-    { label: t('nav.contact'),          path: '/contact'          },
-  ]
-
-  const isActive = (path) =>
-    path === '/' ? location.pathname === '/' : location.pathname.startsWith(path.split('#')[0])
 
   return (
     <>

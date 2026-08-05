@@ -18,11 +18,16 @@ export default function ApplicationsPage() {
     <div className="ic-products-page">
       <Seo page="applications" />
       <PageHero
-        image="/images/heroes/applications.jpg"
+        image="/images/project-11.png"
         subtitle={t('applications.eyebrow')}
         title={t('applications.title')}
         breadcrumbs={BREADCRUMBS}
       />
+      <section className="section-pad" style={{ paddingBottom: 0 }}>
+        <div className="ic-container">
+          <p className="ic-page-intro">{t('applications.pageIntro')}</p>
+        </div>
+      </section>
       <Applications />
       <FAQ />
       <Contact />

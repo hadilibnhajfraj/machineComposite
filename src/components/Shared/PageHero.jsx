@@ -9,7 +9,7 @@ export default function PageHero({ image, subtitle, title, breadcrumbs }) {
       {/* Background image — slow zoom in */}
       <motion.div
         className="ph__bg"
-        style={{ backgroundImage: `url(${image})` }}
+        style={image ? { backgroundImage: `url(${image})` } : undefined}
         initial={{ scale: 1.12 }}
         animate={{ scale: 1 }}
         transition={{ duration: 2.4, ease: 'easeOut' }}

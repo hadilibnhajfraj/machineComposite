@@ -256,18 +256,18 @@
   font-size: 1.05rem;
 }
 
-/* ── Timeline ── */
-.ic-ap-timeline__header {
+/* ── Core Competencies ── */
+.ic-ap-competencies__header {
   text-align: center;
-  margin-bottom: 64px;
+  margin-bottom: 56px;
 }
-.ic-ap-timeline__title {
+.ic-ap-competencies__title {
   font-family: var(--font-heading);
   font-size: clamp(2.2rem, 5vw, 3.5rem);
   letter-spacing: 0.03em;
   color: var(--white);
 }
-.ic-ap-timeline__intro {
+.ic-ap-competencies__intro {
   font-size: 0.98rem;
   line-height: 1.8;
   color: rgba(255,255,255,0.55);
@@ -275,54 +275,32 @@
   margin: 18px auto 0;
 }
 
-.ic-ap-timeline__track {
-  position: relative;
-  max-width: 900px;
+.ic-ap-competencies__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
   margin: 0 auto;
 }
-.ic-ap-timeline__track::before {
-  content: '';
-  position: absolute;
-  top: 0; bottom: 0;
-  left: 50%;
-  width: 1px;
-  background: rgba(255,107,26,0.25);
-  transform: translateX(-50%);
-}
-
-.ic-ap-timeline__item {
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: calc(50% + 36px);
-  margin-bottom: 40px;
-}
-.ic-ap-timeline__item--right {
-  justify-content: flex-start;
-  padding-right: 0;
-  padding-left: calc(50% + 36px);
-}
-
-.ic-ap-timeline__card {
+.ic-ap-competencies__card {
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
-  padding: 24px;
-  max-width: 340px;
-  width: 100%;
-  transition: border-color var(--transition-mid);
+  padding: 28px 24px;
+  transition: border-color var(--transition-mid), transform var(--transition-mid);
 }
-.ic-ap-timeline__card:hover {
+.ic-ap-competencies__card:hover {
   border-color: rgba(255,107,26,0.35);
+  transform: translateY(-4px);
 }
-.ic-ap-timeline__year {
+.ic-ap-competencies__num {
   display: block;
   font-family: var(--font-heading);
   font-size: 1.6rem;
   letter-spacing: 0.04em;
   color: var(--orange);
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
-.ic-ap-timeline__card strong {
+.ic-ap-competencies__card strong {
   display: block;
   font-family: var(--font-condensed);
   font-size: 0.95rem;
@@ -332,23 +310,49 @@
   color: var(--white);
   margin-bottom: 8px;
 }
-.ic-ap-timeline__card p {
+.ic-ap-competencies__card p {
   font-size: 0.875rem;
-  line-height: 1.6;
-  color: rgba(255,255,255,0.45);
+  line-height: 1.65;
+  color: rgba(255,255,255,0.5);
 }
 
-.ic-ap-timeline__dot {
-  position: absolute;
-  top: 28px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 12px; height: 12px;
-  background: var(--orange);
-  border: 3px solid rgba(255,107,26,0.25);
-  border-radius: 50%;
-  z-index: 1;
+.ic-ap-competencies__cta {
+  text-align: center;
+  margin-top: 48px;
 }
+.ic-ap-competencies__cta .btn-ghost-dark {
+  border-color: rgba(255,255,255,0.35);
+  color: var(--white);
+}
+.ic-ap-competencies__cta .btn-ghost-dark:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+/* ── Contextual internal links ── */
+.ic-ap-mission__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 16px;
+}
+.ic-ap-positioning__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 28px;
+  font-family: var(--font-condensed);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(255,255,255,0.4);
+  padding-bottom: 4px;
+  transition: border-color var(--transition-fast);
+}
+.ic-ap-positioning__link:hover { border-color: var(--white); }
 
 /* ── Responsive ── */
 
@@ -400,26 +404,10 @@
   .ic-ap-mission__copy p  { font-size: 0.9rem; }
 }
 
-/* Timeline */
-@media (max-width: 767px) {
-  .ic-ap-timeline__track::before { left: 16px; }
-
-  .ic-ap-timeline__item,
-  .ic-ap-timeline__item--right {
-    padding-left: 52px;
-    padding-right: 0;
-    justify-content: flex-start;
-  }
-
-  .ic-ap-timeline__dot { left: 16px; top: 24px; }
-  .ic-ap-timeline__card { max-width: 100%; padding: 20px 16px; }
-  .ic-ap-timeline__year { font-size: 1.3rem; }
+/* Core Competencies grid */
+@media (max-width: 1024px) {
+  .ic-ap-competencies__grid { grid-template-columns: 1fr 1fr; }
 }
-
-@media (max-width: 480px) {
-  .ic-ap-timeline__item,
-  .ic-ap-timeline__item--right { padding-left: 44px; }
-  .ic-ap-timeline__track::before { left: 14px; }
-  .ic-ap-timeline__dot { left: 14px; }
-  .ic-ap-timeline__card p { font-size: 0.82rem; }
+@media (max-width: 560px) {
+  .ic-ap-competencies__grid { grid-template-columns: 1fr; }
 }

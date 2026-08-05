@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.cbi-tunisia.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/about</loc><priority>0.8</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/production-lines</loc><priority>0.9</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/production-lines/probar</loc><priority>0.8</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/production-lines/promesh</loc><priority>0.8</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/production-lines/bent-elements</loc><priority>0.6</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/production-lines/composite-tank</loc><priority>0.6</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/production-lines/composite-pipe</loc><priority>0.6</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/production-lines/composite-profiles</loc><priority>0.6</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/applications</loc><priority>0.9</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/applications/urban-civil-construction</loc><priority>0.7</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/applications/public-infrastructure-transport</loc><priority>0.7</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/applications/logistics-platforms</loc><priority>0.7</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure</loc><priority>0.7</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/applications/industrial-facilities</loc><priority>0.7</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments</loc><priority>0.7</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/projects</loc><priority>0.6</priority></url>
+  <url><loc>https://www.cbi-tunisia.com/contact</loc><priority>0.7</priority></url>
+</urlset>

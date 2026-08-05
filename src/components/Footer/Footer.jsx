@@ -123,9 +123,7 @@ export default function Footer() {
         <div className="ic-container ic-footer__bottom-inner">
           <span>© {new Date().getFullYear()} {t('footer.copyright')}</span>
           <div className="ic-footer__legal">
-            <a href="#">{t('footer.privacy')}</a>
-            <a href="#">{t('footer.terms')}</a>
-            <a href="#">{t('footer.certifications')}</a>
+            <Link to="/production-lines#certifications">{t('footer.certifications')}</Link>
           </div>
         </div>
       </div>

@@ -55,9 +55,12 @@ export default function Projects() {
           })}
         </motion.div>
 
-        <div style={{ textAlign: 'center', marginTop: '56px' }}>
+        <div style={{ textAlign: 'center', marginTop: '56px', display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
           <Link to="/contact" className="btn-primary">
             {t('projects.ctaButton')} <FiArrowRight />
+          </Link>
+          <Link to="/applications" className="btn-ghost-dark">
+            {t('projects.applicationsLinkText')} <FiArrowRight />
           </Link>
         </div>
       </div>
