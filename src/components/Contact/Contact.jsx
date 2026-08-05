@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { FiMapPin, FiPhone, FiMail, FiClock, FiSend, FiCheckCircle } from 'react-icons/fi'
+import { FiMapPin, FiPhone, FiMail, FiGlobe, FiSend, FiCheckCircle } from 'react-icons/fi'
 import SectionTitle from '../Shared/SectionTitle'
 import { fadeLeft, fadeRight, viewportOnce } from '../Shared/AnimationVariants'
 import './Contact.css'
@@ -16,10 +16,11 @@ export default function Contact() {
   const { t } = useTranslation()
 
   const CONTACT_INFO = [
-    { icon: FiMapPin, label: t('contact.headquarters'), value: 'CBI Tunisia, Tunis, Tunisia'          },
-    { icon: FiPhone,  label: t('contact.phone'),        value: '+216 71 000 000'                      },
-    { icon: FiMail,   label: t('contact.email'),        value: 'contact@cbi-tunisia.com'              },
-    { icon: FiClock,  label: t('contact.workingHours'), value: t('contact.workingHoursValue')         },
+    { icon: FiMapPin, label: t('contact.headquarters'), value: t('contact.hqValue')      },
+    { icon: FiMapPin, label: t('contact.factory'),      value: t('contact.factoryValue') },
+    { icon: FiPhone,  label: t('contact.phone'),        value: t('contact.phoneValue')   },
+    { icon: FiMail,   label: t('contact.email'),        value: t('contact.emailValue')   },
+    { icon: FiGlobe,  label: t('contact.website'),      value: t('contact.websiteValue') },
   ]
 
   function validate(form) {
@@ -74,7 +75,7 @@ export default function Contact() {
           <div className="ic-contact__map-placeholder">
             <div className="ic-contact__map-inner">
               <FiMapPin style={{ fontSize: '2rem', color: 'var(--orange)' }} />
-              <span>Interactive map available on site visit</span>
+              <span>{t('contact.mapNote')}</span>
             </div>
           </div>
         </motion.div>

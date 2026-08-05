@@ -78,6 +78,22 @@
   color: var(--mid-gray);
 }
 
+.ic-apps__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-family: var(--font-condensed);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--orange);
+  text-decoration: none;
+  transition: gap var(--transition-fast);
+}
+.ic-apps__link:hover { gap: 10px; }
+
 /* ── Responsive ── */
 /* Desktop: 3 cols (set above) */
 

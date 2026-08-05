@@ -1,4 +1,5 @@
 import React from 'react'
+import Seo from '../../components/Shared/Seo'
 import Hero from '../../components/Hero/Hero'
 import AboutSection from '../../components/About/AboutSection'
 import ProductionLines from '../../components/ProductionLines/ProductionLines'
@@ -11,6 +12,7 @@ import Contact from '../../components/Contact/Contact'
 export default function Home() {
   return (
     <>
+      <Seo page="home" />
       <Hero />
       <AboutSection />
       <ProductionLines />

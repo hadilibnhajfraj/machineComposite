@@ -52,6 +52,210 @@
   color: var(--mid-gray);
 }
 
+/* ── Engineering Positioning (manifesto band) ── */
+.ic-ap-positioning {
+  background: var(--blue);
+}
+.ic-ap-positioning .accent-bar em { color: var(--white); }
+.ic-ap-positioning .accent-bar span { background: var(--white); }
+.ic-ap-positioning__inner {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ic-ap-positioning__statement {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4.6vw, 3.2rem);
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  color: var(--white);
+  margin: 20px 0 24px;
+}
+.ic-ap-positioning__intro {
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: rgba(255,255,255,0.85);
+  max-width: 680px;
+  margin: 0 auto 32px;
+}
+.ic-ap-positioning__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.ic-ap-positioning__tag {
+  padding: 10px 20px;
+  border: 1px solid rgba(255,255,255,0.35);
+  font-family: var(--font-condensed);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.ic-ap-positioning__closing {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.65);
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+/* ── Leadership & Execution ── */
+.ic-ap-leadership__inner {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 64px;
+  align-items: start;
+}
+.ic-ap-leadership__quote-wrap {
+  border-left: 4px solid var(--orange);
+  padding-left: 28px;
+  position: sticky;
+  top: 120px;
+}
+.ic-ap-leadership__quote {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--blue);
+  margin-top: 12px;
+}
+.ic-ap-leadership__label {
+  display: block;
+  font-family: var(--font-condensed);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 18px;
+}
+.ic-ap-leadership__body p {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--mid-gray);
+  margin-bottom: 18px;
+}
+
+/* ── Innovation & Digital Backbone ── */
+.ic-ap-innovation__header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 56px;
+}
+.ic-ap-innovation__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4.4vw, 3rem);
+  letter-spacing: 0.02em;
+  color: var(--blue);
+  margin: 16px 0;
+}
+.ic-ap-innovation__intro {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--mid-gray);
+}
+.ic-ap-innovation__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.ic-ap-innovation__card {
+  padding: 32px 24px;
+  background: var(--white);
+  border: 1px solid var(--border-gray);
+  transition: border-color var(--transition-mid), box-shadow var(--transition-mid), transform var(--transition-mid);
+}
+.ic-ap-innovation__card:hover {
+  border-color: var(--orange);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-4px);
+}
+.ic-ap-innovation__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 18px;
+  background: rgba(0,87,184,0.08);
+  color: var(--blue);
+  font-size: 1.3rem;
+}
+.ic-ap-innovation__card strong {
+  display: block;
+  font-family: var(--font-condensed);
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+.ic-ap-innovation__card p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--mid-gray);
+}
+
+/* ── People & Governance ── */
+.ic-ap-people__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+.ic-ap-people__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--blue);
+  margin-bottom: 22px;
+}
+.ic-ap-people__copy p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--mid-gray);
+  margin-bottom: 16px;
+}
+.ic-ap-people__functions {
+  background: var(--light-gray);
+  padding: 36px;
+}
+.ic-ap-people__functions-intro {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--mid-gray);
+  margin-bottom: 22px;
+}
+.ic-ap-people__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.ic-ap-people__list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-condensed);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: var(--black);
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-gray);
+}
+.ic-ap-people__list-item:last-child { border-bottom: none; padding-bottom: 0; }
+.ic-ap-people__list-icon {
+  flex-shrink: 0;
+  color: var(--orange);
+  font-size: 1.05rem;
+}
+
 /* ── Timeline ── */
 .ic-ap-timeline__header {
   text-align: center;
@@ -62,6 +266,13 @@
   font-size: clamp(2.2rem, 5vw, 3.5rem);
   letter-spacing: 0.03em;
   color: var(--white);
+}
+.ic-ap-timeline__intro {
+  font-size: 0.98rem;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.55);
+  max-width: 620px;
+  margin: 18px auto 0;
 }
 
 .ic-ap-timeline__track {
@@ -146,6 +357,42 @@
   .ic-ap-mission__inner { grid-template-columns: 1fr; gap: 48px; }
   .ic-ap-mission__values { grid-template-columns: 1fr 1fr; }
 }
+
+/* Leadership */
+@media (max-width: 1024px) {
+  .ic-ap-leadership__inner { grid-template-columns: 1fr; gap: 32px; }
+  .ic-ap-leadership__quote-wrap { position: static; }
+}
+
+/* Innovation grid */
+@media (max-width: 1024px) {
+  .ic-ap-innovation__grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .ic-ap-innovation__grid { grid-template-columns: 1fr; }
+}
+
+/* People & Governance */
+@media (max-width: 1024px) {
+  .ic-ap-people__inner { grid-template-columns: 1fr; gap: 40px; }
+}
+@media (max-width: 480px) {
+  .ic-ap-people__functions { padding: 24px; }
+}
+
+/* Positioning band */
+@media (max-width: 480px) {
+  .ic-ap-positioning__tag { font-size: 0.68rem; padding: 8px 14px; }
+}
+
+/* RTL */
+[dir="rtl"] .ic-ap-leadership__quote-wrap {
+  border-left: none;
+  border-right: 4px solid var(--orange);
+  padding-left: 0;
+  padding-right: 28px;
+}
+[dir="rtl"] .ic-ap-people__list-item { flex-direction: row-reverse; }
 
 @media (max-width: 480px) {
   .ic-ap-mission__values { grid-template-columns: 1fr; }

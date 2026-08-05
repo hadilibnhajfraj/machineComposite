@@ -1,26 +1,30 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import SectionTitle from '../Shared/SectionTitle'
 import { stagger, scaleIn, viewportOnce } from '../Shared/AnimationVariants'
 import './Certifications.css'
 
-const CERTS = [
-  { code: 'ISO', num: '9001', year: '2015', label: 'Quality Management System', org: 'International Organization for Standardization' },
-  { code: 'ISO', num: '14001', year: '2015', label: 'Environmental Management', org: 'International Organization for Standardization' },
-  { code: 'CE',  num: '',     year: '',      label: 'European Conformity Mark', org: 'European Union Regulation' },
-  { code: 'ASTM',num: 'D7957',year: '',      label: 'Composite Rebar Standard', org: 'American Society for Testing & Materials' },
-  { code: 'ISO', num: '45001',year: '2018',  label: 'Occupational Health & Safety', org: 'International Organization for Standardization' },
-  { code: 'ACI', num: '440',  year: '',      label: 'FRP Reinforcement Standard', org: 'American Concrete Institute' },
-]
+const CERT_KEYS = ['cert1', 'cert2', 'cert3', 'cert4', 'cert5', 'cert6']
 
 export default function Certifications() {
+  const { t } = useTranslation()
+
+  const CERTS = CERT_KEYS.map((key) => ({
+    code: t(`certifications.${key}.code`),
+    num: t(`certifications.${key}.num`),
+    year: t(`certifications.${key}.year`),
+    label: t(`certifications.${key}.label`),
+    org: t(`certifications.${key}.org`),
+  }))
+
   return (
     <section className="ic-cert section-pad">
       <div className="ic-container">
         <SectionTitle
-          eyebrow="Quality Assurance"
-          title="CERTIFICATIONS & STANDARDS"
-          subtitle="Our manufacturing processes are validated by the world's most rigorous quality and safety standards."
+          eyebrow={t('certifications.eyebrow')}
+          title={t('certifications.title')}
+          subtitle={t('certifications.subtitle')}
           align="center"
         />
 
@@ -46,7 +50,7 @@ export default function Certifications() {
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
-                Certified
+                {t('certifications.certifiedLabel')}
               </div>
             </motion.div>
           ))}

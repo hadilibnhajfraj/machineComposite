@@ -5,16 +5,8 @@ import { useTranslation } from 'react-i18next'
 import { FiArrowRight } from 'react-icons/fi'
 import SectionTitle from '../Shared/SectionTitle'
 import { stagger, scaleIn, viewportOnce } from '../Shared/AnimationVariants'
+import { LINE_META } from './lineMeta'
 import './ProductionLines.css'
-
-const LINE_META = [
-  { id: 1, key: 'rebar',    gradient: 'linear-gradient(145deg, #0d0d0d 0%, #1e1507 50%, #2a1e08 100%)', pattern: 'diagonal', tag: 'GFRP'         },
-  { id: 2, key: 'mesh',     gradient: 'linear-gradient(145deg, #0d0d0d 0%, #0f1a12 50%, #162211 100%)', pattern: 'grid',     tag: 'Mesh'         },
-  { id: 3, key: 'bent',     gradient: 'linear-gradient(145deg, #0d0d0d 0%, #1a1a1a 50%, #222222 100%)', pattern: 'hex',      tag: 'Bent'         },
-  { id: 4, key: 'tank',     gradient: 'linear-gradient(145deg, #0d0d0d 0%, #0d1a1f 50%, #0d2226 100%)', pattern: 'dots',     tag: 'Tank'         },
-  { id: 5, key: 'pipe',     gradient: 'linear-gradient(145deg, #0d0d0d 0%, #1a0f0d 50%, #221513 100%)', pattern: 'circles',  tag: 'Pipe'         },
-  { id: 6, key: 'profiles', gradient: 'linear-gradient(145deg, #0d0d0d 0%, #0f0d1a 50%, #171525 100%)', pattern: 'lines',    tag: 'Profiles'     },
-]
 
 export default function ProductionLines() {
   const { t } = useTranslation()
@@ -45,7 +37,7 @@ export default function ProductionLines() {
                   <em className="ic-pl__card-highlight">{t(`productionLines.${line.key}.highlight`)}</em>
                 </h3>
                 <p className="ic-pl__card-desc">{t(`productionLines.${line.key}.desc`)}</p>
-                <Link to="/products" className="btn-discover">
+                <Link to={`/production-lines/${line.slug}`} className="btn-discover">
                   {t('productionLines.discoverMore')} <FiArrowRight />
                 </Link>
               </div>

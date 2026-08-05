@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="ic-container ic-snav__inner">
 
           <Link to="/" className="ic-snav__logo">
-            <img src="dist/images/probar-logo.png" alt="CBI Tunisia" className="ic-logo-img" draggable="false" />
+            <img src="/images/probar-logo.png" alt="CBI Tunisia" className="ic-logo-img" draggable="false" />
           </Link>
 
           <ul className="ic-snav__links">

@@ -2,39 +2,36 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
-  FiLinkedin, FiFacebook, FiInstagram, FiYoutube,
+  FiLinkedin, FiFacebook, FiYoutube,
   FiMapPin, FiPhone, FiMail, FiArrowRight,
 } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
+import { LINE_META } from '../ProductionLines/lineMeta'
 import './Footer.css'
 
 const SOCIALS = [
-  { icon: FiLinkedin,  href: '#', label: 'LinkedIn'  },
-  { icon: FiFacebook,  href: '#', label: 'Facebook'  },
-  { icon: FiInstagram, href: '#', label: 'Instagram' },
-  { icon: FiYoutube,   href: '#', label: 'YouTube'   },
-  { icon: FaWhatsapp,  href: '#', label: 'WhatsApp'  },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/company/composite-building-innovation/posts/?feedView=all', label: 'LinkedIn' },
+  { icon: FiFacebook, href: 'https://www.facebook.com/Probartunisia', label: 'Facebook' },
+  { icon: FiYoutube,  href: 'https://www.youtube.com/@cbitunisia', label: 'YouTube' },
+  { icon: FaWhatsapp, href: 'https://wa.me/21623116224', label: 'WhatsApp' },
 ]
 
 export default function Footer() {
   const { t } = useTranslation()
 
   const QUICK_LINKS = [
-    { label: t('footer.homeLink'),       path: '/'        },
-    { label: t('footer.aboutLink'),      path: '/about'   },
-    { label: t('footer.productionLink'), path: '/products'},
-    { label: t('footer.projectsLink'),   path: '/projects'},
-    { label: t('footer.contactLink'),    path: '/contact' },
+    { label: t('footer.homeLink'),       path: '/'                },
+    { label: t('footer.aboutLink'),      path: '/about'           },
+    { label: t('footer.productionLink'), path: '/production-lines'},
+    { label: t('footer.projectsLink'),   path: '/projects'        },
+    { label: t('footer.contactLink'),    path: '/contact'         },
   ]
 
-  const SOLUTIONS = [
-    { label: t('footer.sol1'), path: '/products' },
-    { label: t('footer.sol2'), path: '/products' },
-    { label: t('footer.sol3'), path: '/products' },
-    { label: t('footer.sol4'), path: '/products' },
-    { label: t('footer.sol5'), path: '/products' },
-    { label: t('footer.sol6'), path: '/products' },
-  ]
+  const SOL_LABELS = [t('footer.sol1'), t('footer.sol2'), t('footer.sol3'), t('footer.sol4'), t('footer.sol5'), t('footer.sol6')]
+  const SOLUTIONS = LINE_META.map((line, i) => ({
+    label: SOL_LABELS[i],
+    path: `/production-lines/${line.slug}`,
+  }))
 
   return (
     <footer className="ic-footer">
@@ -106,11 +103,11 @@ export default function Footer() {
             <ul className="ic-footer__contact-list">
               <li className="ic-footer__contact-item">
                 <FiMapPin className="ic-footer__contact-icon" />
-                <span>CBI Tunisia,<br />Tunis, Tunisia</span>
+                <span>{t('contact.hqValue')}</span>
               </li>
               <li className="ic-footer__contact-item">
                 <FiPhone className="ic-footer__contact-icon" />
-                <a href="tel:+21671000000">+216 71 000 000</a>
+                <a href="tel:+21656753753">+216 56 753 753</a>
               </li>
               <li className="ic-footer__contact-item">
                 <FiMail className="ic-footer__contact-icon" />

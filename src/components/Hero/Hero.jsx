@@ -61,12 +61,12 @@ function HeroNav() {
   useEffect(() => { setMobileOpen(false) }, [location])
 
   const NAV_LINKS = [
-    { label: t('nav.home'),             path: '/'                      },
-    { label: t('nav.about'),            path: '/about'                 },
-    { label: t('nav.productionLines'),  path: '/products'              },
-    { label: t('nav.applications'),     path: '/products#applications' },
-    { label: t('nav.projects'),         path: '/projects'              },
-    { label: t('nav.contact'),          path: '/contact'               },
+    { label: t('nav.home'),             path: '/'                 },
+    { label: t('nav.about'),            path: '/about'            },
+    { label: t('nav.productionLines'),  path: '/production-lines' },
+    { label: t('nav.applications'),     path: '/applications'     },
+    { label: t('nav.projects'),         path: '/projects'         },
+    { label: t('nav.contact'),          path: '/contact'          },
   ]
 
   const isActive = (path) =>
@@ -135,10 +135,10 @@ export default function Hero() {
   const { t } = useTranslation()
 
   const STATS = [
-    { end: 12,   suffix: '+', label: 'Years Experience' },
-    { end: 95,   suffix: '',  label: 'Team Members'     },
-    { end: 1000, suffix: '+', label: 'Happy Clients', separator: ',' },
-    { end: 300,  suffix: '',  label: 'Projects'         },
+    { end: 10,   suffix: '+', label: t('hero.statsExperience') },
+    { end: 1000, suffix: '+', label: t('hero.statsTensile'), separator: ',' },
+    { end: 75,   suffix: '%', label: t('hero.statsWeight')     },
+    { end: 100,  suffix: '',  label: t('hero.statsLifespan')   },
   ]
 
   return (
@@ -199,7 +199,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.div className="ic-hero__buttons" initial="hidden" animate="visible" variants={fadeUp(0.86)}>
-          <Link to="/products" className="ic-hero__btn-primary">
+          <Link to="/production-lines" className="ic-hero__btn-primary">
             <span>{t('hero.exploreBtn')}</span>
             <FiArrowRight className="ic-hero__btn-icon" />
           </Link>

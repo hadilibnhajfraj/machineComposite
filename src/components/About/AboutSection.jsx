@@ -74,7 +74,7 @@ export default function AboutSection() {
               allowFullScreen
             />
             <div className="ic-about__video-badge">
-              <strong>12+</strong>
+              <strong>{t('about.yearsBadge')}</strong>
               <span>{t('about.yearsLabel')}</span>
             </div>
           </div>

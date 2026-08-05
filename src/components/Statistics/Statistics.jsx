@@ -3,7 +3,7 @@ import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { FiAward, FiUsers, FiSmile, FiBriefcase } from 'react-icons/fi'
+import { FiAward, FiTrendingUp, FiFeather, FiShield } from 'react-icons/fi'
 import { stagger, fadeUp, viewportOnce } from '../Shared/AnimationVariants'
 import './Statistics.css'
 
@@ -29,10 +29,10 @@ function StatCard({ icon: Icon, value, suffix, labelKey }) {
 }
 
 const STAT_DEFS = [
-  { icon: FiAward,     value: 12,   suffix: '+', labelKey: 'statistics.yearsLabel'   },
-  { icon: FiUsers,     value: 95,   suffix: '',  labelKey: 'statistics.teamLabel'    },
-  { icon: FiSmile,     value: 1000, suffix: '+', labelKey: 'statistics.clientsLabel' },
-  { icon: FiBriefcase, value: 300,  suffix: '',  labelKey: 'statistics.projectsLabel'},
+  { icon: FiAward,      value: 10,   suffix: '+', labelKey: 'statistics.yearsLabel'    },
+  { icon: FiTrendingUp, value: 1000, suffix: '+', labelKey: 'statistics.tensileLabel'  },
+  { icon: FiFeather,    value: 75,   suffix: '%', labelKey: 'statistics.weightLabel'   },
+  { icon: FiShield,     value: 100,  suffix: '',  labelKey: 'statistics.lifespanLabel' },
 ]
 
 export default function Statistics() {
