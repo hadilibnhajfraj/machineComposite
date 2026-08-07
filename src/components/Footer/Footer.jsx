@@ -120,7 +120,7 @@ export default function Footer() {
               </li>
               <li className="ic-footer__contact-item">
                 <FiPhone className="ic-footer__contact-icon" />
-                <a href="tel:+21656753753">+216 56 753 753</a>
+                <a href="tel:+21692776001">+216 92 776 001</a>
               </li>
               <li className="ic-footer__contact-item">
                 <FiMail className="ic-footer__contact-icon" />
