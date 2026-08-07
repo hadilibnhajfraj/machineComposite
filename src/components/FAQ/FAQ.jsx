@@ -4,60 +4,61 @@ import { useTranslation } from 'react-i18next'
 import { FiPlus } from 'react-icons/fi'
 import SectionTitle from '../Shared/SectionTitle'
 import { stagger, fadeUp, viewportOnce } from '../Shared/AnimationVariants'
+import { setJsonLd, removeJsonLd } from '../Shared/jsonLd'
 import './FAQ.css'
 
-const FAQ_KEYS = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7']
+const DEFAULT_FAQ_KEYS = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7'].map((key) => ({
+  qKey: `faq.${key}`,
+  aKey: `faq.a${key.slice(1)}`,
+}))
 
-export default function FAQ() {
+/* Pass `items` (array of { qKey, aKey }) to render a page-specific set instead of the
+   default global 7. Pass `eyebrow`/`title`/`subtitle` i18n keys to override the heading
+   copy for that set. Omit both to keep the original sitewide FAQ unchanged. */
+export default function FAQ({ items, eyebrowKey, titleKey, subtitleKey }) {
   const { t, i18n } = useTranslation()
   const [open, setOpen] = useState(0)
+  const faqItems = items && items.length ? items : DEFAULT_FAQ_KEYS
 
   useEffect(() => {
     const schema = {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: FAQ_KEYS.map((key) => ({
+      mainEntity: faqItems.map(({ qKey, aKey }) => ({
         '@type': 'Question',
-        name: t(`faq.${key}`),
-        acceptedAnswer: { '@type': 'Answer', text: t(`faq.a${key.slice(1)}`) },
+        name: t(qKey),
+        acceptedAnswer: { '@type': 'Answer', text: t(aKey) },
       })),
     }
-    let el = document.getElementById('faq-jsonld')
-    if (!el) {
-      el = document.createElement('script')
-      el.id = 'faq-jsonld'
-      el.type = 'application/ld+json'
-      document.head.appendChild(el)
-    }
-    el.textContent = JSON.stringify(schema)
-    return () => { el?.remove() }
-  }, [t, i18n.language])
+    setJsonLd('faq-jsonld', schema)
+    return () => removeJsonLd('faq-jsonld')
+  }, [t, i18n.language, faqItems])
 
   return (
     <section className="ic-faq section-pad" id="faq">
       <div className="ic-container ic-faq__inner">
         <SectionTitle
-          eyebrow={t('faq.eyebrow')}
-          title={t('faq.title')}
-          subtitle={t('faq.subtitle')}
+          eyebrow={t(eyebrowKey || 'faq.eyebrow')}
+          title={t(titleKey || 'faq.title')}
+          subtitle={t(subtitleKey || 'faq.subtitle')}
           align="center"
         />
 
         <motion.div className="ic-faq__list" initial="hidden" whileInView="visible" viewport={viewportOnce} variants={stagger}>
-          {FAQ_KEYS.map((key, i) => {
+          {faqItems.map(({ qKey, aKey }, i) => {
             const isOpen = open === i
             return (
-              <motion.div key={key} variants={fadeUp} className={`ic-faq__item${isOpen ? ' ic-faq__item--open' : ''}`}>
+              <motion.div key={qKey} variants={fadeUp} className={`ic-faq__item${isOpen ? ' ic-faq__item--open' : ''}`}>
                 <button
                   className="ic-faq__question"
                   onClick={() => setOpen(isOpen ? -1 : i)}
                   aria-expanded={isOpen}
                 >
-                  <span>{t(`faq.${key}`)}</span>
+                  <span>{t(qKey)}</span>
                   <FiPlus className="ic-faq__icon" />
                 </button>
                 <div className="ic-faq__answer-wrap">
-                  <p className="ic-faq__answer">{t(`faq.a${key.slice(1)}`)}</p>
+                  <p className="ic-faq__answer">{t(aKey)}</p>
                 </div>
               </motion.div>
             )

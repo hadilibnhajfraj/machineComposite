@@ -1,5 +1,7 @@
-import React from 'react'
-import { Link, useParams, Navigate } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { useParams, Navigate, useLocation } from 'react-router-dom'
+import Link from '../../components/Shared/LocalizedLink'
+import { localizePath, getLangFromPathname } from '../../i18n/langRoutes'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import {
@@ -10,22 +12,33 @@ import Seo from '../../components/Shared/Seo'
 import PageHero from '../../components/Shared/PageHero'
 import SectionTitle from '../../components/Shared/SectionTitle'
 import DiagramPlaceholder from '../../components/Shared/DiagramPlaceholder'
+import FAQ from '../../components/FAQ/FAQ'
 import Contact from '../../components/Contact/Contact'
 import { LINE_META, getLineBySlug } from '../../components/ProductionLines/lineMeta'
 import { APP_META } from '../../components/Applications/appMeta'
 import { LINE_TO_APPS } from '../../data/crossLinks'
 import { fadeUp, fadeLeft, stagger, scaleIn, viewportOnce } from '../../components/Shared/AnimationVariants'
+import { setJsonLd, removeJsonLd } from '../../components/Shared/jsonLd'
 import './ProductionLineDetailPage.css'
 
+const SITE = 'https://www.cbi-tunisia.com'
 const BENEFIT_ICONS = [FiTrendingUp, FiShield, FiLayers, FiCheckCircle]
 const ADVANTAGE_ICONS = [FiSettings, FiActivity, FiDatabase, FiAward]
+
+// Only ProBar has a photo that genuinely depicts it (the rebar stockyard photo); every
+// other line honestly falls back to the brand logo rather than reusing an unrelated photo.
+const LINE_IMAGE = { rebar: '/images/product-10.webp' }
 
 export default function ProductionLineDetailPage() {
   const { t } = useTranslation()
   const { slug } = useParams()
+  const location = useLocation()
   const line = getLineBySlug(slug)
 
-  if (!line) return <Navigate to="/production-lines" replace />
+  if (!line) {
+    const lang = getLangFromPathname(location.pathname)
+    return <Navigate to={localizePath('/production-lines', lang)} replace />
+  }
 
   const { key } = line
   const d = (field) => t(`lineDetail.${key}.${field}`)
@@ -51,6 +64,28 @@ export default function ProductionLineDetailPage() {
   const OTHER_LINES = LINE_META.filter((l) => l.key !== key)
   const RELATED_APPS = APP_META.filter((a) => (LINE_TO_APPS[key] || []).includes(a.key))
 
+  useEffect(() => {
+    const lang = getLangFromPathname(location.pathname)
+    const url = `${SITE}${localizePath(`/production-lines/${line.slug}`, lang)}`
+    const image = LINE_IMAGE[key]
+      ? { '@type': 'ImageObject', url: `${SITE}${LINE_IMAGE[key]}` }
+      : { '@id': `${SITE}/#logo` }
+
+    setJsonLd('product-jsonld', {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      '@id': `${url}#product`,
+      url,
+      name: d('heroTitle'),
+      description: d('introLead'),
+      category: 'GFRP Composite Reinforcement',
+      brand: { '@type': 'Brand', name: 'PROBAR' },
+      manufacturer: { '@id': `${SITE}/#organization` },
+      image,
+    })
+    return () => removeJsonLd('product-jsonld')
+  }, [key, t, location.pathname])
+
   const BREADCRUMBS = [
     { label: t('nav.home'), path: '/' },
     { label: t('nav.productionLines'), path: '/production-lines' },
@@ -69,6 +104,7 @@ export default function ProductionLineDetailPage() {
       {/* ── Overview ── */}
       <section className="ic-lpd-overview section-pad">
         <div className="ic-container ic-lpd-overview__inner">
+          <h2 className="ic-lpd-overview__eyebrow">{c('overviewTitle')}</h2>
           <motion.p
             className="ic-lpd-overview__lead"
             initial="hidden" whileInView="visible"
@@ -219,6 +255,9 @@ export default function ProductionLineDetailPage() {
           <h2>{d('seoTitle')}</h2>
           <p>{d('seoPara1')}</p>
           <p>{d('seoPara2')}</p>
+          <p className="ic-lpd-inlink">
+            <Link to="/production-lines#certifications">{c('certLinkText')}</Link>
+          </p>
         </div>
       </section>
 
@@ -236,6 +275,16 @@ export default function ProductionLineDetailPage() {
           </div>
         </div>
       </section>
+
+      <FAQ
+        items={[
+          { qKey: `lineDetail.${key}.faqQ1`, aKey: `lineDetail.${key}.faqA1` },
+          { qKey: `lineDetail.${key}.faqQ2`, aKey: `lineDetail.${key}.faqA2` },
+        ]}
+        eyebrowKey="faq.eyebrow"
+        titleKey="faq.title"
+        subtitleKey={`lineDetail.${key}.faqSubtitle`}
+      />
 
       <Contact />
     </div>

@@ -1,25 +1,37 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Home from '../pages/Home/Home'
-import AboutPage from '../pages/About/AboutPage'
-import ProductionLinesPage from '../pages/ProductionLines/ProductionLinesPage'
-import ProductionLineDetailPage from '../pages/ProductionLines/ProductionLineDetailPage'
-import ApplicationsPage from '../pages/Applications/ApplicationsPage'
-import ApplicationDetailPage from '../pages/Applications/ApplicationDetailPage'
-import ProjectsPage from '../pages/Projects/ProjectsPage'
-import ContactPage from '../pages/Contact/ContactPage'
+import React, { lazy, Suspense } from 'react'
+import { useRoutes, Outlet, Navigate } from 'react-router-dom'
+import { LANG_CODES } from '../i18n/langRoutes'
+import { ROUTE_IMPORTS } from './routeImports'
+
+const Home = lazy(ROUTE_IMPORTS['/'])
+const AboutPage = lazy(ROUTE_IMPORTS['/about'])
+const ProductionLinesPage = lazy(ROUTE_IMPORTS['/production-lines'])
+const ProductionLineDetailPage = lazy(() => import('../pages/ProductionLines/ProductionLineDetailPage'))
+const ApplicationsPage = lazy(ROUTE_IMPORTS['/applications'])
+const ApplicationDetailPage = lazy(() => import('../pages/Applications/ApplicationDetailPage'))
+const ProjectsPage = lazy(ROUTE_IMPORTS['/projects'])
+const ContactPage = lazy(ROUTE_IMPORTS['/contact'])
+
+function pageChildren() {
+  return [
+    { index: true, element: <Home /> },
+    { path: 'about', element: <AboutPage /> },
+    { path: 'production-lines', element: <ProductionLinesPage /> },
+    { path: 'production-lines/:slug', element: <ProductionLineDetailPage /> },
+    { path: 'applications', element: <ApplicationsPage /> },
+    { path: 'applications/:slug', element: <ApplicationDetailPage /> },
+    { path: 'projects', element: <ProjectsPage /> },
+    { path: 'contact', element: <ContactPage /> },
+  ]
+}
 
 export default function AppRouter() {
-  return (
-    <Routes>
-      <Route path="/"                  element={<Home />} />
-      <Route path="/about"             element={<AboutPage />} />
-      <Route path="/production-lines"  element={<ProductionLinesPage />} />
-      <Route path="/production-lines/:slug" element={<ProductionLineDetailPage />} />
-      <Route path="/applications"      element={<ApplicationsPage />} />
-      <Route path="/applications/:slug" element={<ApplicationDetailPage />} />
-      <Route path="/projects"          element={<ProjectsPage />} />
-      <Route path="/contact"           element={<ContactPage />} />
-    </Routes>
-  )
+  const routeConfig = [
+    { path: '/', element: <Outlet />, children: pageChildren() },
+    ...LANG_CODES.map((lang) => ({ path: `/${lang}`, element: <Outlet />, children: pageChildren() })),
+    { path: '*', element: <Navigate to="/" replace /> },
+  ]
+  const element = useRoutes(routeConfig)
+
+  return <Suspense fallback={null}>{element}</Suspense>
 }

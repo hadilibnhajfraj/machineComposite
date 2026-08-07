@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import Link from '../Shared/LocalizedLink'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 import { FiArrowRight } from 'react-icons/fi'
 import useNavLinks from '../Shared/useNavLinks'
+import { prefetchRoute } from '../../routes/routeImports'
 import './Navbar.css'
 
 export default function Navbar() {
@@ -18,13 +19,31 @@ export default function Navbar() {
         <div className="ic-container ic-snav__inner">
 
           <Link to="/" className="ic-snav__logo">
-            <img src="/images/probar-logo.png" alt="CBI Tunisia" className="ic-logo-img" draggable="false" />
+            <picture>
+              <source srcSet="/images/probar-logo.webp" type="image/webp" />
+              <img
+                src="/images/probar-logo.png"
+                alt={t('common.logoAlt')}
+                title={t('common.logoAlt')}
+                width={746}
+                height={334}
+                loading="eager"
+                decoding="async"
+                className="ic-logo-img"
+                draggable="false"
+              />
+            </picture>
           </Link>
 
           <ul className="ic-snav__links">
             {NAV_LINKS.map((l) => (
               <li key={l.path}>
-                <Link to={l.path} className={`ic-snav__link${isActive(l.path) ? ' ic-snav__link--active' : ''}`}>
+                <Link
+                  to={l.path}
+                  className={`ic-snav__link${isActive(l.path) ? ' ic-snav__link--active' : ''}`}
+                  onMouseEnter={() => prefetchRoute(l.path)}
+                  onFocus={() => prefetchRoute(l.path)}
+                >
                   {l.label}
                 </Link>
               </li>
@@ -33,7 +52,7 @@ export default function Navbar() {
 
           <div className="ic-snav__right">
             <Link to="/contact" className="ic-snav__cta">{t('nav.getQuote')}</Link>
-            <button className="ic-snav__burger" onClick={() => setOpen(true)} aria-label="Open menu">
+            <button className="ic-snav__burger" onClick={() => setOpen(true)} aria-label={t('common.openMenu')}>
               <HiMenuAlt3 />
             </button>
           </div>
@@ -47,7 +66,20 @@ export default function Navbar() {
             <motion.aside className="ic-snav__drawer" initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }} transition={{ type: 'tween', duration: 0.3, ease: [0.22, 1, 0.36, 1] }}>
               <div className="ic-snav__drawer-head">
                 <Link to="/" className="ic-snav__logo" onClick={() => setOpen(false)}>
-                  <img src="/images/probar-logo.png" alt="CBI Tunisia" className="ic-logo-img" draggable="false" />
+                  <picture>
+                    <source srcSet="/images/probar-logo.webp" type="image/webp" />
+                    <img
+                      src="/images/probar-logo.png"
+                      alt={t('common.logoAlt')}
+                      title={t('common.logoAlt')}
+                      width={746}
+                      height={334}
+                      loading="lazy"
+                      decoding="async"
+                      className="ic-logo-img"
+                      draggable="false"
+                    />
+                  </picture>
                 </Link>
                 <button className="ic-snav__drawer-close" onClick={() => setOpen(false)}><HiX /></button>
               </div>

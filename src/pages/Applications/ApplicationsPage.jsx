@@ -19,6 +19,12 @@ export default function ApplicationsPage() {
       <Seo page="applications" />
       <PageHero
         image="/images/project-11.png"
+        imageWebp="/images/project-11.webp"
+        imageWidth={2400}
+        imageHeight={1728}
+        imageAlt={t('applications.heroImageAlt')}
+        imageTitle={t('applications.heroImageTitle')}
+        imageCaption={t('applications.heroImageCaption')}
         subtitle={t('applications.eyebrow')}
         title={t('applications.title')}
         breadcrumbs={BREADCRUMBS}

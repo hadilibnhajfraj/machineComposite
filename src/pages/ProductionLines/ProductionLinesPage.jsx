@@ -4,6 +4,7 @@ import Seo from '../../components/Shared/Seo'
 import PageHero from '../../components/Shared/PageHero'
 import ProductionLines from '../../components/ProductionLines/ProductionLines'
 import Certifications from '../../components/Certifications/Certifications'
+import FAQ from '../../components/FAQ/FAQ'
 import Contact from '../../components/Contact/Contact'
 
 export default function ProductionLinesPage() {
@@ -19,6 +20,12 @@ export default function ProductionLinesPage() {
       <Seo page="productionLines" />
       <PageHero
         image="/images/product-10.png"
+        imageWebp="/images/product-10.webp"
+        imageWidth={2400}
+        imageHeight={1728}
+        imageAlt={t('productionLines.heroImageAlt')}
+        imageTitle={t('productionLines.heroImageTitle')}
+        imageCaption={t('productionLines.heroImageCaption')}
         subtitle={t('productionLines.eyebrow')}
         title={t('productionLines.title')}
         breadcrumbs={BREADCRUMBS}
@@ -30,6 +37,7 @@ export default function ProductionLinesPage() {
       </section>
       <ProductionLines />
       <Certifications background="var(--white)" />
+      <FAQ />
       <Contact />
     </div>
   )

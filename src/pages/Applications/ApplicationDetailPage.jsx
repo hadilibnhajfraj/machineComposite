@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link, useParams, Navigate } from 'react-router-dom'
+import { useParams, Navigate, useLocation } from 'react-router-dom'
+import Link from '../../components/Shared/LocalizedLink'
+import { localizePath, getLangFromPathname } from '../../i18n/langRoutes'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import {
@@ -8,6 +10,7 @@ import {
 import Seo from '../../components/Shared/Seo'
 import PageHero from '../../components/Shared/PageHero'
 import SectionTitle from '../../components/Shared/SectionTitle'
+import FAQ from '../../components/FAQ/FAQ'
 import Contact from '../../components/Contact/Contact'
 import { APP_META, getAppBySlug } from '../../components/Applications/appMeta'
 import { LINE_META } from '../../components/ProductionLines/lineMeta'
@@ -20,9 +23,13 @@ const ADVANTAGE_ICONS = [FiTrendingUp, FiShield, FiFeather, FiZap]
 export default function ApplicationDetailPage() {
   const { t } = useTranslation()
   const { slug } = useParams()
+  const location = useLocation()
   const app = getAppBySlug(slug)
 
-  if (!app) return <Navigate to="/applications" replace />
+  if (!app) {
+    const lang = getLangFromPathname(location.pathname)
+    return <Navigate to={localizePath('/applications', lang)} replace />
+  }
 
   const { key } = app
   const d = (field) => t(`applicationDetail.${key}.${field}`)
@@ -57,6 +64,7 @@ export default function ApplicationDetailPage() {
       {/* ── Overview ── */}
       <section className="ic-apd-overview section-pad">
         <div className="ic-container ic-apd-overview__inner">
+          <h2 className="ic-apd-overview__eyebrow">{c('overviewTitle')}</h2>
           <motion.p
             className="ic-apd-overview__lead"
             initial="hidden" whileInView="visible"
@@ -136,6 +144,9 @@ export default function ApplicationDetailPage() {
           <h2 className="ic-apd-heading ic-apd-heading--light">{d('maintenanceTitle')}</h2>
           <p>{d('maintenancePara1')}</p>
           <p>{d('maintenancePara2')}</p>
+          <p className="ic-apd-inlink">
+            <Link to="/about">{c('aboutLinkText')}</Link>
+          </p>
         </div>
       </section>
 
@@ -178,6 +189,16 @@ export default function ApplicationDetailPage() {
           </div>
         </div>
       </section>
+
+      <FAQ
+        items={[
+          { qKey: `applicationDetail.${key}.faqQ1`, aKey: `applicationDetail.${key}.faqA1` },
+          { qKey: `applicationDetail.${key}.faqQ2`, aKey: `applicationDetail.${key}.faqA2` },
+        ]}
+        eyebrowKey="faq.eyebrow"
+        titleKey="faq.title"
+        subtitleKey={`applicationDetail.${key}.faqSubtitle`}
+      />
 
       <Contact />
     </div>

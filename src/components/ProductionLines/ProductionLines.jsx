@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from '../Shared/LocalizedLink'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { FiArrowRight } from 'react-icons/fi'
@@ -16,7 +16,7 @@ export default function ProductionLines() {
       <div className="ic-container">
         <SectionTitle
           eyebrow={t('productionLines.eyebrow')}
-          title={t('productionLines.title')}
+          title={t('productionLines.sectionTitle')}
           subtitle={t('productionLines.subtitle')}
         />
 

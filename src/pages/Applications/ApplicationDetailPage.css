@@ -6,6 +6,22 @@
   color: var(--black);
   font-family: var(--font-condensed);
 }
+.ic-apd-overview__eyebrow {
+  font-family: var(--font-condensed);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin: 0 0 12px;
+}
+.ic-apd-inlink { margin-top: 18px; }
+.ic-apd-inlink a {
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 /* ── Shared text block ── */
 .ic-apd-text-block { max-width: 760px; }

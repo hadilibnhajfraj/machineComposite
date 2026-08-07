@@ -17,80 +17,98 @@
   "seo": {
     "titleSuffix": " — PROBAR by CBI Tunisia",
     "home": {
-      "title": "PROBAR Armature GFRP | CBI Tunisia",
-      "description": "CBI Tunisia produce barre e reti in GFRP PROBAR, un'alternativa all'acciaio resistente alla corrosione per progetti costieri, industriali e infrastrutturali."
+      "title": "Barre e Reti di Armatura GFRP PROBAR | CBI Tunisia",
+      "description": "CBI Tunisia produce barre e reti di armatura GFRP PROBAR — un'alternativa all'acciaio resistente alla corrosione, certificata ISO 9001, per progetti costieri.",
+      "keywords": "armatura in GFRP, barre di fibra di vetro, armatura composita, alternativa all'acciaio, CBI Tunisia"
     },
     "about": {
       "title": "Chi è CBI Tunisia | Oltre 10 Anni di Esperienza nel GFRP",
-      "description": "Composite Building Innovation First: oltre 10 anni di esperienza diretta nella produzione di GFRP, produzione certificata ISO 9001, EOTA/ETA, EPD e CNERIB."
+      "description": "Composite Building Innovation First: oltre 10 anni di esperienza diretta nella produzione di GFRP, produzione certificata ISO 9001, EOTA/ETA, EPD e CNERIB.",
+      "keywords": "CBI Tunisia, produttore GFRP, produttore compositi Tunisia, certificazione ISO 9001"
     },
     "productionLines": {
       "title": "Linee di Produzione GFRP | ProBar e ProMesh — CBI Tunisia",
-      "description": "Tecnologia di pultrusione ottimizzata, controllo preciso della resina e calibrazione qualità dietro le linee ProBar e ProMesh GFRP di CBI Tunisia."
+      "description": "Tecnologia di pultrusione ottimizzata, controllo preciso della resina e calibrazione qualità dietro le linee ProBar e ProMesh GFRP di CBI Tunisia.",
+      "keywords": "linee di produzione GFRP, tecnologia di pultrusione, ProBar, ProMesh, produttore armatura composita"
     },
     "productionLineDetail": {
       "rebar": {
         "title": "Barre di Armatura GFRP ProBar | CBI Tunisia",
-        "description": "Barre di armatura GFRP ProBar: resistenza a trazione ≥1000 MPa, resistenza totale alla corrosione, vita utile di servizio di 75–100 anni. Certificata ISO 9001 ed EOTA/ETA."
+        "description": "Barre GFRP ProBar: resistenza a trazione ≥1000 MPa, resistenza totale alla corrosione, vita utile 75–100 anni. Certificata ISO 9001 ed EOTA/ETA.",
+        "keywords": "armatura in GFRP, barre ProBar, fornitore armatura GFRP"
       },
       "mesh": {
-        "title": "Sistemi di Rete GFRP ProMesh | CBI Tunisia",
-        "description": "Rete GFRP ProMesh: armatura composita priva di corrosione per solai e pannelli, prodotta sulla piattaforma produttiva di CBI Tunisia con controllo preciso della resina."
+        "title": "Rete GFRP ProMesh, Priva di Corrosione | CBI Tunisia",
+        "description": "Rete GFRP ProMesh: armatura composita priva di corrosione per solai e pannelli, prodotta sulla piattaforma produttiva di CBI Tunisia.",
+        "keywords": "rete in GFRP, ProMesh, rete composita, armatura non metallica"
       },
       "bent": {
         "title": "Elementi Compositi Sagomati su Misura | CBI Tunisia",
-        "description": "Elementi di armatura composita in GFRP sagomati e su misura, sviluppati sulla comprovata piattaforma produttiva di pultrusione di CBI Tunisia."
+        "description": "Elementi di armatura composita in GFRP sagomati e su misura, sviluppati sulla comprovata piattaforma produttiva di pultrusione di CBI Tunisia.",
+        "keywords": "armatura GFRP sagomata, elementi compositi su misura, profili pultrusi"
       },
       "tank": {
-        "title": "Soluzioni per Serbatoi Compositi | CBI Tunisia",
-        "description": "Soluzioni per serbatoi compositi resistenti alla corrosione, sviluppate sulla piattaforma produttiva GFRP di CBI Tunisia, certificata ISO 9001 ed EOTA/ETA."
+        "title": "Serbatoi Compositi Resistenti alla Corrosione | CBI Tunisia",
+        "description": "Soluzioni per serbatoi compositi resistenti alla corrosione, sviluppate sulla piattaforma produttiva GFRP di CBI Tunisia, certificata ISO 9001 ed EOTA/ETA.",
+        "keywords": "serbatoio composito, cisterna GFRP, soluzioni di stoccaggio resistenti alla corrosione"
       },
       "pipe": {
-        "title": "Soluzioni per Tubazioni Composite | CBI Tunisia",
-        "description": "Soluzioni per tubazioni composite resistenti alla corrosione per il trasferimento di fluidi, sviluppate sulla piattaforma produttiva GFRP di CBI Tunisia."
+        "title": "Tubazioni Composite Resistenti alla Corrosione | CBI Tunisia",
+        "description": "Soluzioni per tubazioni composite resistenti alla corrosione per il trasferimento di fluidi, sviluppate sulla piattaforma produttiva GFRP di CBI Tunisia.",
+        "keywords": "tubo composito, condotta GFRP, soluzioni composite resistenti alla corrosione"
       },
       "profiles": {
         "title": "Profili Compositi Strutturali | CBI Tunisia",
-        "description": "Profili compositi strutturali in GFRP prodotti con la tecnologia di pultrusione ottimizzata di CBI Tunisia, privi di corrosione e non conduttivi."
+        "description": "Profili compositi strutturali in GFRP prodotti con la tecnologia di pultrusione ottimizzata di CBI Tunisia, privi di corrosione e non conduttivi.",
+        "keywords": "profili compositi strutturali, profili GFRP, sezioni pultruse non conduttive"
       }
     },
     "applications": {
       "title": "Applicazioni e Casi d'Uso GFRP | CBI Tunisia",
-      "description": "L'armatura GFRP PROBAR è progettata per infrastrutture costiere, impianti industriali, piattaforme logistiche e progetti sensibili alla manutenzione."
+      "description": "L'armatura GFRP PROBAR è progettata per infrastrutture costiere, impianti industriali, piattaforme logistiche e progetti sensibili alla manutenzione.",
+      "keywords": "applicazioni GFRP, usi armatura composita, GFRP edilizia"
     },
     "applicationDetail": {
       "construction": {
         "title": "GFRP per Edilizia Urbana e Civile | CBI Tunisia",
-        "description": "Armatura GFRP PROBAR priva di corrosione per edilizia residenziale, commerciale, sanitaria, scolastica e turistica. Certificata ISO 9001 ed EOTA/ETA."
+        "description": "Armatura GFRP PROBAR priva di corrosione per edilizia residenziale, commerciale, sanitaria, scolastica e turistica. Certificata ISO 9001 ed EOTA/ETA.",
+        "keywords": "GFRP edilizia civile, armatura resistente alla corrosione edifici"
       },
       "infrastructure": {
         "title": "GFRP per Infrastrutture Pubbliche e Trasporti | CBI Tunisia",
-        "description": "Armatura GFRP PROBAR per l'ammodernamento di trasporti, reti di servizi, energia e infrastrutture pubbliche — resistente alla corrosione, vita utile di 75–100 anni."
+        "description": "Armatura GFRP PROBAR per ammodernamento di trasporti, reti, energia e infrastrutture pubbliche — resistente alla corrosione, vita utile 75–100 anni.",
+        "keywords": "GFRP infrastrutture pubbliche, armatura composita trasporti"
       },
       "roads": {
         "title": "Armatura GFRP per Piattaforme Logistiche | CBI Tunisia",
-        "description": "Armatura GFRP PROBAR per fabbriche, magazzini e impianti pesanti in città industriali e hub logistici — più leggera, priva di corrosione, costo di ciclo di vita inferiore."
+        "description": "Armatura GFRP PROBAR per fabbriche e magazzini in città industriali — più leggera, priva di corrosione, costo di ciclo di vita inferiore all'acciaio.",
+        "keywords": "GFRP piattaforme logistiche, armatura composita magazzini"
       },
       "marine": {
         "title": "GFRP per Infrastrutture Costiere e Marittime | CBI Tunisia",
-        "description": "Armatura GFRP PROBAR totalmente resistente alla corrosione, progettata per infrastrutture costiere esposte all'acqua salata e ad ambienti marini."
+        "description": "Armatura GFRP PROBAR totalmente resistente alla corrosione, progettata per infrastrutture costiere esposte all'acqua salata e ad ambienti marini.",
+        "keywords": "GFRP ambiente marino, armatura composita costiera"
       },
       "industrial": {
         "title": "Armatura GFRP per Impianti Industriali | CBI Tunisia",
-        "description": "Armatura GFRP PROBAR chimicamente resistente e non conduttiva, progettata per ambienti industriali particolarmente esigenti."
+        "description": "Armatura GFRP PROBAR chimicamente resistente e non conduttiva, progettata per ambienti industriali particolarmente esigenti.",
+        "keywords": "GFRP impianti industriali, armatura non conduttiva"
       },
       "water": {
         "title": "GFRP per Progetti Sensibili alla Manutenzione | CBI Tunisia",
-        "description": "L'armatura GFRP PROBAR riduce al minimo la manutenzione in ambienti aggressivi — progettata per progetti sensibili alla manutenzione e di difficile accesso."
+        "description": "L'armatura GFRP PROBAR riduce al minimo la manutenzione in ambienti aggressivi — progettata per progetti sensibili alla manutenzione e di difficile accesso.",
+        "keywords": "armatura a bassa manutenzione, GFRP zone difficili da raggiungere"
       }
     },
     "projects": {
       "title": "Partnership Tecnica e Ingegneristica | PROBAR by CBI Tunisia",
-      "description": "Dall'integrazione con l'ingegneria civile allo sviluppo di capitolati, CBI Tunisia affianca progettisti e imprese EPC in ogni fase dei progetti in GFRP."
+      "description": "Dall'integrazione con l'ingegneria civile allo sviluppo di capitolati, CBI Tunisia affianca progettisti e imprese EPC in ogni fase dei progetti in GFRP.",
+      "keywords": "supporto ingegneristico GFRP, assistenza appaltatori EPC, sviluppo specifiche GFRP"
     },
     "contact": {
       "title": "Contatta CBI Tunisia | Reparti Vendite e Tecnico PROBAR",
-      "description": "Contatta i reparti Vendite e Tecnico di CBI Tunisia a Tunisi. Richiedi le specifiche del GFRP, una consulenza tecnica o un preventivo di progetto."
+      "description": "Contatta i reparti Vendite e Tecnico di CBI Tunisia a Tunisi. Richiedi le specifiche del GFRP, una consulenza tecnica o un preventivo di progetto.",
+      "keywords": "contatto CBI Tunisia, fornitore GFRP Tunisia, preventivo armatura composita"
     }
   },
   "hero": {
@@ -105,7 +123,9 @@
     "statsExperience": "Anni di\nEsperienza",
     "statsTensile": "MPa di\nResistenza a Trazione",
     "statsWeight": "Più Leggero\ndell'Acciaio",
-    "statsLifespan": "Anni di\nVita Utile"
+    "statsLifespan": "Anni di\nVita Utile",
+    "slide1Alt": "Cartelli indicatori del diametro delle barre di armatura GFRP nel piazzale di produzione di CBI Tunisia",
+    "slide2Alt": "Cantiere attivo che utilizza l'armatura in rete GFRP PROBAR"
   },
   "about": {
     "eyebrow": "Chi è CBI Tunisia",
@@ -159,7 +179,11 @@
       "title": "Soluzioni",
       "highlight": "per Profili Compositi",
       "desc": "Capacità produttiva basata sulla pultrusione estesa a profili compositi strutturali. Specifiche disponibili su richiesta."
-    }
+    },
+    "sectionTitle": "SEI LINEE, UNO STANDARD PRODUTTIVO",
+    "heroImageAlt": "Cartelli segnaletici del diametro dell'armatura GFRP nel deposito di produzione di CBI Tunisia",
+    "heroImageTitle": "Deposito di produzione GFRP di CBI Tunisia",
+    "heroImageCaption": "Deposito di produzione CBI Tunisia, Tunisia"
   },
   "lineDetail": {
     "common": {
@@ -170,7 +194,9 @@
       "advantagesEyebrow": "Vantaggi Operativi",
       "diagramPlaceholderLabel": "Schema Tecnico",
       "relatedApplicationsEyebrow": "Dove si Applica",
-      "relatedApplicationsTitle": "Applicazioni Correlate"
+      "relatedApplicationsTitle": "Applicazioni Correlate",
+      "overviewTitle": "Panoramica",
+      "certLinkText": "Scopri le certificazioni ISO 9001, EOTA/ETA ed EPD di CBI Tunisia"
     },
     "rebar": {
       "heroSubtitle": "Linea di Produzione ProBar",
@@ -214,7 +240,12 @@
       "advantage4Desc": "L'integrazione nell'ingegneria civile, la consulenza tecnica e lo sviluppo di capitolati affiancano progettisti e imprese EPC dalla progettazione fino alla consegna.",
       "seoTitle": "Produzione di Barre di Armatura GFRP di CBI Tunisia",
       "seoPara1": "ProBar è la linea di produzione di barre di armatura GFRP di CBI Tunisia, progettata appositamente per offrire un'alternativa resistente alla corrosione e ad alta resistenza a trazione alle barre di armatura in acciaio, per infrastrutture costiere, impianti industriali, piattaforme logistiche e progetti edilizi sensibili alla manutenzione. Prodotte con tecnologia di pultrusione ottimizzata e controllo preciso della resina, le barre di armatura ProBar sono progettate per garantire precisione dimensionale e prestazioni meccaniche costanti, lotto dopo lotto.",
-      "seoPara2": "PROBAR non è posizionato come sostituto universale dell'acciaio — è una soluzione di armatura mirata e ad alta durabilità per le applicazioni in cui la resistenza alla corrosione e le prestazioni sul ciclo di vita contano di più. Sostenuto dalle certificazioni ISO 9001:2015, EOTA/Valutazione Tecnica Europea ETA 24/0295, EPD e CNERIB, e da oltre 10 anni di esperienza diretta e pratica nella produzione di GFRP, ProBar offre a ingegneri, progettisti e imprese EPC un'alternativa validata e tecnicamente supportata alle barre di armatura in acciaio convenzionali."
+      "seoPara2": "PROBAR non è posizionato come sostituto universale dell'acciaio — è una soluzione di armatura mirata e ad alta durabilità per le applicazioni in cui la resistenza alla corrosione e le prestazioni sul ciclo di vita contano di più. Sostenuto dalle certificazioni ISO 9001:2015, EOTA/Valutazione Tecnica Europea ETA 24/0295, EPD e CNERIB, e da oltre 10 anni di esperienza diretta e pratica nella produzione di GFRP, ProBar offre a ingegneri, progettisti e imprese EPC un'alternativa validata e tecnicamente supportata alle barre di armatura in acciaio convenzionali.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sulle barre di armatura GFRP ProBar.",
+      "faqQ1": "Quali certificazioni possiede ProBar?",
+      "faqA1": "Le barre di armatura ProBar sono prodotte nell'ambito del sistema di qualità ISO 9001:2015 di CBI Tunisia, con la Valutazione Tecnica Europea ETA 24/0295 e la registrazione EPD/CNERIB — le stesse certificazioni applicate a tutte le linee di produzione dell'azienda.",
+      "faqQ2": "In cosa si differenzia ProBar dalle barre di armatura in acciaio?",
+      "faqA2": "ProBar offre una resistenza a trazione ≥1000 MPa contro i 400–600 MPa dell'acciaio convenzionale, con circa il 75% di peso in meno, resistenza totale alla corrosione e una vita utile di progetto di 75–100 anni contro i 30–50 anni tipici dell'acciaio."
     },
     "mesh": {
       "heroSubtitle": "Linea di Produzione ProMesh",
@@ -258,7 +289,12 @@
       "advantage4Desc": "L'integrazione nell'ingegneria civile e lo sviluppo di capitolati affiancano progettisti e imprese EPC nell'adozione della rete GFRP con fiducia.",
       "seoTitle": "Produzione di Rete GFRP di CBI Tunisia",
       "seoPara1": "ProMesh è la linea di produzione di rete GFRP di CBI Tunisia, progettata per un'armatura priva di corrosione in solai, pannelli e applicazioni superficiali, per infrastrutture costiere, impianti industriali, piattaforme logistiche e progetti sensibili alla manutenzione. Prodotta sulla stessa tecnologia di pultrusione ottimizzata e piattaforma di controllo preciso della resina di ProBar, ProMesh offre la costanza meccanica di un processo produttivo validato e calibrato in termini di qualità.",
-      "seoPara2": "Come tutti i prodotti PROBAR, ProMesh è posizionato come soluzione di armatura mirata e ad alta durabilità, e non come sostituto universale della rete in acciaio. Sostenuto dalle certificazioni ISO 9001:2015, EOTA/ETA 24/0295, EPD e CNERIB, e da oltre 10 anni di esperienza di CBI Tunisia nella produzione di GFRP, ProMesh offre a ingegneri e imprese un'alternativa composita tecnicamente supportata per applicazioni di armatura sensibili alla corrosione."
+      "seoPara2": "Come tutti i prodotti PROBAR, ProMesh è posizionato come soluzione di armatura mirata e ad alta durabilità, e non come sostituto universale della rete in acciaio. Sostenuto dalle certificazioni ISO 9001:2015, EOTA/ETA 24/0295, EPD e CNERIB, e da oltre 10 anni di esperienza di CBI Tunisia nella produzione di GFRP, ProMesh offre a ingegneri e imprese un'alternativa composita tecnicamente supportata per applicazioni di armatura sensibili alla corrosione.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sui sistemi di rete GFRP ProMesh.",
+      "faqQ1": "ProMesh è prodotto secondo lo stesso standard di ProBar?",
+      "faqA1": "Sì. ProMesh è prodotto sulla stessa piattaforma di controllo preciso della resina e calibrazione qualità di ProBar, nell'ambito degli stessi sistemi strutturati di gestione della qualità e di assicurazione qualità standardizzata.",
+      "faqQ2": "Dove viene tipicamente utilizzato ProMesh?",
+      "faqA2": "ProMesh è progettato per un'armatura priva di corrosione in applicazioni su solai, pannelli e superfici, ovunque la rete in acciaio convenzionale sarebbe esposta a condizioni corrosive o sensibili alla manutenzione."
     },
     "bent": {
       "heroSubtitle": "Elementi Compositi Sagomati",
@@ -302,7 +338,12 @@
       "advantage4Desc": "Oltre 10 anni di esperienza diretta e pratica nella produzione di GFRP riducono il rischio di un approccio per tentativi alle geometrie su misura.",
       "seoTitle": "Elementi di Armatura Composita su Misura di CBI Tunisia",
       "seoPara1": "CBI Tunisia estende la propria piattaforma produttiva GFRP oltre ProBar e ProMesh, offrendo elementi di armatura composita sagomati e su misura, sviluppati sulla stessa tecnologia di pultrusione ottimizzata, controllo preciso della resina e calibrazione qualità standardizzata che caratterizzano le linee di produzione dell'azienda. Questa capacità supporta i progetti che richiedono geometrie di armatura diverse dalle barre diritte standard o dai pannelli di rete.",
-      "seoPara2": "Ogni elemento composito sagomato viene sviluppato attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione di GFRP e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dimensionali e di carico dettagliate sono disponibili su richiesta presso il nostro ufficio tecnico."
+      "seoPara2": "Ogni elemento composito sagomato viene sviluppato attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione di GFRP e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dimensionali e di carico dettagliate sono disponibili su richiesta presso il nostro ufficio tecnico.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sugli elementi compositi sagomati su misura.",
+      "faqQ1": "Sono disponibili specifiche dettagliate per gli elementi compositi sagomati?",
+      "faqA1": "Gli elementi compositi sagomati e su misura sono sviluppati sulla stessa piattaforma di pultrusione di ProBar e ProMesh; le specifiche dimensionali e meccaniche dettagliate per una determinata geometria sono disponibili su richiesta presso l'ufficio tecnico di CBI Tunisia.",
+      "faqQ2": "Quali standard di qualità regolano gli elementi compositi sagomati?",
+      "faqA2": "Gli elementi sagomati e su misura sono prodotti nell'ambito degli stessi sistemi strutturati di gestione della qualità, manutenzione preventiva e assicurazione qualità standardizzata che regolano l'intera piattaforma produttiva GFRP di CBI Tunisia."
     },
     "tank": {
       "heroSubtitle": "Soluzioni per Serbatoi Compositi",
@@ -346,7 +387,12 @@
       "advantage4Desc": "Oltre 10 anni di esperienza diretta e pratica nella produzione di compositi sostengono un approccio validato, e non basato sui tentativi, alla produzione dei serbatoi.",
       "seoTitle": "Produzione di Serbatoi Compositi di CBI Tunisia",
       "seoPara1": "CBI Tunisia applica il proprio know-how nella produzione di compositi GFRP a soluzioni per serbatoi progettate per il contenimento e lo stoccaggio resistenti alla corrosione. Costruita sulla stessa tecnologia di processo ottimizzata, controllo preciso della resina e calibrazione qualità standardizzata che caratterizzano le linee di armatura ProBar e ProMesh dell'azienda, la produzione dei serbatoi compositi beneficia di un decennio di architettura industriale comprovata.",
-      "seoPara2": "Ogni soluzione per serbatoi compositi viene sviluppata attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione di compositi e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dettagliate di capacità e dimensionali sono disponibili su richiesta presso il nostro ufficio tecnico."
+      "seoPara2": "Ogni soluzione per serbatoi compositi viene sviluppata attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione di compositi e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dettagliate di capacità e dimensionali sono disponibili su richiesta presso il nostro ufficio tecnico.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sulle soluzioni per serbatoi compositi.",
+      "faqQ1": "Sono disponibili specifiche dettagliate per i serbatoi compositi?",
+      "faqA1": "Le soluzioni per serbatoi compositi sono sviluppate sulla comprovata piattaforma produttiva GFRP di CBI Tunisia; le specifiche dettagliate di capacità e dimensionali sono disponibili su richiesta presso l'ufficio tecnico.",
+      "faqQ2": "Cosa rende i serbatoi compositi resistenti alla corrosione?",
+      "faqA2": "I serbatoi compositi applicano gli stessi sistemi strutturati di gestione della qualità e la stessa competenza nell'ottimizzazione dei processi delle linee di armatura di CBI Tunisia, progettati specificamente per il contenimento e lo stoccaggio resistenti alla corrosione."
     },
     "pipe": {
       "heroSubtitle": "Soluzioni per Tubazioni Composite",
@@ -390,7 +436,12 @@
       "advantage4Desc": "Oltre 10 anni di esperienza diretta e pratica nella produzione di compositi sostengono un approccio validato, e non basato sui tentativi, alla produzione delle tubazioni.",
       "seoTitle": "Produzione di Tubazioni Composite di CBI Tunisia",
       "seoPara1": "CBI Tunisia applica il proprio know-how nella produzione di compositi GFRP a soluzioni per tubazioni progettate per il trasferimento di fluidi resistente alla corrosione. Costruita sulla stessa tecnologia di processo ottimizzata, controllo preciso della resina e calibrazione qualità standardizzata che caratterizzano le linee di armatura ProBar e ProMesh dell'azienda, la produzione delle tubazioni composite beneficia di un decennio di architettura industriale comprovata.",
-      "seoPara2": "Ogni soluzione per tubazioni composite viene sviluppata attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione di compositi e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dettagliate di diametro e classe di pressione sono disponibili su richiesta presso il nostro ufficio tecnico."
+      "seoPara2": "Ogni soluzione per tubazioni composite viene sviluppata attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione di compositi e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dettagliate di diametro e classe di pressione sono disponibili su richiesta presso il nostro ufficio tecnico.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sulle soluzioni per tubazioni composite.",
+      "faqQ1": "Sono disponibili specifiche dettagliate per le tubazioni composite?",
+      "faqA1": "Le soluzioni per tubazioni composite sono sviluppate sulla comprovata piattaforma produttiva GFRP di CBI Tunisia; le specifiche dettagliate dimensionali e di classe di pressione sono disponibili su richiesta presso l'ufficio tecnico.",
+      "faqQ2": "Per quali applicazioni sono progettate le tubazioni composite?",
+      "faqA2": "Le tubazioni composite sono progettate per applicazioni di trasferimento di fluidi resistenti alla corrosione, utilizzando lo stesso controllo di processo disciplinato delle linee di prodotto per armature di CBI Tunisia."
     },
     "profiles": {
       "heroSubtitle": "Soluzioni per Profili Compositi",
@@ -434,7 +485,12 @@
       "advantage4Desc": "Oltre 10 anni di esperienza diretta e pratica nella produzione per pultrusione sostengono un approccio validato, e non basato sui tentativi, ai profili strutturali.",
       "seoTitle": "Produzione di Profili Compositi Strutturali di CBI Tunisia",
       "seoPara1": "CBI Tunisia estende la propria competenza nella produzione per pultrusione a profili compositi strutturali, costruiti sulla stessa tecnologia di processo ottimizzata, controllo preciso della resina e calibrazione qualità standardizzata che caratterizzano la linea di barre di armatura ProBar dell'azienda. Questa capacità basata sulla pultrusione supporta applicazioni strutturali che richiedono sezioni composite prive di corrosione, non conduttive e leggere.",
-      "seoPara2": "Ogni profilo composito strutturale viene sviluppato attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione per pultrusione e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dettagliate di sezione e di carico sono disponibili su richiesta presso il nostro ufficio tecnico."
+      "seoPara2": "Ogni profilo composito strutturale viene sviluppato attraverso un supporto diretto alla progettazione e una validazione dei materiali a livello di progetto, sostenuti da oltre 10 anni di esperienza diretta e pratica nella produzione per pultrusione e dalle certificazioni ISO 9001:2015, EOTA/ETA, EPD e CNERIB di CBI Tunisia. Le specifiche dettagliate di sezione e di carico sono disponibili su richiesta presso il nostro ufficio tecnico.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sui profili compositi strutturali.",
+      "faqQ1": "Sono disponibili specifiche dettagliate per i profili compositi strutturali?",
+      "faqA1": "I profili compositi strutturali sono prodotti sulla stessa base tecnologica di pultrusione di ProBar; le specifiche dettagliate di sezione e di carico sono disponibili su richiesta presso l'ufficio tecnico di CBI Tunisia.",
+      "faqQ2": "Perché scegliere i profili compositi rispetto alle sezioni in acciaio?",
+      "faqA2": "I profili compositi sono privi di corrosione, non conduttivi e leggeri rispetto alle sezioni in acciaio, pur condividendo gli stessi sistemi strutturati di gestione della qualità delle linee di armatura di CBI Tunisia."
     }
   },
   "applications": {
@@ -467,7 +523,11 @@
     "water": {
       "title": "Ambienti Sensibili alla Manutenzione",
       "desc": "Armatura GFRP non conduttiva e chimicamente resistente per progetti sensibili alla manutenzione, dove la riparazione periodica dell'acciaio è costosa o impraticabile."
-    }
+    },
+    "sectionTitle": "SEI SETTORI. UNO STANDARD DI PRESTAZIONE.",
+    "heroImageAlt": "Cantiere edile attivo che utilizza la rete di armatura GFRP PROBAR",
+    "heroImageTitle": "Armatura GFRP PROBAR su un cantiere attivo",
+    "heroImageCaption": "Armatura GFRP PROBAR in cantiere"
   },
   "applicationDetail": {
     "common": {
@@ -478,7 +538,9 @@
       "performanceEyebrow": "Prestazioni a Lungo Termine",
       "maintenanceEyebrow": "Vantaggi di Manutenzione",
       "relatedLinesEyebrow": "Progettato per Questo",
-      "relatedLinesTitle": "Linee di Produzione Correlate"
+      "relatedLinesTitle": "Linee di Produzione Correlate",
+      "overviewTitle": "Panoramica",
+      "aboutLinkText": "Scopri di più sull'esperienza di CBI Tunisia nella produzione di GFRP"
     },
     "construction": {
       "heroSubtitle": "Edilizia Urbana e Civile",
@@ -510,7 +572,12 @@
       "performancePara2": "Questa vita utile prolungata è sostenuta dalla gestione della qualità ISO 9001:2015, dalla Valutazione Tecnica Europea ETA 24/0295 e dalle certificazioni EPD e CNERIB, offrendo a sviluppatori e progettisti una base tecnicamente convalidata per le prestazioni a lungo termine.",
       "maintenanceTitle": "Vantaggi di Manutenzione",
       "maintenancePara1": "Laddove l'armatura in acciaio richiede riparazioni periodiche lungo la vita della struttura, l'armatura GFRP richiede una manutenzione minima anche in ambienti aggressivi — riducendo le interruzioni per edifici occupati come ospedali, scuole e locali commerciali.",
-      "maintenancePara2": "Requisiti di manutenzione ridotti si traducono in un costo totale di proprietà migliorato lungo tutta la vita utile dell'edificio, un aspetto che si amplifica nei programmi di sviluppo urbano su larga scala."
+      "maintenancePara2": "Requisiti di manutenzione ridotti si traducono in un costo totale di proprietà migliorato lungo tutta la vita utile dell'edificio, un aspetto che si amplifica nei programmi di sviluppo urbano su larga scala.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sul GFRP per l'edilizia urbana e civile.",
+      "faqQ1": "Perché scegliere l'armatura GFRP per progetti di edilizia urbana?",
+      "faqA1": "Gli edifici urbani — ospedali, scuole, edilizia residenziale, sviluppi commerciali — hanno una lunga vita di progetto. L'armatura GFRP PROBAR è progettata come alternativa resistente alla corrosione all'acciaio, in linea con questa prospettiva di lungo termine fin dal primo getto.",
+      "faqQ2": "Quale vita utile possono aspettarsi i progetti di edilizia urbana?",
+      "faqA2": "L'armatura GFRP PROBAR è progettata per una vita utile di progetto di 75–100 anni, contro i 30–50 anni tipici dell'acciaio — un margine significativo per edifici progettati per servire le proprie comunità per generazioni."
     },
     "infrastructure": {
       "heroSubtitle": "Infrastrutture Pubbliche e Trasporti",
@@ -542,7 +609,12 @@
       "performancePara2": "Questa prestazione è sostenuta dalle certificazioni ISO 9001:2015, Valutazione Tecnica Europea ETA 24/0295, EPD e CNERIB — una base convalidata per specificare il GFRP nei programmi infrastrutturali pubblici.",
       "maintenanceTitle": "Vantaggi di Manutenzione",
       "maintenancePara1": "Una manutenzione minima in ambienti aggressivi, rispetto alle riparazioni periodiche richieste dall'armatura in acciaio, riduce le interruzioni e i costi di ciclo di vita associati alla manutenzione di asset infrastrutturali pubblici che devono restare continuamente in servizio.",
-      "maintenancePara2": "Per le infrastrutture sostenute da una spesa in conto capitale pubblico continua, una minore necessità di manutenzione favorisce una gestione degli asset a lungo termine più prevedibile."
+      "maintenancePara2": "Per le infrastrutture sostenute da una spesa in conto capitale pubblico continua, una minore necessità di manutenzione favorisce una gestione degli asset a lungo termine più prevedibile.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sul GFRP per infrastrutture pubbliche e trasporti.",
+      "faqQ1": "Perché l'armatura GFRP è adatta ai progetti di infrastrutture pubbliche?",
+      "faqA1": "Le infrastrutture pubbliche sono costruite per servire per generazioni, sostenute da investimenti di capitale continui. La resistenza alla corrosione e la vita utile prolungata dell'armatura GFRP PROBAR si allineano a questi lunghi orizzonti operativi.",
+      "faqQ2": "In che modo PROBAR riduce il costo di ciclo di vita degli asset infrastrutturali?",
+      "faqA2": "Eliminando le riparazioni periodiche richieste dall'armatura in acciaio convenzionale, PROBAR riduce i costi di manutenzione ricorrenti e le interruzioni su infrastrutture da cui la collettività dipende in modo continuo."
     },
     "roads": {
       "heroSubtitle": "Piattaforme Logistiche",
@@ -574,7 +646,12 @@
       "performancePara2": "Sostenuto dalle certificazioni ISO 9001:2015, Valutazione Tecnica Europea ETA 24/0295, EPD e CNERIB, PROBAR offre agli sviluppatori logistici e industriali una scelta di armatura convalidata per la costruzione di impianti su larga scala.",
       "maintenanceTitle": "Vantaggi di Manutenzione",
       "maintenancePara1": "Una manutenzione minima in ambienti aggressivi, anziché le riparazioni periodiche richieste dall'acciaio, contribuisce a proteggere la continuità operativa di fabbriche, magazzini e hub logistici costruiti per un uso continuo.",
-      "maintenancePara2": "Una minore necessità di manutenzione si amplifica favorevolmente su larga scala — un aspetto rilevante per i considerevoli volumi strutturali richiesti dalle nuove città industriali e dagli hub logistici."
+      "maintenancePara2": "Una minore necessità di manutenzione si amplifica favorevolmente su larga scala — un aspetto rilevante per i considerevoli volumi strutturali richiesti dalle nuove città industriali e dagli hub logistici.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sul GFRP per piattaforme logistiche.",
+      "faqQ1": "PROBAR è adatto alla costruzione di impianti logistici e industriali su larga scala?",
+      "faqA1": "Sì. PROBAR si posiziona come soluzione di armatura mirata e ad alta durabilità per fabbriche, magazzini e impianti pesanti in città industriali e hub logistici, ovunque la resistenza alla corrosione e il costo di ciclo di vita contino di più.",
+      "faqQ2": "L'armatura GFRP riduce i costi logistici nei grandi progetti?",
+      "faqA2": "Con circa il 75% di peso in meno rispetto all'acciaio, l'armatura PROBAR semplifica la movimentazione e riduce i costi di trasporto e logistica nella costruzione di impianti su larga scala."
     },
     "marine": {
       "heroSubtitle": "Infrastrutture Costiere e Marittime",
@@ -606,7 +683,12 @@
       "performancePara2": "Questa prestazione prolungata e resistente alla corrosione è sostenuta dalle certificazioni ISO 9001:2015, Valutazione Tecnica Europea ETA 24/0295, EPD e CNERIB.",
       "maintenanceTitle": "Vantaggi di Manutenzione",
       "maintenancePara1": "L'armatura GFRP richiede una manutenzione minima anche in ambienti aggressivi — affrontando direttamente la sfida che l'acciaio deve affrontare in ambienti costieri e marini, dove richiede riparazioni periodiche dovute alla corrosione continua.",
-      "maintenancePara2": "Per gli asset costieri in cui l'accesso per la manutenzione è difficile o costoso, la ridotta necessità di intervento favorisce un costo totale di proprietà migliorato lungo tutta la vita della struttura."
+      "maintenancePara2": "Per gli asset costieri in cui l'accesso per la manutenzione è difficile o costoso, la ridotta necessità di intervento favorisce un costo totale di proprietà migliorato lungo tutta la vita della struttura.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sul GFRP per infrastrutture costiere e marittime.",
+      "faqQ1": "Perché l'armatura GFRP è consigliata per le strutture costiere e marittime?",
+      "faqA1": "Le infrastrutture costiere sono indicate direttamente tra le applicazioni mirate di PROBAR, perché è qui che l'acciaio convenzionale corrode più rapidamente. L'armatura GFRP PROBAR offre resistenza totale alla corrosione in ambienti marini e ad acqua salata.",
+      "faqQ2": "Quanto dura più a lungo l'armatura GFRP rispetto all'acciaio in ambienti marini?",
+      "faqA2": "PROBAR è progettato per una vita utile di progetto di 75–100 anni; nelle condizioni marine questo margine è particolarmente significativo, poiché l'esposizione all'acqua salata riduce tipicamente le prestazioni reali dell'acciaio ben al di sotto della sua vita di progetto nominale."
     },
     "industrial": {
       "heroSubtitle": "Impianti Industriali",
@@ -638,7 +720,12 @@
       "performancePara2": "Questa prestazione è sostenuta dalle certificazioni ISO 9001:2015, Valutazione Tecnica Europea ETA 24/0295, EPD e CNERIB, offrendo agli sviluppatori industriali una scelta di armatura tecnicamente convalidata.",
       "maintenanceTitle": "Vantaggi di Manutenzione",
       "maintenancePara1": "Una manutenzione minima in ambienti aggressivi, anziché le riparazioni periodiche richieste dall'acciaio, contribuisce a proteggere la continuità operativa negli impianti industriali in cui manutenzioni non pianificate possono interrompere le operazioni continue.",
-      "maintenancePara2": "Manutenzione ridotta e struttura chimicamente resistente favoriscono insieme un costo totale di proprietà inferiore lungo tutta la vita operativa di un impianto industriale."
+      "maintenancePara2": "Manutenzione ridotta e struttura chimicamente resistente favoriscono insieme un costo totale di proprietà inferiore lungo tutta la vita operativa di un impianto industriale.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sul GFRP per impianti industriali.",
+      "faqQ1": "Perché utilizzare l'armatura GFRP negli impianti industriali?",
+      "faqA1": "Gli impianti industriali sono indicati direttamente tra le applicazioni mirate di PROBAR: l'esposizione chimica e le considerazioni di sicurezza elettrica sono proprio l'ambito in cui la resistenza chimica e la non conduttività del GFRP superano l'armatura in acciaio convenzionale.",
+      "faqQ2": "L'armatura GFRP è elettricamente conduttiva?",
+      "faqA2": "No. A differenza dell'acciaio, l'armatura GFRP PROBAR è non conduttiva, una proprietà importante in ambito industriale dove sono rilevanti le considerazioni di sicurezza elettrica."
     },
     "water": {
       "heroSubtitle": "Ambienti Sensibili alla Manutenzione",
@@ -670,7 +757,12 @@
       "performancePara2": "Questa prestazione è sostenuta dalle certificazioni ISO 9001:2015, Valutazione Tecnica Europea ETA 24/0295, EPD e CNERIB, offrendo ai progettisti una base convalidata per scegliere il GFRP nei progetti sensibili alla manutenzione.",
       "maintenanceTitle": "Vantaggi di Manutenzione",
       "maintenancePara1": "La manutenzione minima in ambienti aggressivi è il vantaggio principale che PROBAR offre ai progetti sensibili alla manutenzione — riducendo la frequenza, il costo e le interruzioni degli interventi di riparazione richiesti dall'armatura in acciaio convenzionale.",
-      "maintenancePara2": "Per i progetti in cui ogni intervento di manutenzione comporta un costo o un rischio reale, questo onere di manutenzione ridotto è spesso il fattore decisivo nella scelta del GFRP rispetto all'armatura in acciaio convenzionale."
+      "maintenancePara2": "Per i progetti in cui ogni intervento di manutenzione comporta un costo o un rischio reale, questo onere di manutenzione ridotto è spesso il fattore decisivo nella scelta del GFRP rispetto all'armatura in acciaio convenzionale.",
+      "faqSubtitle": "Le domande che gli ingegneri pongono sul GFRP per ambienti sensibili alla manutenzione.",
+      "faqQ1": "Cosa rende PROBAR adatto ai progetti sensibili alla manutenzione?",
+      "faqA1": "I progetti sensibili alla manutenzione sono indicati direttamente tra le applicazioni mirate di PROBAR — ambienti in cui le riparazioni periodiche richieste dall'acciaio convenzionale sono costose, causano interruzioni o sono impraticabili da eseguire.",
+      "faqQ2": "In che modo PROBAR riduce le esigenze di manutenzione lungo la vita di una struttura?",
+      "faqA2": "Con resistenza totale alla corrosione e una vita utile di progetto di 75–100 anni contro i 30–50 anni tipici dell'acciaio, PROBAR richiede meno interventi importanti lungo la vita della struttura."
     }
   },
   "statistics": {
@@ -743,7 +835,8 @@
     "c3title": "Supporto alla Progettazione e Validazione dei Materiali",
     "c3desc": "Coinvolgimento diretto a livello di progetto — supporto alla progettazione e validazione dei materiali in base alle esigenze tecniche di ciascun progetto.",
     "c4title": "Sviluppo di Capitolati e Formazione Tecnica",
-    "c4desc": "Supporto nello sviluppo di capitolati GFRP e nella formazione tecnica, per dare a ingegneri e imprese fiducia nelle prestazioni, nella conformità e nei benefici di ciclo di vita."
+    "c4desc": "Supporto nello sviluppo di capitolati GFRP e nella formazione tecnica, per dare a ingegneri e imprese fiducia nelle prestazioni, nella conformità e nei benefici di ciclo di vita.",
+    "sectionTitle": "AL FIANCO DEL TUO PROGETTO, PASSO DOPO PASSO"
   },
   "faq": {
     "eyebrow": "Domande Frequenti",
@@ -896,5 +989,12 @@
     "sol4": "Soluzioni per Serbatoi Compositi",
     "sol5": "Soluzioni per Tubazioni Composite",
     "sol6": "Soluzioni per Profili Compositi"
+  },
+  "common": {
+    "logoAlt": "PROBAR by CBI Tunisia — Logo del Produttore di Compositi GFRP",
+    "openMenu": "Apri menu",
+    "scrollDown": "Scorri verso il basso",
+    "languageSelector": "Selettore lingua",
+    "breadcrumb": "Percorso di navigazione"
   }
 }

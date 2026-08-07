@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
+import Link from '../Shared/LocalizedLink'
 import { motion, AnimatePresence } from 'framer-motion'
 import CountUp from 'react-countup'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -8,6 +9,7 @@ import { useTranslation } from 'react-i18next'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 import { FiArrowRight, FiChevronDown } from 'react-icons/fi'
 import useNavLinks from '../Shared/useNavLinks'
+import { prefetchRoute } from '../../routes/routeImports'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -16,10 +18,10 @@ import './Hero.css'
 
 /* ── Slides — replace src/poster with real files in /public/ ── */
 const SLIDES = [
-  { id: 1, type: 'image', src: '/images/product-10.png',  alt: 'GFRP Rebar Industrial Production Line' },
-  { id: 2, type: 'video', src: '/videos/production-line.mp4', poster: '/images/product-2.jpg'          },
-  { id: 3, type: 'image', src: '/images/project-11.png',  alt: 'Composite Manufacturing Factory'       },
-  { id: 4, type: 'video', src: '/videos/factory-process.mp4', poster: '/images/product-3.jpg'          },
+  { id: 1, type: 'image', src: '/images/product-10.png', webp: '/images/product-10.webp', width: 2400, height: 1728, altKey: 'hero.slide1Alt', titleKey: 'hero.slide1Alt' },
+  { id: 2, type: 'video', src: '/videos/production-line.mp4', poster: '/images/product-2.jpg' },
+  { id: 3, type: 'image', src: '/images/project-11.png', webp: '/images/project-11.webp', width: 2400, height: 1728, altKey: 'hero.slide2Alt', titleKey: 'hero.slide2Alt' },
+  { id: 4, type: 'video', src: '/videos/factory-process.mp4', poster: '/images/product-3.jpg' },
 ]
 
 /* ── Animation variants ── */
@@ -67,12 +69,30 @@ function HeroNav() {
       <nav className="ic-hnav">
         <div className="ic-container ic-hnav__inner">
           <Link to="/" className="ic-hnav__logo">
-            <img src="/images/probar-logo.png" alt="CBI Tunisia" className="ic-logo-img" draggable="false" />
+            <picture>
+              <source srcSet="/images/probar-logo.webp" type="image/webp" />
+              <img
+                src="/images/probar-logo.png"
+                alt={t('common.logoAlt')}
+                title={t('common.logoAlt')}
+                width={746}
+                height={334}
+                loading="eager"
+                decoding="async"
+                className="ic-logo-img"
+                draggable="false"
+              />
+            </picture>
           </Link>
           <ul className="ic-hnav__links">
             {NAV_LINKS.map((l) => (
               <li key={l.path}>
-                <Link to={l.path} className={`ic-hnav__link${isActive(l.path) ? ' ic-hnav__link--active' : ''}`}>
+                <Link
+                  to={l.path}
+                  className={`ic-hnav__link${isActive(l.path) ? ' ic-hnav__link--active' : ''}`}
+                  onMouseEnter={() => prefetchRoute(l.path)}
+                  onFocus={() => prefetchRoute(l.path)}
+                >
                   {l.label}
                 </Link>
               </li>
@@ -80,7 +100,7 @@ function HeroNav() {
           </ul>
           <div className="ic-hnav__right">
             <Link to="/contact" className="ic-hnav__cta">{t('nav.getQuote')}</Link>
-            <button className="ic-hnav__burger" onClick={() => setMobileOpen(true)} aria-label="Open menu">
+            <button className="ic-hnav__burger" onClick={() => setMobileOpen(true)} aria-label={t('common.openMenu')}>
               <HiMenuAlt3 />
             </button>
           </div>
@@ -94,7 +114,20 @@ function HeroNav() {
             <motion.aside className="ic-hnav__drawer" initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }} transition={{ type: 'tween', duration: 0.3, ease: [0.22, 1, 0.36, 1] }}>
               <div className="ic-hnav__drawer-head">
                 <Link to="/" className="ic-hnav__logo" onClick={() => setMobileOpen(false)}>
-                  <img src="/images/probar-logo.png" alt="CBI Tunisia" className="ic-logo-img" draggable="false" />
+                  <picture>
+                    <source srcSet="/images/probar-logo.webp" type="image/webp" />
+                    <img
+                      src="/images/probar-logo.png"
+                      alt={t('common.logoAlt')}
+                      title={t('common.logoAlt')}
+                      width={746}
+                      height={334}
+                      loading="lazy"
+                      decoding="async"
+                      className="ic-logo-img"
+                      draggable="false"
+                    />
+                  </picture>
                 </Link>
                 <button className="ic-hnav__drawer-close" onClick={() => setMobileOpen(false)}><HiX /></button>
               </div>
@@ -154,7 +187,20 @@ export default function Hero() {
         {SLIDES.map((slide) => (
           <SwiperSlide key={slide.id} className="hero-slide">
             {slide.type === 'image' ? (
-              <img src={slide.src} alt={slide.alt} className="hero-slide__media" loading={slide.id === 1 ? 'eager' : 'lazy'} />
+              <picture>
+                {slide.webp && <source srcSet={slide.webp} type="image/webp" />}
+                <img
+                  src={slide.src}
+                  alt={t(slide.altKey)}
+                  title={t(slide.titleKey)}
+                  width={slide.width}
+                  height={slide.height}
+                  className="hero-slide__media"
+                  loading={slide.id === 1 ? 'eager' : 'lazy'}
+                  decoding="async"
+                  fetchPriority={slide.id === 1 ? 'high' : undefined}
+                />
+              </picture>
             ) : (
               <video className="hero-slide__media" autoPlay muted loop playsInline preload="metadata" poster={slide.poster}>
                 <source src={slide.src} type="video/mp4" />
@@ -210,7 +256,7 @@ export default function Hero() {
       </div>
 
       {/* 5. Scroll cue */}
-      <motion.a href="#about" className="ic-hero__scroll-cue" aria-label="Scroll down" initial={{ opacity: 0 }} animate={{ opacity: 1, y: [0, 8, 0] }} transition={{ opacity: { delay: 1.8 }, y: { repeat: Infinity, duration: 2, ease: 'easeInOut' } }}>
+      <motion.a href="#about" className="ic-hero__scroll-cue" aria-label={t('common.scrollDown')} initial={{ opacity: 0 }} animate={{ opacity: 1, y: [0, 8, 0] }} transition={{ opacity: { delay: 1.8 }, y: { repeat: Infinity, duration: 2, ease: 'easeInOut' } }}>
         <FiChevronDown />
         <span>{t('hero.scroll')}</span>
       </motion.a>

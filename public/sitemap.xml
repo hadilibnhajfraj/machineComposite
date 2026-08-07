@@ -1,21 +1,1767 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.cbi-tunisia.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/about</loc><priority>0.8</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/production-lines</loc><priority>0.9</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/production-lines/probar</loc><priority>0.8</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/production-lines/promesh</loc><priority>0.8</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/production-lines/bent-elements</loc><priority>0.6</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/production-lines/composite-tank</loc><priority>0.6</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/production-lines/composite-pipe</loc><priority>0.6</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/production-lines/composite-profiles</loc><priority>0.6</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/applications</loc><priority>0.9</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/applications/urban-civil-construction</loc><priority>0.7</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/applications/public-infrastructure-transport</loc><priority>0.7</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/applications/logistics-platforms</loc><priority>0.7</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure</loc><priority>0.7</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/applications/industrial-facilities</loc><priority>0.7</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments</loc><priority>0.7</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/projects</loc><priority>0.6</priority></url>
-  <url><loc>https://www.cbi-tunisia.com/contact</loc><priority>0.7</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.cbi-tunisia.com/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/about" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/about" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/about" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/about" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/about" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/about" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/about" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/production-lines</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/production-lines</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/production-lines</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/production-lines</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/production-lines</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/production-lines</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/production-lines</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/production-lines/probar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/probar" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/production-lines/probar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/probar" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/production-lines/probar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/probar" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/production-lines/probar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/probar" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/production-lines/probar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/probar" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/production-lines/probar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/probar" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/production-lines/probar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/probar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/probar" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/production-lines/promesh</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/production-lines/promesh</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/production-lines/promesh</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/production-lines/promesh</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/production-lines/promesh</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/production-lines/promesh</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/production-lines/promesh</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/promesh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/promesh" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/production-lines/bent-elements</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/production-lines/bent-elements</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/production-lines/bent-elements</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/production-lines/bent-elements</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/production-lines/bent-elements</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/production-lines/bent-elements</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/production-lines/bent-elements</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/bent-elements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/bent-elements" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/production-lines/composite-tank</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/production-lines/composite-tank</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/production-lines/composite-tank</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/production-lines/composite-tank</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/production-lines/composite-tank</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/production-lines/composite-tank</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/production-lines/composite-tank</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-tank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-tank" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/production-lines/composite-pipe</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/production-lines/composite-pipe</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/production-lines/composite-pipe</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/production-lines/composite-pipe</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/production-lines/composite-pipe</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/production-lines/composite-pipe</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/production-lines/composite-pipe</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-pipe" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/production-lines/composite-profiles</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/production-lines/composite-profiles</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/production-lines/composite-profiles</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/production-lines/composite-profiles</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/production-lines/composite-profiles</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/production-lines/composite-profiles</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/production-lines/composite-profiles</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/production-lines/composite-profiles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/production-lines/composite-profiles" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/applications</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/applications</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/applications</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/applications</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/applications</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/applications</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/applications</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/applications/urban-civil-construction</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/applications/urban-civil-construction</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/applications/urban-civil-construction</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/applications/urban-civil-construction</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/applications/urban-civil-construction</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/applications/urban-civil-construction</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/applications/urban-civil-construction</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/urban-civil-construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/urban-civil-construction" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/applications/public-infrastructure-transport</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/public-infrastructure-transport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/public-infrastructure-transport" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/applications/logistics-platforms</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/applications/logistics-platforms</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/applications/logistics-platforms</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/applications/logistics-platforms</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/applications/logistics-platforms</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/applications/logistics-platforms</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/applications/logistics-platforms</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/logistics-platforms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/logistics-platforms" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/coastal-marine-infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/coastal-marine-infrastructure" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/applications/industrial-facilities</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/applications/industrial-facilities</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/applications/industrial-facilities</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/applications/industrial-facilities</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/applications/industrial-facilities</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/applications/industrial-facilities</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/applications/industrial-facilities</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/industrial-facilities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/industrial-facilities" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/applications/maintenance-sensitive-environments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/applications/maintenance-sensitive-environments" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/projects</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/projects" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/projects" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/projects</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/projects" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/projects" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/projects</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/projects" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/projects" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/projects</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/projects" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/projects" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/projects</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/projects" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/projects" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/projects</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/projects" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/projects" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/projects</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/projects" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/projects" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/fr/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/es/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/it/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/pt/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ar/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.cbi-tunisia.com/ru/contact</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbi-tunisia.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbi-tunisia.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.cbi-tunisia.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.cbi-tunisia.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbi-tunisia.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.cbi-tunisia.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.cbi-tunisia.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbi-tunisia.com/contact" />
+  </url>
 </urlset>

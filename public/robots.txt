@@ -1,4 +1,24 @@
 User-agent: *
 Allow: /
+Disallow: /videos/
+Disallow: /_headers
+
+User-agent: Googlebot
+Allow: /
+Disallow: /videos/
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Yandex
+Allow: /
+Disallow: /videos/
+
+User-agent: YandexImages
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /videos/
 
 Sitemap: https://www.cbi-tunisia.com/sitemap.xml

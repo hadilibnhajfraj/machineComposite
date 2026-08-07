@@ -1,0 +1,22 @@
+# Cache-control headers, read by Netlify / Cloudflare Pages (and compatible hosts).
+# Ignored (harmless) on hosts that don't support this convention — set equivalent
+# rules at the CDN/server level there instead.
+
+# Hashed, content-addressed build assets — safe to cache "forever"; a content change
+# always produces a new filename, so there's no staleness risk.
+/assets/*
+  Cache-control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-control: public, max-age=31536000, immutable
+
+# The HTML shell and crawler files must always be revalidated — they're what points
+# at the hashed assets above and change independently of them.
+/index.html
+  Cache-control: public, max-age=0, must-revalidate
+
+/sitemap.xml
+  Cache-control: public, max-age=3600
+
+/robots.txt
+  Cache-control: public, max-age=3600

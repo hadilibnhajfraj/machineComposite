@@ -17,80 +17,98 @@
   "seo": {
     "titleSuffix": " — PROBAR de CBI Tunisia",
     "home": {
-      "title": "PROBAR Armadura PRFV | CBI Tunisia",
-      "description": "CBI Tunisia fabrica barras y mallas PRFV PROBAR, una alternativa al acero resistente a la corrosión para proyectos costeros, industriales y de infraestructura."
+      "title": "PROBAR Barras y Malla de Refuerzo PRFV | CBI Tunisia",
+      "description": "CBI Tunisia fabrica barras y mallas de refuerzo PRFV PROBAR, alternativa anticorrosión al acero, certificada ISO 9001, para proyectos costeros del Mediterráneo.",
+      "keywords": "armadura de PRFV, barras de fibra de vidrio, armadura compuesta, proveedor de PRFV España, CBI Tunisia"
     },
     "about": {
       "title": "Sobre CBI Tunisia | Más de 10 Años de Experiencia en PRFV",
-      "description": "Composite Building Innovation First: más de 10 años de experiencia directa en fabricación de PRFV, producción certificada ISO 9001, EOTA/ETA, EPD y CNERIB."
+      "description": "Composite Building Innovation First: más de 10 años de experiencia directa en fabricación de PRFV, producción certificada ISO 9001, EOTA/ETA, EPD y CNERIB.",
+      "keywords": "CBI Tunisia, fabricante de PRFV, fabricante compuesto Mediterráneo, certificación ISO 9001"
     },
     "productionLines": {
       "title": "Líneas de Producción PRFV | ProBar y ProMesh — CBI Tunisia",
-      "description": "Tecnología de pultrusión optimizada, control preciso de resina y calibración de calidad detrás de las líneas ProBar y ProMesh PRFV de CBI Tunisia."
+      "description": "Tecnología de pultrusión optimizada, control preciso de resina y calibración de calidad detrás de las líneas ProBar y ProMesh PRFV de CBI Tunisia.",
+      "keywords": "líneas de producción PRFV, tecnología de pultrusión, ProBar, ProMesh, fabricante de armadura compuesta"
     },
     "productionLineDetail": {
       "rebar": {
         "title": "Barras de Armadura PRFV ProBar | CBI Tunisia",
-        "description": "Barras de armadura PRFV ProBar: resistencia a tracción ≥1000 MPa, resistencia total a la corrosión, vida útil de 75–100 años. Certificado ISO 9001 y EOTA/ETA."
+        "description": "Barras de armadura PRFV ProBar: resistencia a tracción ≥1000 MPa, resistencia total a la corrosión, vida útil de 75–100 años. Certificado ISO 9001 y EOTA/ETA.",
+        "keywords": "armadura de PRFV, barras ProBar, proveedor de armadura PRFV"
       },
       "mesh": {
-        "title": "Sistemas de Malla PRFV ProMesh | CBI Tunisia",
-        "description": "Malla PRFV ProMesh: armadura compuesta libre de corrosión para losas y paneles, fabricada en la plataforma de producción de control preciso de resina de CBI Tunisia."
+        "title": "Sistemas de Malla PRFV ProMesh | Sin Corrosión | CBI Tunisia",
+        "description": "Malla PRFV ProMesh: armadura compuesta libre de corrosión para losas y paneles, fabricada en la plataforma de producción de CBI Tunisia.",
+        "keywords": "malla de PRFV, ProMesh, malla compuesta, armadura no metálica"
       },
       "bent": {
         "title": "Elementos Compuestos Curvados a Medida | CBI Tunisia",
-        "description": "Elementos de armadura compuesta PRFV curvados y a medida, desarrollados sobre la plataforma de fabricación por pultrusión consolidada de CBI Tunisia."
+        "description": "Elementos de armadura compuesta PRFV curvados y a medida, desarrollados sobre la plataforma de fabricación por pultrusión consolidada de CBI Tunisia.",
+        "keywords": "armadura PRFV conformada, elementos compuestos a medida, perfiles pultusionados"
       },
       "tank": {
-        "title": "Soluciones de Depósitos Compuestos | CBI Tunisia",
-        "description": "Soluciones de depósitos compuestos resistentes a la corrosión, desarrolladas sobre la plataforma de fabricación PRFV de CBI Tunisia, certificado ISO 9001 y EOTA/ETA."
+        "title": "Depósitos Compuestos Resistentes a Corrosión | CBI Tunisia",
+        "description": "Depósitos compuestos resistentes a la corrosión, desarrollados sobre la plataforma de fabricación PRFV de CBI Tunisia, certificado ISO 9001 y EOTA/ETA.",
+        "keywords": "tanque compuesto, depósito de PRFV, soluciones de almacenamiento resistentes a la corrosión"
       },
       "pipe": {
-        "title": "Soluciones de Tuberías Compuestas | CBI Tunisia",
-        "description": "Soluciones de tuberías compuestas resistentes a la corrosión para el transporte de fluidos, desarrolladas sobre la plataforma de fabricación PRFV de CBI Tunisia."
+        "title": "Tuberías Compuestas Resistentes a la Corrosión | CBI Tunisia",
+        "description": "Tuberías compuestas resistentes a la corrosión para transporte de fluidos, desarrolladas sobre la plataforma de fabricación PRFV de CBI Tunisia.",
+        "keywords": "tubería compuesta, conducto de PRFV, soluciones compuestas resistentes a la corrosión"
       },
       "profiles": {
         "title": "Perfiles Compuestos Estructurales | CBI Tunisia",
-        "description": "Perfiles compuestos estructurales de PRFV fabricados con la tecnología de pultrusión optimizada de CBI Tunisia, libres de corrosión y no conductores."
+        "description": "Perfiles compuestos estructurales de PRFV fabricados con la tecnología de pultrusión optimizada de CBI Tunisia, libres de corrosión y no conductores.",
+        "keywords": "perfiles compuestos estructurales, perfiles de PRFV, secciones pultusionadas no conductoras"
       }
     },
     "applications": {
       "title": "Aplicaciones y Casos de Uso PRFV | CBI Tunisia",
-      "description": "La armadura PRFV PROBAR está diseñada para infraestructuras costeras, instalaciones industriales, plataformas logísticas y proyectos sensibles al mantenimiento."
+      "description": "La armadura PRFV PROBAR está diseñada para infraestructuras costeras, instalaciones industriales, plataformas logísticas y proyectos sensibles al mantenimiento.",
+      "keywords": "aplicaciones de PRFV, usos de armadura compuesta, PRFV construcción"
     },
     "applicationDetail": {
       "construction": {
         "title": "PRFV para Construcción Urbana y Civil | CBI Tunisia",
-        "description": "Armadura PRFV PROBAR libre de corrosión para construcción residencial, comercial, sanitaria, educativa y turística. Certificado ISO 9001 y EOTA/ETA."
+        "description": "Armadura PRFV PROBAR libre de corrosión para construcción residencial, comercial, sanitaria, educativa y turística. Certificado ISO 9001 y EOTA/ETA.",
+        "keywords": "PRFV construcción civil, armadura resistente a la corrosión edificios"
       },
       "infrastructure": {
         "title": "PRFV para Infraestructura Pública y Transporte | CBI Tunisia",
-        "description": "Armadura PRFV PROBAR para la modernización del transporte, los servicios públicos, la energía y las infraestructuras públicas — resistente a la corrosión, con una vida útil de 75 a 100 años."
+        "description": "Armadura PRFV PROBAR para modernización de transporte, servicios públicos, energía e infraestructuras — resistente a la corrosión, vida útil de 75 a 100 años.",
+        "keywords": "PRFV infraestructura pública, armadura compuesta transporte"
       },
       "roads": {
         "title": "Armadura PRFV para Plataformas Logísticas | CBI Tunisia",
-        "description": "Armadura PRFV PROBAR para fábricas, almacenes e instalaciones pesadas en ciudades industriales y polos logísticos — más ligera, libre de corrosión y con menor coste de ciclo de vida."
+        "description": "Armadura PRFV PROBAR para fábricas, almacenes e instalaciones pesadas en ciudades industriales — más ligera, sin corrosión y con menor coste que el acero.",
+        "keywords": "PRFV plataformas logísticas, armadura compuesta naves industriales"
       },
       "marine": {
         "title": "PRFV para Infraestructura Costera y Marítima | CBI Tunisia",
-        "description": "Armadura PRFV PROBAR totalmente resistente a la corrosión, diseñada para infraestructuras costeras expuestas al agua salada y a entornos marinos."
+        "description": "Armadura PRFV PROBAR totalmente resistente a la corrosión, diseñada para infraestructuras costeras expuestas al agua salada y a entornos marinos.",
+        "keywords": "PRFV ambiente marino, armadura compuesta costera"
       },
       "industrial": {
         "title": "Armadura PRFV para Instalaciones Industriales | CBI Tunisia",
-        "description": "Armadura PRFV PROBAR químicamente resistente y no conductora, diseñada para entornos industriales exigentes."
+        "description": "Armadura PRFV PROBAR químicamente resistente y no conductora, diseñada para entornos industriales exigentes.",
+        "keywords": "PRFV instalaciones industriales, armadura no conductora"
       },
       "water": {
         "title": "PRFV para Proyectos Sensibles al Mantenimiento | CBI Tunisia",
-        "description": "La armadura PRFV PROBAR minimiza el mantenimiento en entornos agresivos — diseñada para proyectos sensibles al mantenimiento y de difícil acceso."
+        "description": "La armadura PRFV PROBAR minimiza el mantenimiento en entornos agresivos — diseñada para proyectos sensibles al mantenimiento y de difícil acceso.",
+        "keywords": "armadura de bajo mantenimiento, PRFV zonas de difícil acceso"
       }
     },
     "projects": {
       "title": "Colaboración Técnica e Ingeniería | PROBAR de CBI Tunisia",
-      "description": "Desde la integración en ingeniería civil hasta el desarrollo de especificaciones, CBI Tunisia acompaña a consultoras y contratistas EPC en cada etapa de sus proyectos con PRFV."
+      "description": "De la integración en ingeniería civil al desarrollo de especificaciones, CBI Tunisia asiste a consultoras y contratistas EPC en el diseño con PRFV.",
+      "keywords": "soporte de ingeniería PRFV, apoyo a contratistas EPC, desarrollo de especificaciones PRFV"
     },
     "contact": {
-      "title": "Contacte con CBI Tunisia | Departamentos Comercial y Técnico PROBAR",
-      "description": "Póngase en contacto con los departamentos comercial y técnico de CBI Tunisia en Túnez. Solicite especificaciones de PRFV, asesoría técnica o presupuesto de proyecto."
+      "title": "Contacte con CBI Tunisia | Departamentos Comercial y Técnico",
+      "description": "Póngase en contacto con los departamentos comercial y técnico de CBI Tunisia en Túnez. Solicite especificaciones de PRFV o presupuesto de proyecto.",
+      "keywords": "contacto CBI Tunisia, proveedor de PRFV Túnez, presupuesto armadura compuesta"
     }
   },
   "hero": {
@@ -105,7 +123,9 @@
     "statsExperience": "Años de\nExperiencia",
     "statsTensile": "MPa de\nResistencia a Tracción",
     "statsWeight": "Más Ligero\nque el Acero",
-    "statsLifespan": "Años de\nVida Útil"
+    "statsLifespan": "Años de\nVida Útil",
+    "slide1Alt": "Marcadores de diámetro de armadura PRFV en el parque de producción de CBI Tunisia",
+    "slide2Alt": "Obra de construcción activa que utiliza malla PRFV PROBAR como armadura"
   },
   "about": {
     "eyebrow": "Sobre CBI Tunisia",
@@ -159,7 +179,11 @@
       "title": "Soluciones",
       "highlight": "de Perfiles Compuestos",
       "desc": "Capacidad de fabricación por pultrusión aplicada a perfiles compuestos estructurales. Especificaciones disponibles bajo petición."
-    }
+    },
+    "sectionTitle": "SEIS LÍNEAS, UN MISMO ESTÁNDAR DE FABRICACIÓN",
+    "heroImageAlt": "Señalización de diámetro de armadura PRFV en el almacén de producción de CBI Tunisia",
+    "heroImageTitle": "Almacén de producción de PRFV de CBI Tunisia",
+    "heroImageCaption": "Almacén de producción de CBI Tunisia, Túnez"
   },
   "lineDetail": {
     "common": {
@@ -170,7 +194,9 @@
       "advantagesEyebrow": "Ventajas Operativas",
       "diagramPlaceholderLabel": "Diagrama Técnico",
       "relatedApplicationsEyebrow": "Dónde se Aplica",
-      "relatedApplicationsTitle": "Aplicaciones Relacionadas"
+      "relatedApplicationsTitle": "Aplicaciones Relacionadas",
+      "overviewTitle": "Resumen",
+      "certLinkText": "Vea las certificaciones ISO 9001, EOTA/ETA y EPD de CBI Tunisia"
     },
     "rebar": {
       "heroSubtitle": "Línea de Producción ProBar",
@@ -214,7 +240,12 @@
       "advantage4Desc": "La integración en ingeniería civil, la asesoría técnica y el desarrollo de especificaciones apoyan a consultoras y contratistas EPC desde el diseño hasta la entrega.",
       "seoTitle": "Fabricación de Barras de Armadura PRFV por CBI Tunisia",
       "seoPara1": "ProBar es la línea de producción de barras de armadura PRFV de CBI Tunisia, concebida específicamente para ofrecer una alternativa resistente a la corrosión y de alta resistencia a tracción frente a las barras de armadura de acero, destinada a infraestructuras costeras, instalaciones industriales, plataformas logísticas y proyectos de construcción sensibles al mantenimiento. Fabricadas con tecnología de pultrusión optimizada y control preciso de resina, las barras de armadura ProBar están diseñadas para la precisión dimensional y un rendimiento mecánico constante, lote tras lote.",
-      "seoPara2": "PROBAR no se posiciona como un sustituto universal del acero, sino como una solución de armadura específica y de alta durabilidad para las aplicaciones donde más importan la resistencia a la corrosión y el rendimiento a lo largo del ciclo de vida. Respaldado por la certificación ISO 9001:2015, EOTA/Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB, y por más de 10 años de experiencia práctica en la fabricación de PRFV, ProBar ofrece a ingenieros, consultoras y contratistas EPC una alternativa validada y con respaldo técnico frente a la armadura de acero convencional."
+      "seoPara2": "PROBAR no se posiciona como un sustituto universal del acero, sino como una solución de armadura específica y de alta durabilidad para las aplicaciones donde más importan la resistencia a la corrosión y el rendimiento a lo largo del ciclo de vida. Respaldado por la certificación ISO 9001:2015, EOTA/Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB, y por más de 10 años de experiencia práctica en la fabricación de PRFV, ProBar ofrece a ingenieros, consultoras y contratistas EPC una alternativa validada y con respaldo técnico frente a la armadura de acero convencional.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre las barras de armadura PRFV ProBar.",
+      "faqQ1": "¿Qué certificaciones tiene ProBar?",
+      "faqA1": "Las barras de armadura ProBar se fabrican bajo el sistema de calidad ISO 9001:2015 de CBI Tunisia, con la Evaluación Técnica Europea ETA 24/0295 y el registro EPD/CNERIB — las mismas certificaciones aplicables en todas las líneas de producción de la empresa.",
+      "faqQ2": "¿En qué se diferencia ProBar de las barras de armadura de acero?",
+      "faqA2": "ProBar ofrece una resistencia a la tracción ≥1000 MPa frente a 400–600 MPa del acero convencional, con aproximadamente un 75% menos de peso, resistencia total a la corrosión y una vida útil de diseño de 75–100 años frente a los 30–50 años habituales del acero."
     },
     "mesh": {
       "heroSubtitle": "Línea de Producción ProMesh",
@@ -258,7 +289,12 @@
       "advantage4Desc": "La integración en ingeniería civil y el desarrollo de especificaciones apoyan a consultoras y contratistas EPC a adoptar la malla PRFV con confianza.",
       "seoTitle": "Fabricación de Malla PRFV por CBI Tunisia",
       "seoPara1": "ProMesh es la línea de producción de malla PRFV de CBI Tunisia, diseñada para una armadura libre de corrosión en losas, paneles y aplicaciones de superficie en infraestructuras costeras, instalaciones industriales, plataformas logísticas y proyectos sensibles al mantenimiento. Producida en la misma plataforma de tecnología de pultrusión optimizada y control preciso de resina que ProBar, ProMesh ofrece la consistencia mecánica de un proceso de producción validado y calibrado en calidad.",
-      "seoPara2": "Como todos los productos PROBAR, ProMesh se posiciona como una solución de armadura específica y de alta durabilidad, y no como un sustituto universal de la malla de acero. Respaldada por la certificación ISO 9001:2015, EOTA/ETA 24/0295, EPD y CNERIB, y por los más de 10 años de experiencia de CBI Tunisia en la fabricación de PRFV, ProMesh ofrece a ingenieros y contratistas una alternativa compuesta con respaldo técnico para aplicaciones de armadura sensibles a la corrosión."
+      "seoPara2": "Como todos los productos PROBAR, ProMesh se posiciona como una solución de armadura específica y de alta durabilidad, y no como un sustituto universal de la malla de acero. Respaldada por la certificación ISO 9001:2015, EOTA/ETA 24/0295, EPD y CNERIB, y por los más de 10 años de experiencia de CBI Tunisia en la fabricación de PRFV, ProMesh ofrece a ingenieros y contratistas una alternativa compuesta con respaldo técnico para aplicaciones de armadura sensibles a la corrosión.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre los sistemas de malla PRFV ProMesh.",
+      "faqQ1": "¿Se fabrica ProMesh con el mismo estándar que ProBar?",
+      "faqA1": "Sí. ProMesh se produce en la misma plataforma de control preciso de resina y calibración de calidad que ProBar, bajo los mismos sistemas estructurados de gestión de calidad y aseguramiento de calidad estandarizado.",
+      "faqQ2": "¿Dónde se utiliza habitualmente ProMesh?",
+      "faqA2": "ProMesh está diseñado para ofrecer armadura libre de corrosión en losas, paneles y aplicaciones de superficie, allí donde la malla de acero convencional quedaría expuesta a condiciones corrosivas o sensibles al mantenimiento."
     },
     "bent": {
       "heroSubtitle": "Elementos Compuestos Curvados",
@@ -302,7 +338,12 @@
       "advantage4Desc": "Más de 10 años de experiencia práctica en la fabricación de PRFV reducen el riesgo de un enfoque de ensayo y error en las geometrías a medida.",
       "seoTitle": "Elementos de Armadura Compuesta a Medida de CBI Tunisia",
       "seoPara1": "CBI Tunisia extiende su plataforma de fabricación PRFV más allá de ProBar y ProMesh hacia elementos de armadura compuesta conformados y a medida, desarrollados sobre la misma tecnología de pultrusión optimizada, control preciso de resina y calibración de calidad estandarizada que definen las líneas de producción de la empresa. Esta capacidad da soporte a proyectos que requieren geometrías de armadura más allá de las barras rectas o los paneles de malla estándar.",
-      "seoPara2": "Cada elemento compuesto conformado se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación de PRFV y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones dimensionales y de carga detalladas están disponibles bajo petición en nuestro departamento técnico."
+      "seoPara2": "Cada elemento compuesto conformado se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación de PRFV y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones dimensionales y de carga detalladas están disponibles bajo petición en nuestro departamento técnico.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre elementos compuestos doblados a medida.",
+      "faqQ1": "¿Existen especificaciones detalladas para los elementos compuestos doblados?",
+      "faqA1": "Los elementos compuestos doblados y a medida se fabrican en la misma plataforma de pultrusión que ProBar y ProMesh; las especificaciones dimensionales y mecánicas detalladas para una geometría concreta están disponibles bajo solicitud en el departamento técnico de CBI Tunisia.",
+      "faqQ2": "¿Qué normas de calidad rigen los elementos compuestos conformados?",
+      "faqA2": "Los elementos conformados y a medida se fabrican bajo los mismos sistemas estructurados de gestión de calidad, mantenimiento preventivo y aseguramiento de calidad estandarizado que rigen toda la plataforma de fabricación de PRFV de CBI Tunisia."
     },
     "tank": {
       "heroSubtitle": "Soluciones de Depósitos Compuestos",
@@ -346,7 +387,12 @@
       "advantage4Desc": "Más de 10 años de experiencia práctica en la fabricación de compuestos respaldan un enfoque validado, y no de ensayo y error, en la producción de depósitos.",
       "seoTitle": "Fabricación de Depósitos Compuestos por CBI Tunisia",
       "seoPara1": "CBI Tunisia aplica su conocimiento en fabricación de compuestos PRFV a soluciones de depósitos desarrolladas para la contención y el almacenamiento resistentes a la corrosión. Construida sobre la misma tecnología de proceso optimizada, control preciso de resina y calibración de calidad estandarizada que definen las líneas de armadura ProBar y ProMesh de la empresa, la producción de depósitos compuestos se beneficia de una década de arquitectura industrial contrastada.",
-      "seoPara2": "Cada solución de depósito compuesto se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación de compuestos y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones detalladas de capacidad y dimensiones están disponibles bajo petición en nuestro departamento técnico."
+      "seoPara2": "Cada solución de depósito compuesto se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación de compuestos y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones detalladas de capacidad y dimensiones están disponibles bajo petición en nuestro departamento técnico.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre las soluciones de depósitos compuestos.",
+      "faqQ1": "¿Existen especificaciones detalladas para los depósitos compuestos?",
+      "faqA1": "Las soluciones de depósitos compuestos se fabrican sobre la reconocida plataforma de fabricación de PRFV de CBI Tunisia; las especificaciones detalladas de capacidad y dimensiones están disponibles bajo solicitud en el departamento técnico.",
+      "faqQ2": "¿Qué hace que los depósitos compuestos sean resistentes a la corrosión?",
+      "faqA2": "Los depósitos compuestos aplican la misma experiencia en gestión de calidad estructurada y optimización de procesos que las líneas de armadura de CBI Tunisia, diseñados específicamente para contención y almacenamiento resistentes a la corrosión."
     },
     "pipe": {
       "heroSubtitle": "Soluciones de Tuberías Compuestas",
@@ -390,7 +436,12 @@
       "advantage4Desc": "Más de 10 años de experiencia práctica en la fabricación de compuestos respaldan un enfoque validado, y no de ensayo y error, en la producción de tuberías.",
       "seoTitle": "Fabricación de Tuberías Compuestas por CBI Tunisia",
       "seoPara1": "CBI Tunisia aplica su conocimiento en fabricación de compuestos PRFV a soluciones de tuberías desarrolladas para el transporte de fluidos resistente a la corrosión. Construida sobre la misma tecnología de proceso optimizada, control preciso de resina y calibración de calidad estandarizada que definen las líneas de armadura ProBar y ProMesh de la empresa, la producción de tuberías compuestas se beneficia de una década de arquitectura industrial contrastada.",
-      "seoPara2": "Cada solución de tubería compuesta se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación de compuestos y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones detalladas de diámetro y presión nominal están disponibles bajo petición en nuestro departamento técnico."
+      "seoPara2": "Cada solución de tubería compuesta se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación de compuestos y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones detalladas de diámetro y presión nominal están disponibles bajo petición en nuestro departamento técnico.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre las soluciones de tuberías compuestas.",
+      "faqQ1": "¿Existen especificaciones detalladas para las tuberías compuestas?",
+      "faqA1": "Las soluciones de tuberías compuestas se fabrican sobre la reconocida plataforma de fabricación de PRFV de CBI Tunisia; las especificaciones detalladas de dimensiones y presión nominal están disponibles bajo solicitud en el departamento técnico.",
+      "faqQ2": "¿Para qué aplicaciones están diseñadas las tuberías compuestas?",
+      "faqA2": "Las tuberías compuestas están diseñadas para aplicaciones de transporte de fluidos resistentes a la corrosión, con el mismo control de proceso riguroso que las líneas de productos de armadura de CBI Tunisia."
     },
     "profiles": {
       "heroSubtitle": "Soluciones de Perfiles Compuestos",
@@ -434,7 +485,12 @@
       "advantage4Desc": "Más de 10 años de experiencia práctica en la fabricación por pultrusión respaldan un enfoque validado, y no de ensayo y error, para los perfiles estructurales.",
       "seoTitle": "Fabricación de Perfiles Compuestos Estructurales por CBI Tunisia",
       "seoPara1": "CBI Tunisia extiende su experiencia en fabricación por pultrusión a los perfiles compuestos estructurales, construidos sobre la misma tecnología de proceso optimizada, control preciso de resina y calibración de calidad estandarizada que definen la línea de barras de armadura ProBar de la empresa. Esta capacidad basada en pultrusión da soporte a aplicaciones estructurales que requieren secciones compuestas libres de corrosión, no conductoras y ligeras.",
-      "seoPara2": "Cada perfil compuesto estructural se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación por pultrusión y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones detalladas de sección transversal y carga están disponibles bajo petición en nuestro departamento técnico."
+      "seoPara2": "Cada perfil compuesto estructural se desarrolla mediante apoyo directo al diseño a nivel de proyecto y validación de materiales, respaldado por más de 10 años de experiencia práctica en la fabricación por pultrusión y por la certificación ISO 9001:2015, EOTA/ETA, EPD y CNERIB de CBI Tunisia. Las especificaciones detalladas de sección transversal y carga están disponibles bajo petición en nuestro departamento técnico.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre los perfiles compuestos estructurales.",
+      "faqQ1": "¿Existen especificaciones detalladas para los perfiles compuestos estructurales?",
+      "faqA1": "Los perfiles compuestos estructurales se fabrican sobre la misma base de tecnología de pultrusión que ProBar; las especificaciones detalladas de sección transversal y carga están disponibles bajo solicitud en el departamento técnico de CBI Tunisia.",
+      "faqQ2": "¿Por qué elegir perfiles compuestos frente a perfiles de acero?",
+      "faqA2": "Los perfiles compuestos están libres de corrosión, no son conductores y son más ligeros que los perfiles de acero, además de compartir los mismos sistemas estructurados de gestión de calidad que las líneas de armadura de CBI Tunisia."
     }
   },
   "applications": {
@@ -467,7 +523,11 @@
     "water": {
       "title": "Entornos Sensibles al Mantenimiento",
       "desc": "Armadura PRFV no conductora y químicamente resistente para proyectos sensibles al mantenimiento, donde la reparación periódica del acero resulta costosa o poco práctica."
-    }
+    },
+    "sectionTitle": "SEIS SECTORES. UN MISMO ESTÁNDAR DE RENDIMIENTO.",
+    "heroImageAlt": "Obra de construcción activa con malla de refuerzo PRFV PROBAR",
+    "heroImageTitle": "Armadura de PRFV PROBAR en una obra activa",
+    "heroImageCaption": "Armadura de PRFV PROBAR en obra"
   },
   "applicationDetail": {
     "common": {
@@ -478,7 +538,9 @@
       "performanceEyebrow": "Rendimiento a Largo Plazo",
       "maintenanceEyebrow": "Beneficios de Mantenimiento",
       "relatedLinesEyebrow": "Diseñado para Esto",
-      "relatedLinesTitle": "Líneas de Producción Relacionadas"
+      "relatedLinesTitle": "Líneas de Producción Relacionadas",
+      "overviewTitle": "Resumen",
+      "aboutLinkText": "Conozca más sobre la experiencia de fabricación de PRFV de CBI Tunisia"
     },
     "construction": {
       "heroSubtitle": "Construcción Urbana y Civil",
@@ -510,7 +572,12 @@
       "performancePara2": "Esa vida útil ampliada está respaldada por la gestión de calidad ISO 9001:2015, la Evaluación Técnica Europea ETA 24/0295 y la certificación EPD y CNERIB, lo que ofrece a promotores y prescriptores una base técnicamente validada para el rendimiento a largo plazo.",
       "maintenanceTitle": "Beneficios de Mantenimiento",
       "maintenancePara1": "Mientras que la armadura de acero requiere reparaciones periódicas a lo largo de la vida útil de la estructura, la armadura PRFV requiere un mantenimiento mínimo incluso en entornos agresivos — reduciendo las molestias en edificios ocupados como hospitales, colegios y locales comerciales.",
-      "maintenancePara2": "Unos requisitos de mantenimiento menores se traducen en un coste total de propiedad mejorado a lo largo de la vida útil del edificio, una consideración que se multiplica en los programas de desarrollo urbano a gran escala."
+      "maintenancePara2": "Unos requisitos de mantenimiento menores se traducen en un coste total de propiedad mejorado a lo largo de la vida útil del edificio, una consideración que se multiplica en los programas de desarrollo urbano a gran escala.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre el PRFV para construcción urbana y civil.",
+      "faqQ1": "¿Por qué elegir armadura PRFV para proyectos de construcción urbana?",
+      "faqA1": "Los edificios urbanos — hospitales, colegios, viviendas, promociones comerciales — tienen una vida útil de diseño larga. La armadura PRFV PROBAR está diseñada como alternativa resistente a la corrosión frente al acero, alineada con esa perspectiva a largo plazo desde el primer hormigonado.",
+      "faqQ2": "¿Qué vida útil pueden esperar los proyectos de construcción urbana?",
+      "faqA2": "La armadura PRFV PROBAR está diseñada para una vida útil de 75–100 años, frente a los 30–50 años habituales del acero — un margen relevante para edificios pensados para servir a sus comunidades durante generaciones."
     },
     "infrastructure": {
       "heroSubtitle": "Infraestructura Pública y Transporte",
@@ -542,7 +609,12 @@
       "performancePara2": "Ese rendimiento está respaldado por la certificación ISO 9001:2015, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB — una base validada para especificar PRFV en programas de infraestructura pública.",
       "maintenanceTitle": "Beneficios de Mantenimiento",
       "maintenancePara1": "Un mantenimiento mínimo en entornos agresivos, frente a las reparaciones periódicas que requiere la armadura de acero, reduce las molestias y los costes de ciclo de vida asociados al mantenimiento de activos de infraestructura pública que deben permanecer en servicio de forma continua.",
-      "maintenancePara2": "Para infraestructuras respaldadas por un gasto de capital público sostenido, una menor necesidad de mantenimiento favorece una gestión de activos a largo plazo más predecible."
+      "maintenancePara2": "Para infraestructuras respaldadas por un gasto de capital público sostenido, una menor necesidad de mantenimiento favorece una gestión de activos a largo plazo más predecible.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre el PRFV para infraestructura pública y transporte.",
+      "faqQ1": "¿Por qué es adecuada la armadura PRFV para proyectos de infraestructura pública?",
+      "faqA1": "La infraestructura pública se construye para servir durante generaciones, respaldada por una inversión de capital sostenida. La resistencia a la corrosión y la vida útil prolongada de la armadura PRFV PROBAR se alinean con esos horizontes operativos a largo plazo.",
+      "faqQ2": "¿Cómo reduce PROBAR el coste de ciclo de vida en activos de infraestructura?",
+      "faqA2": "Al eliminar las reparaciones periódicas que requiere la armadura de acero convencional, PROBAR reduce el coste de mantenimiento recurrente y las interrupciones en infraestructuras de las que el público depende de forma continua."
     },
     "roads": {
       "heroSubtitle": "Plataformas Logísticas",
@@ -574,7 +646,12 @@
       "performancePara2": "Respaldado por la certificación ISO 9001:2015, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB, PROBAR ofrece a los promotores logísticos e industriales una opción de armadura validada para la construcción de instalaciones a gran escala.",
       "maintenanceTitle": "Beneficios de Mantenimiento",
       "maintenancePara1": "Un mantenimiento mínimo en entornos agresivos, en lugar de las reparaciones periódicas que requiere el acero, ayuda a proteger el tiempo de actividad operativo en fábricas, almacenes y polos logísticos concebidos para un uso continuo.",
-      "maintenancePara2": "La menor necesidad de mantenimiento se multiplica favorablemente a escala — una consideración significativa dados los volúmenes estructurales sustanciales que requieren las nuevas ciudades industriales y los polos logísticos."
+      "maintenancePara2": "La menor necesidad de mantenimiento se multiplica favorablemente a escala — una consideración significativa dados los volúmenes estructurales sustanciales que requieren las nuevas ciudades industriales y los polos logísticos.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre el PRFV para plataformas logísticas.",
+      "faqQ1": "¿Es PROBAR adecuado para la construcción de instalaciones logísticas e industriales a gran escala?",
+      "faqA1": "Sí. PROBAR se posiciona como una solución de armadura específica y de alta durabilidad para fábricas, almacenes e instalaciones pesadas en ciudades industriales y polos logísticos, allí donde más importan la resistencia a la corrosión y el coste de ciclo de vida.",
+      "faqQ2": "¿Reduce la armadura PRFV los costes logísticos en proyectos de gran escala?",
+      "faqA2": "Con aproximadamente un 75% menos de peso que el acero, la armadura PROBAR simplifica la manipulación y reduce los costes de transporte y logística en la construcción de instalaciones a gran escala."
     },
     "marine": {
       "heroSubtitle": "Infraestructura Costera y Marítima",
@@ -606,7 +683,12 @@
       "performancePara2": "Ese rendimiento ampliado y resistente a la corrosión está respaldado por la certificación ISO 9001:2015, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB.",
       "maintenanceTitle": "Beneficios de Mantenimiento",
       "maintenancePara1": "La armadura PRFV requiere un mantenimiento mínimo incluso en entornos agresivos — respondiendo directamente al reto que enfrenta el acero en entornos costeros y marinos, donde requiere reparaciones periódicas motivadas por la corrosión continua.",
-      "maintenancePara2": "Para activos costeros donde el acceso para mantenimiento es difícil o costoso, unos requisitos de intervención reducidos favorecen un coste total de propiedad mejorado a lo largo de la vida útil de la estructura."
+      "maintenancePara2": "Para activos costeros donde el acceso para mantenimiento es difícil o costoso, unos requisitos de intervención reducidos favorecen un coste total de propiedad mejorado a lo largo de la vida útil de la estructura.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre el PRFV para infraestructura costera y marina.",
+      "faqQ1": "¿Por qué se recomienda la armadura PRFV para estructuras costeras y marinas?",
+      "faqA1": "La infraestructura costera figura directamente entre las aplicaciones específicas de PROBAR, porque es donde el acero convencional se corroe más rápido. La armadura PRFV PROBAR ofrece resistencia total a la corrosión en agua salada y entornos marinos.",
+      "faqQ2": "¿Cuánto más dura la armadura PRFV que el acero en entornos marinos?",
+      "faqA2": "PROBAR está diseñado para una vida útil de 75–100 años; en condiciones marinas este margen es especialmente relevante, ya que la exposición al agua salada suele acortar el rendimiento real del acero muy por debajo de su vida útil de diseño nominal."
     },
     "industrial": {
       "heroSubtitle": "Instalaciones Industriales",
@@ -638,7 +720,12 @@
       "performancePara2": "Ese rendimiento está respaldado por la certificación ISO 9001:2015, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB, lo que ofrece a los promotores industriales una opción de armadura técnicamente validada.",
       "maintenanceTitle": "Beneficios de Mantenimiento",
       "maintenancePara1": "Un mantenimiento mínimo en entornos agresivos, en lugar de las reparaciones periódicas que requiere el acero, ayuda a proteger el tiempo de actividad en instalaciones industriales donde el mantenimiento no planificado puede interrumpir las operaciones continuas.",
-      "maintenancePara2": "Un menor mantenimiento junto con una construcción resistente a los agentes químicos favorecen conjuntamente un coste total de propiedad más bajo a lo largo de la vida operativa de una instalación industrial."
+      "maintenancePara2": "Un menor mantenimiento junto con una construcción resistente a los agentes químicos favorecen conjuntamente un coste total de propiedad más bajo a lo largo de la vida operativa de una instalación industrial.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre el PRFV para instalaciones industriales.",
+      "faqQ1": "¿Por qué usar armadura PRFV en instalaciones industriales?",
+      "faqA1": "Las instalaciones industriales figuran directamente entre las aplicaciones específicas de PROBAR: la exposición química y las consideraciones de seguridad eléctrica son precisamente donde la resistencia química y la no conductividad del PRFV superan a la armadura de acero convencional.",
+      "faqQ2": "¿Es conductora la armadura PRFV?",
+      "faqA2": "No. A diferencia del acero, la armadura PRFV PROBAR no es conductora, una propiedad importante en entornos industriales con consideraciones de seguridad eléctrica."
     },
     "water": {
       "heroSubtitle": "Entornos Sensibles al Mantenimiento",
@@ -670,7 +757,12 @@
       "performancePara2": "Ese rendimiento está respaldado por la certificación ISO 9001:2015, la Evaluación Técnica Europea ETA 24/0295, EPD y CNERIB, lo que ofrece a los prescriptores una base validada para elegir el PRFV en proyectos sensibles al mantenimiento.",
       "maintenanceTitle": "Beneficios de Mantenimiento",
       "maintenancePara1": "Un mantenimiento mínimo en entornos agresivos es la ventaja fundamental que aporta PROBAR a los proyectos sensibles al mantenimiento — reduciendo la frecuencia, el coste y las molestias de las intervenciones de reparación que requiere la armadura de acero convencional.",
-      "maintenancePara2": "Para proyectos en los que cada intervención de mantenimiento conlleva un coste o riesgo real, esa menor carga de mantenimiento suele ser el factor decisivo a la hora de elegir el PRFV frente a la armadura de acero convencional."
+      "maintenancePara2": "Para proyectos en los que cada intervención de mantenimiento conlleva un coste o riesgo real, esa menor carga de mantenimiento suele ser el factor decisivo a la hora de elegir el PRFV frente a la armadura de acero convencional.",
+      "faqSubtitle": "Preguntas frecuentes de los ingenieros sobre el PRFV para entornos sensibles al mantenimiento.",
+      "faqQ1": "¿Qué hace que PROBAR sea adecuado para proyectos sensibles al mantenimiento?",
+      "faqA1": "Los proyectos sensibles al mantenimiento figuran directamente entre las aplicaciones específicas de PROBAR — entornos donde las reparaciones periódicas que requiere el acero convencional resultan costosas, disruptivas o inviables de realizar.",
+      "faqQ2": "¿Cómo reduce PROBAR las necesidades de mantenimiento a lo largo de la vida de una estructura?",
+      "faqA2": "Con resistencia total a la corrosión y una vida útil de diseño de 75–100 años frente a los 30–50 años habituales del acero, PROBAR requiere menos intervenciones mayores a lo largo de la vida de la estructura."
     }
   },
   "statistics": {
@@ -743,7 +835,8 @@
     "c3title": "Apoyo al Diseño y Validación de Materiales",
     "c3desc": "Participación directa a nivel de proyecto: apoyo al diseño y validación de materiales conforme a los requisitos técnicos de cada proyecto.",
     "c4title": "Desarrollo de Especificaciones y Formación Técnica",
-    "c4desc": "Apoyo en el desarrollo de especificaciones PRFV y formación técnica, para que ingenieros y contratistas confíen en el rendimiento, el cumplimiento normativo y los beneficios de ciclo de vida."
+    "c4desc": "Apoyo en el desarrollo de especificaciones PRFV y formación técnica, para que ingenieros y contratistas confíen en el rendimiento, el cumplimiento normativo y los beneficios de ciclo de vida.",
+    "sectionTitle": "APOYO A SU PROYECTO, PASO A PASO"
   },
   "faq": {
     "eyebrow": "Preguntas Frecuentes",
@@ -896,5 +989,12 @@
     "sol4": "Soluciones de Depósitos Compuestos",
     "sol5": "Soluciones de Tuberías Compuestas",
     "sol6": "Soluciones de Perfiles Compuestos"
+  },
+  "common": {
+    "logoAlt": "Logotipo de PROBAR by CBI Tunisia — Fabricante de Compuestos PRFV",
+    "openMenu": "Abrir menú",
+    "scrollDown": "Desplazarse hacia abajo",
+    "languageSelector": "Selector de idioma",
+    "breadcrumb": "Ruta de navegación"
   }
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import { useNavigate, useLocation } from 'react-router-dom'
 import ReactCountryFlag from 'react-country-flag'
 import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
+import { delocalizePath, localizePath } from '../../i18n/langRoutes'
 import './LanguageBar.css'
 
 const LANGUAGES = [
@@ -44,15 +46,20 @@ const SOCIALS = [
 ];
 
 export default function LanguageBar() {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const navigate = useNavigate()
+  const location = useLocation()
 
   const changeLanguage = (code) => {
-    i18n.changeLanguage(code)
-    localStorage.setItem('cbi-lang', code)
+    // Navigate to the equivalent URL in the new language; App.jsx's location-watching
+    // effect picks up the URL change and syncs i18n + localStorage from there.
+    const basePath = delocalizePath(location.pathname)
+    const newPath = localizePath(basePath, code)
+    navigate(`${newPath}${location.search}${location.hash}`)
   }
 
   return (
-    <div className="lang-bar" role="navigation" aria-label="Language selector">
+    <div className="lang-bar" role="navigation" aria-label={t('common.languageSelector')}>
       <div className="ic-container lang-bar__inner">
 
         {/* Left spacer — keeps flags centered on desktop */}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from '../Shared/LocalizedLink'
 import { useTranslation } from 'react-i18next'
 import {
   FiLinkedin, FiFacebook, FiYoutube,
@@ -57,7 +57,20 @@ export default function Footer() {
           {/* Brand */}
           <div className="ic-footer__brand">
             <Link to="/" className="ic-footer__logo">
-              <img src="/images/probar-logo.png" alt="CBI Tunisia" className="ic-logo-img" draggable="false" />
+              <picture>
+                <source srcSet="/images/probar-logo.webp" type="image/webp" />
+                <img
+                  src="/images/probar-logo.png"
+                  alt={t('common.logoAlt')}
+                  title={t('common.logoAlt')}
+                  width={746}
+                  height={334}
+                  loading="lazy"
+                  decoding="async"
+                  className="ic-logo-img"
+                  draggable="false"
+                />
+              </picture>
             </Link>
             <p className="ic-footer__brand-desc">{t('footer.brandDesc')}</p>
             <div className="ic-footer__socials">

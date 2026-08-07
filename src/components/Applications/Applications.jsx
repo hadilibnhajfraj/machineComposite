@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from '../Shared/LocalizedLink'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { FiArrowRight } from 'react-icons/fi'
@@ -16,7 +16,7 @@ export default function Applications() {
       <div className="ic-container">
         <SectionTitle
           eyebrow={t('applications.eyebrow')}
-          title={t('applications.title')}
+          title={t('applications.sectionTitle')}
           subtitle={t('applications.subtitle')}
           align="center"
         />
