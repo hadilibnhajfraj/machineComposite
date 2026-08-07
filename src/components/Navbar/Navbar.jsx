@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import Link from '../Shared/LocalizedLink'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 import { FiArrowRight } from 'react-icons/fi'
 import useNavLinks from '../Shared/useNavLinks'
+import useDrawerLock from '../Shared/useDrawerLock'
 import { prefetchRoute } from '../../routes/routeImports'
 import './Navbar.css'
 
@@ -12,6 +14,10 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
   const { t } = useTranslation()
   const { links: NAV_LINKS, isActive } = useNavLinks()
+  const location = useLocation()
+
+  useEffect(() => { setOpen(false) }, [location])
+  useDrawerLock(open, () => setOpen(false))
 
   return (
     <>

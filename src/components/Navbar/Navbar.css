@@ -187,7 +187,13 @@
   .ic-snav         { height: 90px; top: 40px; }
   .ic-snav__links  { display: none; }
   .ic-snav__cta    { display: none; }
-  .ic-snav__burger { display: flex; }
+  .ic-snav__burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    min-height: 48px;
+  }
   .ic-snav__logo   { min-width: auto; }
 }
 

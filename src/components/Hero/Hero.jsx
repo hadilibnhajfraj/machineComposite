@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 import { FiArrowRight, FiChevronDown } from 'react-icons/fi'
 import useNavLinks from '../Shared/useNavLinks'
+import useDrawerLock from '../Shared/useDrawerLock'
 import { prefetchRoute } from '../../routes/routeImports'
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -63,6 +64,7 @@ function HeroNav() {
   const { links: NAV_LINKS, isActive } = useNavLinks()
 
   useEffect(() => { setMobileOpen(false) }, [location])
+  useDrawerLock(mobileOpen, () => setMobileOpen(false))
 
   return (
     <>

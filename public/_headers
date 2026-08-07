@@ -17,6 +17,12 @@
 
 /sitemap.xml
   Cache-control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
+
+/turbo.xml
+  Cache-control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
 
 /robots.txt
   Cache-control: public, max-age=3600
+  Content-Type: text/plain; charset=utf-8

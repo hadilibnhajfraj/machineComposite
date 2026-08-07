@@ -36,7 +36,7 @@ export default function SectionTitle({ eyebrow, title, subtitle, align = 'left',
       {subtitle && (
         <p
           style={{
-            fontSize: '1rem',
+            fontSize: 'clamp(0.9rem, 0.8rem + 0.5vw, 1rem)',
             lineHeight: 1.75,
             color: light ? 'rgba(255,255,255,0.70)' : '#555555',
             maxWidth: '560px',

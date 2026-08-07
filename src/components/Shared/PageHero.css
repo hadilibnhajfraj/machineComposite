@@ -135,3 +135,13 @@
   .ph__title { font-size: clamp(2rem, 8vw, 3.2rem); }
   .ph__subtitle { font-size: 0.7rem; letter-spacing: 3px; }
 }
+
+/* Small phones (320–480px) */
+@media (max-width: 480px) {
+  .ph { height: 260px; }
+  .ph__content { padding-top: 68px; gap: 10px; }
+  .ph__title { font-size: clamp(1.7rem, 9vw, 2.6rem); max-width: 100%; }
+  .ph__subtitle { font-size: 0.64rem; letter-spacing: 2.5px; }
+  .ph__breadcrumb { flex-wrap: wrap; row-gap: 4px; justify-content: center; }
+  .ph__caption { font-size: 0.6rem; padding: 4px 10px; }
+}

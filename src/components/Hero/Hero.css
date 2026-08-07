@@ -538,7 +538,13 @@
 
   .ic-hnav__links  { display: none; }
   .ic-hnav__cta    { display: none; }
-  .ic-hnav__burger { display: flex; }
+  .ic-hnav__burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    min-height: 48px;
+  }
 
   .hero-swiper .swiper-button-prev { left: 16px; }
   .hero-swiper .swiper-button-next { right: 16px; }

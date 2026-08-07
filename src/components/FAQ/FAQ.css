@@ -70,3 +70,15 @@
 [dir="rtl"] .ic-faq__question {
   text-align: right;
 }
+
+@media (max-width: 767px) {
+  .ic-faq__question { padding: 18px 18px; font-size: 0.95rem; gap: 12px; }
+  .ic-faq__answer { padding: 0 18px; font-size: 0.9rem; }
+  .ic-faq__item--open .ic-faq__answer { padding: 0 18px 18px; }
+}
+
+@media (max-width: 480px) {
+  .ic-faq__question { padding: 16px 14px; font-size: 0.9rem; }
+  .ic-faq__answer { padding: 0 14px; }
+  .ic-faq__item--open .ic-faq__answer { padding: 0 14px 16px; }
+}

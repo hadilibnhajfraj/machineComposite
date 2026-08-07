@@ -104,6 +104,9 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   .ic-logo-img                   { height: 55px; }
   .ic-snav__logo  .ic-logo-img   { height: 75px; }
   .ic-footer__logo .ic-logo-img  { height: 44px; }
+  /* Keeps anchor-link targets (#about, #faq, #certifications) from landing under the
+     fixed LanguageBar+Navbar, whose combined height shrinks at each tier below. */
+  html { scroll-padding-top: 130px; } /* 40px langbar + 90px navbar */
 }
 
 /* Mobile */
@@ -111,6 +114,7 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   .ic-logo-img                   { height: 45px; }
   .ic-snav__logo  .ic-logo-img   { height: 60px; }
   .ic-footer__logo .ic-logo-img  { height: 38px; }
+  html { scroll-padding-top: 116px; } /* 40px langbar + 76px navbar */
 }
 
 /* Very small */
@@ -118,6 +122,7 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   .ic-logo-img                   { height: 40px; }
   .ic-snav__logo  .ic-logo-img   { height: 55px; }
   .ic-footer__logo .ic-logo-img  { height: 34px; }
+  html { scroll-padding-top: 110px; } /* 40px langbar + 70px navbar */
 }
 input, textarea, select { font-family: var(--font-body); max-width: 100%; }
 
@@ -251,6 +256,7 @@ input, textarea, select { font-family: var(--font-body); max-width: 100%; }
   .btn-primary,
   .btn-ghost-white,
   .btn-ghost-dark { padding: 14px 28px; }
+  .btn-discover   { padding: 13px 24px; min-height: 48px; }
 }
 
 @media (max-width: 768px) {
@@ -262,6 +268,7 @@ input, textarea, select { font-family: var(--font-body); max-width: 100%; }
   .btn-primary,
   .btn-ghost-white,
   .btn-ghost-dark { padding: 12px 22px; font-size: 0.8rem; letter-spacing: 1.5px; }
+  .btn-discover   { padding: 12px 20px; font-size: 0.75rem; }
 }
 
 /* Page-level intro paragraph, used right below a PageHero on index-style pages */
