@@ -124,7 +124,7 @@ export default function Footer() {
               </li>
               <li className="ic-footer__contact-item">
                 <FiMail className="ic-footer__contact-icon" />
-                <a href="mailto:contact@cbi-tunisia.com">contact@cbi-tunisia.com</a>
+                <a href="mailto:contact@probargfrp.com">contact@probargfrp.com</a>
               </li>
             </ul>
           </div>

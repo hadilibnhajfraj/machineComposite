@@ -21,4 +21,4 @@ User-agent: Bingbot
 Allow: /
 Disallow: /videos/
 
-Sitemap: https://www.cbi-tunisia.com/sitemap.xml
+Sitemap: https://probargfrp.com/sitemap.xml

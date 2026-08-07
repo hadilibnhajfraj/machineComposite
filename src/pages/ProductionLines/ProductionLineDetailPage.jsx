@@ -21,7 +21,7 @@ import { fadeUp, fadeLeft, stagger, scaleIn, viewportOnce } from '../../componen
 import { setJsonLd, removeJsonLd } from '../../components/Shared/jsonLd'
 import './ProductionLineDetailPage.css'
 
-const SITE = 'https://www.cbi-tunisia.com'
+const SITE = 'https://probargfrp.com'
 const BENEFIT_ICONS = [FiTrendingUp, FiShield, FiLayers, FiCheckCircle]
 const ADVANTAGE_ICONS = [FiSettings, FiActivity, FiDatabase, FiAward]
 

@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const SITE = 'https://www.cbi-tunisia.com'
+const SITE = 'https://probargfrp.com'
 const KEY = 'e10e2b61f7c4569958590b332821c28b' // must match public/<KEY>.txt
 
 const sitemap = readFileSync(resolve(__dirname, '../public/sitemap.xml'), 'utf8')

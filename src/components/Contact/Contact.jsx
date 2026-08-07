@@ -57,7 +57,7 @@ export default function Contact() {
       form.message,
     ].filter(Boolean)
     const body = encodeURIComponent(bodyLines.join('\n'))
-    window.location.href = `mailto:contact@cbi-tunisia.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:contact@probargfrp.com?subject=${subject}&body=${body}`
 
     setTimeout(() => { setLoading(false); setSent(true) }, 600)
   }

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { ALL_LANG_CODES, delocalizePath, localizePath, getLangFromPathname } from '../../i18n/langRoutes'
 import { setJsonLd } from './jsonLd'
 
-const SITE = 'https://www.cbi-tunisia.com'
+const SITE = 'https://probargfrp.com'
 const ORG_ID = `${SITE}/#organization`
 const WEBSITE_ID = `${SITE}/#website`
 const LOGO_ID = `${SITE}/#logo`

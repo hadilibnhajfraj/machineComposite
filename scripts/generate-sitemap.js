@@ -14,7 +14,7 @@ import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const SITE = 'https://www.cbi-tunisia.com'
+const SITE = 'https://probargfrp.com'
 const LANGS = ['en', 'fr', 'es', 'it', 'pt', 'ar', 'ru']
 const LASTMOD = '2026-08-06' // last content change across the site (see note above)
 

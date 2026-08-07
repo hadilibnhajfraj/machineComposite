@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const SITE = 'https://www.cbi-tunisia.com'
+const SITE = 'https://probargfrp.com'
 const PUB_DATE = 'Thu, 06 Aug 2026 00:00:00 +0100' // matches sitemap.xml's LASTMOD; update both together
 
 const ru = JSON.parse(readFileSync(resolve(__dirname, '../src/i18n/ru.json'), 'utf8'))
